@@ -1,0 +1,78 @@
+{
+  "n_input": 0,
+  "n_incomplete": 0,
+  "n_complete_unclassified": 0,
+  "groups": {
+    "first_work": {
+      "n_complete": 0,
+      "format_counts": {},
+      "spearman": {
+        "pre_reservations": null,
+        "pre_expectation": null
+      },
+      "spearman_reservations_minus_expectation": null,
+      "ordering": {
+        "pairs_with_different_favorite_gains": 0,
+        "pairs_tied_on_favorite_gain": 0,
+        "pairwise_concordance": {
+          "pre_reservations": null,
+          "pre_expectation": null
+        },
+        "pairs_ranked_oppositely_by_signals": 0,
+        "correct_signal_on_oppositely_ranked_pairs": {
+          "pre_reservations": 0,
+          "pre_expectation": 0
+        }
+      },
+      "ordering_within_format": {
+        "pairs_with_different_favorite_gains": 0,
+        "pairs_tied_on_favorite_gain": 0,
+        "pairwise_concordance": {
+          "pre_reservations": null,
+          "pre_expectation": null
+        },
+        "pairs_ranked_oppositely_by_signals": 0,
+        "correct_signal_on_oppositely_ranked_pairs": {
+          "pre_reservations": 0,
+          "pre_expectation": 0
+        }
+      }
+    },
+    "sequel": {
+      "n_complete": 0,
+      "format_counts": {},
+      "spearman": {
+        "pre_reservations": null,
+        "pre_expectation": null
+      },
+      "spearman_reservations_minus_expectation": null,
+      "ordering": {
+        "pairs_with_different_favorite_gains": 0,
+        "pairs_tied_on_favorite_gain": 0,
+        "pairwise_concordance": {
+          "pre_reservations": null,
+          "pre_expectation": null
+        },
+        "pairs_ranked_oppositely_by_signals": 0,
+        "correct_signal_on_oppositely_ranked_pairs": {
+          "pre_reservations": 0,
+          "pre_expectation": 0
+        }
+      },
+      "ordering_within_format": {
+        "pairs_with_different_favorite_gains": 0,
+        "pairs_tied_on_favorite_gain": 0,
+        "pairwise_concordance": {
+          "pre_reservations": null,
+          "pre_expectation": null
+        },
+        "pairs_ranked_oppositely_by_signals": 0,
+        "correct_signal_on_oppositely_ranked_pairs": {
+          "pre_reservations": 0,
+          "pre_expectation": 0
+        }
+      }
+    }
+  },
+  "interpretation": "Descriptive ranks on identical complete titles; null estimates are undefined. Outcome ties are excluded from concordance, and predictor ties count as half. Title pairs overlap, so pair counts are not independent sample sizes. Treat small groups as a pilot and use later release cohorts to validate differences."
+}

@@ -1,0 +1,457 @@
+{
+  "days": [
+    "2026-11-21",
+    "2026-11-22"
+  ],
+  "corpus": {
+    "titles": 1365,
+    "text_rows": 32707,
+    "stable_comment_ids": 0
+  },
+  "daily_snapshot_rows": 2334,
+  "daily_rows_with_integer_publication_time": 2334,
+  "daily_rows_with_stable_id": 0,
+  "repeat_titles": 14,
+  "repeat_pages": 28,
+  "repeat_newly_visible": 63,
+  "repeat_newly_visible_already_published": 26,
+  "forecast_unique_titles": 28,
+  "forecast_dates": {
+    "2026-11-21": {
+      "forecast_title_days": 22,
+      "nonblank_text_rows": 524,
+      "texts_by_scope": {
+        "series_review": 194,
+        "first_episode_comment": 330
+      },
+      "published_since_observed_entry": {
+        "first_episode_comment": 63,
+        "series_review": 30
+      },
+      "keyword_candidates": {
+        "stop_or_fast_forward_wording": {
+          "text_rows": 2,
+          "titles": 2
+        },
+        "slow_pace_wording": {
+          "text_rows": 4,
+          "titles": 4
+        },
+        "weak_ending_wording": {
+          "text_rows": 0,
+          "titles": 0
+        },
+        "visual_audio_mention": {
+          "text_rows": 19,
+          "titles": 13
+        },
+        "continuation_wording": {
+          "text_rows": 31,
+          "titles": 14
+        }
+      },
+      "mature_labels_present": false
+    },
+    "2026-11-22": {
+      "forecast_title_days": 18,
+      "nonblank_text_rows": 426,
+      "texts_by_scope": {
+        "series_review": 156,
+        "first_episode_comment": 270
+      },
+      "published_since_observed_entry": {
+        "series_review": 35,
+        "first_episode_comment": 54
+      },
+      "keyword_candidates": {
+        "stop_or_fast_forward_wording": {
+          "text_rows": 3,
+          "titles": 3
+        },
+        "slow_pace_wording": {
+          "text_rows": 5,
+          "titles": 5
+        },
+        "weak_ending_wording": {
+          "text_rows": 0,
+          "titles": 0
+        },
+        "visual_audio_mention": {
+          "text_rows": 18,
+          "titles": 10
+        },
+        "continuation_wording": {
+          "text_rows": 24,
+          "titles": 14
+        }
+      },
+      "mature_labels_present": false
+    }
+  },
+  "repeat_page_details": [
+    {
+      "title": "鱼当归海",
+      "series_id": "7703891742918970393",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:10:37+08:00",
+      "later_at": "2026-11-22T19:17:44+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 14,
+      "changed_positions": 12,
+      "newly_visible": 1,
+      "newly_visible_but_previously_published": 1
+    },
+    {
+      "title": "鱼当归海",
+      "series_id": "7703891742918970393",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:10:36+08:00",
+      "later_at": "2026-11-22T19:17:43+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 9,
+      "changed_positions": 2,
+      "newly_visible": 0,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "碰瓷小哭包，爸爸被我气说话了啦",
+      "series_id": "7704964112937126936",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:10:54+08:00",
+      "later_at": "2026-11-22T19:17:46+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 14,
+      "changed_positions": 7,
+      "newly_visible": 1,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "碰瓷小哭包，爸爸被我气说话了啦",
+      "series_id": "7704964112937126936",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:10:53+08:00",
+      "later_at": "2026-11-22T19:17:45+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 9,
+      "changed_positions": 5,
+      "newly_visible": 0,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "重生七零：我带六宝踹翻极品",
+      "series_id": "7706073531486112830",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:11:21+08:00",
+      "later_at": "2026-11-22T19:18:55+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 15,
+      "changed_positions": 0,
+      "newly_visible": 0,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "重生七零：我带六宝踹翻极品",
+      "series_id": "7706073531486112830",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:11:20+08:00",
+      "later_at": "2026-11-22T19:17:48+08:00",
+      "prior_rows": 5,
+      "later_rows": 5,
+      "retained": 5,
+      "changed_positions": 0,
+      "newly_visible": 0,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "重生七零，觉醒万象卡牌",
+      "series_id": "7706102979413167128",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:11:29+08:00",
+      "later_at": "2026-11-22T19:18:06+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 14,
+      "changed_positions": 10,
+      "newly_visible": 1,
+      "newly_visible_but_previously_published": 1
+    },
+    {
+      "title": "重生七零，觉醒万象卡牌",
+      "series_id": "7706102979413167128",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:11:28+08:00",
+      "later_at": "2026-11-22T19:18:05+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 9,
+      "changed_positions": 2,
+      "newly_visible": 0,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "穿越逆风歌王",
+      "series_id": "7706226283159505944",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:11:38+08:00",
+      "later_at": "2026-11-22T19:18:12+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 11,
+      "changed_positions": 6,
+      "newly_visible": 4,
+      "newly_visible_but_previously_published": 1
+    },
+    {
+      "title": "穿越逆风歌王",
+      "series_id": "7706226283159505944",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:11:36+08:00",
+      "later_at": "2026-11-22T19:18:11+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 8,
+      "changed_positions": 2,
+      "newly_visible": 1,
+      "newly_visible_but_previously_published": 1
+    },
+    {
+      "title": "穿书九零，反派大佬们都是我的崽第三季",
+      "series_id": "7706354110861167678",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:11:40+08:00",
+      "later_at": "2026-11-22T19:18:15+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 12,
+      "changed_positions": 9,
+      "newly_visible": 3,
+      "newly_visible_but_previously_published": 2
+    },
+    {
+      "title": "穿书九零，反派大佬们都是我的崽第三季",
+      "series_id": "7706354110861167678",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:11:39+08:00",
+      "later_at": "2026-11-22T19:18:14+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 8,
+      "changed_positions": 4,
+      "newly_visible": 1,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "一对怂夫妻养出千古明君",
+      "series_id": "7706521788766751769",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:11:45+08:00",
+      "later_at": "2026-11-22T19:18:21+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 11,
+      "changed_positions": 6,
+      "newly_visible": 4,
+      "newly_visible_but_previously_published": 3
+    },
+    {
+      "title": "一对怂夫妻养出千古明君",
+      "series_id": "7706521788766751769",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:11:44+08:00",
+      "later_at": "2026-11-22T19:18:19+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 7,
+      "changed_positions": 0,
+      "newly_visible": 2,
+      "newly_visible_but_previously_published": 1
+    },
+    {
+      "title": "滚蛋吧，本鹅回村当团宠喽",
+      "series_id": "7706568181774552126",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:11:49+08:00",
+      "later_at": "2026-11-22T19:18:23+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 13,
+      "changed_positions": 8,
+      "newly_visible": 2,
+      "newly_visible_but_previously_published": 2
+    },
+    {
+      "title": "滚蛋吧，本鹅回村当团宠喽",
+      "series_id": "7706568181774552126",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:11:48+08:00",
+      "later_at": "2026-11-22T19:18:22+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 6,
+      "changed_positions": 4,
+      "newly_visible": 3,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "减肥系男神，减一斤一个亿",
+      "series_id": "7706825646403488793",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:11:55+08:00",
+      "later_at": "2026-11-22T19:18:26+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 9,
+      "changed_positions": 8,
+      "newly_visible": 6,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "减肥系男神，减一斤一个亿",
+      "series_id": "7706825646403488793",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:11:54+08:00",
+      "later_at": "2026-11-22T19:18:24+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 5,
+      "changed_positions": 4,
+      "newly_visible": 4,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "抽象三国第六季：问鼎中原上",
+      "series_id": "7708575928661576766",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:12:43+08:00",
+      "later_at": "2026-11-22T19:18:36+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 9,
+      "changed_positions": 8,
+      "newly_visible": 6,
+      "newly_visible_but_previously_published": 2
+    },
+    {
+      "title": "抽象三国第六季：问鼎中原上",
+      "series_id": "7708575928661576766",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:12:42+08:00",
+      "later_at": "2026-11-22T19:18:35+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 8,
+      "changed_positions": 8,
+      "newly_visible": 1,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "神豪外挂第三季",
+      "series_id": "7708645410700528665",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:12:57+08:00",
+      "later_at": "2026-11-22T19:18:38+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 11,
+      "changed_positions": 9,
+      "newly_visible": 4,
+      "newly_visible_but_previously_published": 3
+    },
+    {
+      "title": "神豪外挂第三季",
+      "series_id": "7708645410700528665",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:12:55+08:00",
+      "later_at": "2026-11-22T19:18:37+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 4,
+      "changed_positions": 2,
+      "newly_visible": 5,
+      "newly_visible_but_previously_published": 3
+    },
+    {
+      "title": "纨绔下乡之顽郎亦不负流年第四季",
+      "series_id": "7708660777850260542",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:13:04+08:00",
+      "later_at": "2026-11-22T19:18:41+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 13,
+      "changed_positions": 9,
+      "newly_visible": 2,
+      "newly_visible_but_previously_published": 2
+    },
+    {
+      "title": "纨绔下乡之顽郎亦不负流年第四季",
+      "series_id": "7708660777850260542",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:13:03+08:00",
+      "later_at": "2026-11-22T19:18:40+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 7,
+      "changed_positions": 2,
+      "newly_visible": 2,
+      "newly_visible_but_previously_published": 2
+    },
+    {
+      "title": "当家主母的自我修养第四季",
+      "series_id": "7708661133195889688",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:14:13+08:00",
+      "later_at": "2026-11-22T19:18:44+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 15,
+      "changed_positions": 10,
+      "newly_visible": 0,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "当家主母的自我修养第四季",
+      "series_id": "7708661133195889688",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:13:06+08:00",
+      "later_at": "2026-11-22T19:18:42+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 8,
+      "changed_positions": 6,
+      "newly_visible": 1,
+      "newly_visible_but_previously_published": 0
+    },
+    {
+      "title": "悍妻当家，靠美食扶起一家软骨头第二季",
+      "series_id": "7709060195795602457",
+      "scope": "first_episode_comment",
+      "prior_at": "2026-11-21T19:13:51+08:00",
+      "later_at": "2026-11-22T19:18:49+08:00",
+      "prior_rows": 15,
+      "later_rows": 15,
+      "retained": 11,
+      "changed_positions": 10,
+      "newly_visible": 4,
+      "newly_visible_but_previously_published": 2
+    },
+    {
+      "title": "悍妻当家，靠美食扶起一家软骨头第二季",
+      "series_id": "7709060195795602457",
+      "scope": "series_review",
+      "prior_at": "2026-11-21T19:13:49+08:00",
+      "later_at": "2026-11-22T19:18:47+08:00",
+      "prior_rows": 9,
+      "later_rows": 9,
+      "retained": 4,
+      "changed_positions": 2,
+      "newly_visible": 5,
+      "newly_visible_but_previously_published": 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿board,depth,day_pairs,entering_titles,same_title_in_previous_top100_below_k,another_title_in_confirmed_franchise_in_previous_top100,no_confirmed_previous_top100_link
+ai,20,37,114,86,10,18
+ai,50,37,234,150,20,64
+ai,100,37,404,0,33,371
+comic,20,37,134,43,28,63
+comic,50,37,316,96,52,168
+comic,100,37,548,0,82,466
+hot,20,37,128,52,11,65
+hot,50,37,310,147,23,140
+hot,100,37,541,0,49,492
+real,20,37,89,52,0,37
+real,50,37,174,90,0,84
+real,100,37,265,0,3,262

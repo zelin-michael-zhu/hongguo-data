@@ -1,0 +1,7 @@
+{
+  "url": "https://hongguoduanju.com/robots.txt",
+  "http_status": 200,
+  "fetched_at_utc": "2026-11-21T11:10:48.165063+00:00",
+  "html_sha256": "21a206952453d6c5e8ae47732f97fad35f30a56683c3e4cd420b5f729931eac0",
+  "text": "User-agent: *\nAllow: /\n\nDisallow: /category?*background=\nDisallow: /category?*setting=\nDisallow: /category?*topic=\nDisallow: /category?*sort_type=\nDisallow: /category?*time=\nDisallow: /category?*gender=\nDisallow: /player/*/*\nDisallow: /series/\nDisallow: /query/\n\nSitemap: https://hongguoduanju.com/seo-important.xml\nSitemap: https://hongguoduanju.com/seo-static.xml\nSitemap: https://hongguoduanju.com/sitemap/hongguoduanju/index.xml\n"
+}

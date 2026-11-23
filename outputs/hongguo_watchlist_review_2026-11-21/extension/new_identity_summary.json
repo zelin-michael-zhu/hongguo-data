@@ -1,0 +1,9 @@
+{
+  "ids": 123,
+  "status_counts": {
+    "ok_group": 84,
+    "ok_no_public_group": 39
+  },
+  "previously_known_group": 43,
+  "distinct_groups": 82
+}

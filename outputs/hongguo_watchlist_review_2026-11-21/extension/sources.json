@@ -1,0 +1,25 @@
+[
+  {
+    "day": "2026-11-18",
+    "source": "https://github.com/SentDz/drama-radar/blob/083b319b1eb7689cd546d31e45a53a0b7a6602f1/data/snapshots/hongguo/2026-11-18.json",
+    "sha256": "a1926046a1960ded8af0d0794bb8a8fa3599db3a7e3926a306f2c48f09541860",
+    "fetched_at_in_archive": "2026-11-18T10:36:36Z"
+  },
+  {
+    "day": "2026-11-19",
+    "source": "https://github.com/SentDz/drama-radar/blob/083b319b1eb7689cd546d31e45a53a0b7a6602f1/data/snapshots/hongguo/2026-11-19.json",
+    "sha256": "282494a96293adedd1bffd54c58a005899ac353821afeaeb33d7b2ae1fee1217",
+    "fetched_at_in_archive": "2026-11-19T10:44:40Z"
+  },
+  {
+    "day": "2026-11-20",
+    "source": "https://github.com/SentDz/drama-radar/blob/083b319b1eb7689cd546d31e45a53a0b7a6602f1/data/snapshots/hongguo/2026-11-20.json",
+    "sha256": "a121afd3c792be2076d68d19fb47b338405293437167b31178ddd98c5d48936e",
+    "fetched_at_in_archive": "2026-11-20T10:25:23Z"
+  },
+  {
+    "day": "2026-11-21",
+    "source": "20261121T162219/manifest.json",
+    "fetched_at": "2026-11-21T16:22:19.217606+08:00"
+  }
+]

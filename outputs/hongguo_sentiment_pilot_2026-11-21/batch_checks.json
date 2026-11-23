@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-21",
+  "target": "fixed same-board first Top20 within 7 calendar days after the decision date",
+  "verified_pages": 152,
+  "unique_titles": 76,
+  "title_board_pairs": 89,
+  "chart_complete_sh": "2026-11-21T16:22:57+08:00",
+  "capture_start_sh": "2026-11-21T19:10:25+08:00",
+  "capture_end_and_decision_sh": "2026-11-21T19:14:13+08:00",
+  "n_text": 1812,
+  "comment_time_diagnostics": {
+    "series_review_valid": 672,
+    "first_episode_comment_valid": 1140
+  },
+  "unresolved_errors": [],
+  "series_review": {
+    "n_text": 672,
+    "per_title_size": {
+      "1": 1,
+      "5": 1,
+      "9": 74
+    },
+    "n_raw_display_rows": 672,
+    "reported_total_available": 76,
+    "titles_with_text": 76,
+    "with_source_comment_id": 0,
+    "with_like_count": 672,
+    "with_rating": 672,
+    "n_published_before_chart_first_observed_day": 584
+  },
+  "first_episode_comment": {
+    "n_text": 1140,
+    "per_title_size": {
+      "15": 76
+    },
+    "n_raw_display_rows": 1140,
+    "reported_total_available": 76,
+    "titles_with_text": 76,
+    "with_source_comment_id": 0,
+    "with_like_count": 1140,
+    "with_rating": 0,
+    "n_published_before_chart_first_observed_day": 985
+  },
+  "nonmissing_title_metrics": {
+    "rank": 76,
+    "heat": 76,
+    "rank_lag1": 36,
+    "rank_lag2": 17,
+    "series_like_count": 76,
+    "series_favorite_count": 76,
+    "rating": 54,
+    "rating_count": 54,
+    "first_episode_like_count": 76
+  },
+  "published_on_or_after_first_chart_day": {
+    "titles_with_any": 62,
+    "titles_with_both_sources": 35,
+    "source": {
+      "series_review": {
+        "texts": 88,
+        "titles": 44,
+        "titles_with_at_least_3": 10
+      },
+      "first_episode_comment": {
+        "texts": 155,
+        "titles": 53,
+        "titles_with_at_least_3": 27
+      }
+    }
+  }
+}

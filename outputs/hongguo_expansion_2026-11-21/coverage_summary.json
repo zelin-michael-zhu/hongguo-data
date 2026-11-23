@@ -1,0 +1,73 @@
+{
+  "counts": {
+    "enumerations_match_count": 1365,
+    "episode_index_rows": 238397,
+    "detail_nonempty_series_favorite_count": 1365,
+    "detail_nonempty_series_like_count": 1365,
+    "detail_nonempty_click_count": 0,
+    "detail_nonempty_play_count": 0,
+    "detail_nonempty_follow_count": 0,
+    "detail_nonempty_subscription_count": 0,
+    "same_episode_count_as_old_catalogue": 1340,
+    "changed_episode_count_since_old_catalogue": 25,
+    "paired_old_episode_ids": 1395,
+    "same_position_as_sdk": 1395,
+    "series_reviews_text_rows": 12247,
+    "series_reviews_pages_with_text": 1365,
+    "series_reviews_pages_with_total": 1365,
+    "series_reviews_total_sum": 1001231,
+    "series_reviews_pages_count_equal": 17,
+    "first_comments_text_rows": 20460,
+    "first_comments_pages_with_text": 1365,
+    "first_comments_pages_with_total": 1365,
+    "first_comments_total_sum": 3180800,
+    "first_comments_pages_count_equal": 1,
+    "first_with_duration": 1365,
+    "first_with_likes": 1365,
+    "first_detail_overlaps": 1365,
+    "first_ids_cross_checked": 1365,
+    "catalog_ids": 1388,
+    "distinct_episode_ids": 238397,
+    "website_group_members": 925,
+    "website_group_ids": 635,
+    "website_groups_with_multiple_catalog_members": 168,
+    "historical_sdk_series": 5,
+    "historical_sdk_episode_rows": 1395,
+    "new_first_episode_titles_outside_old_five": 1360
+  },
+  "detail_status": {
+    "HTTP 404": 23,
+    "ok": 1365
+  },
+  "first_episode_status": {
+    "HTTP 404": 23,
+    "ok": 1365
+  },
+  "detail_returned_keys": {
+    "episode_cnt": 1365,
+    "accessible_episode_cnt": 1365,
+    "pay_type": 1365,
+    "series_id": 1365,
+    "series_name": 1365,
+    "series_cover": 1365,
+    "series_intro": 1365,
+    "tags": 1365,
+    "episode_right_text": 1365,
+    "celebrities": 1365,
+    "series_episode_info": 1365,
+    "vid_list": 1365,
+    "first_visible_time": 1365,
+    "record_number": 1365,
+    "season_info": 925
+  },
+  "social_returned_keys": {
+    "rating": 1287,
+    "series_like_count": 1365,
+    "series_favorite_count": 1365,
+    "rating_count": 1287,
+    "hot_score_data": 1365,
+    "reviews": 1365,
+    "rank_label": 296
+  },
+  "first_raw_play_follow_fields": {}
+}

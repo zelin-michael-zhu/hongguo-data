@@ -1,0 +1,42 @@
+{
+  "Crossref": {
+    "request_url": "https://api.crossref.org/works?query.bibliographic=Hongguo+micro+drama+narrative+diversity+genres+AI+series+synopsis&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2026-11-20&rows=5",
+    "status": 200,
+    "records_returned": [
+      {
+        "title": "Operation and Management of Micro Short Drama Platform: Taking “Hongguo Free Short Drama” as an Example",
+        "doi": "10.5220/0013989200004916"
+      },
+      {
+        "title": "The Impact of E-Commerce Platform Entry on the Narrative of Micro Short Drama",
+        "doi": "10.54097/6gy69988"
+      },
+      {
+        "title": "Short Form, Micro-Drama and Vertical",
+        "doi": "10.4324/9781003607922-16"
+      },
+      {
+        "title": "Anlatmaya Dayalı Türler Arası İlişkiler",
+        "doi": "10.61620/tfa.90"
+      },
+      {
+        "title": "Transformation and Restructuring: Decoding the AI-Driven Creative Logic of Micro-Short Drama Video Production from SkyReels",
+        "doi": "10.37420/j.aiel.001"
+      }
+    ]
+  },
+  "Semantic Scholar": {
+    "request_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Hongguo+micro+drama&limit=10&fields=title%2Cyear%2Curl%2CexternalIds",
+    "error": "HTTP Error 429: "
+  },
+  "OpenAlex": {
+    "request_url": "https://api.openalex.org/works?search=%22Hongguo%22+%22micro-drama%22&per_page=10&filter=from_publication_date%3A2024-01-01%2Cto_publication_date%3A2026-11-20",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "Google Scholar": {
+    "request_url": "https://scholar.google.com/scholar?q=%22Hongguo%22+%28%22micro-drama%22+OR+%22microdrama%22%29+%22diversity%22",
+    "status": 200,
+    "recognizable_result_titles": 0,
+    "challenge_page": false
+  }
+}

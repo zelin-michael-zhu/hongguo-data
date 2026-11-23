@@ -1,0 +1,32 @@
+{
+  "frozen_at_sh": "2026-11-22T00:26:53+08:00",
+  "original_text_date": "2026-11-21",
+  "window": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+  ],
+  "primary_k": 5,
+  "secondary_k": 10,
+  "board_model": "Temporally trained historical baseline using board fields only",
+  "board_score": "B",
+  "plus_positive": "B + 0.25 P",
+  "plus_chase": "B + 0.25 P + 0.25 C",
+  "text_features": "P = whole-series clear-positive share, C = whole-series explicit chase intent share",
+  "denominator": "Visible whole-series preview text after excluding explicit creator or promo voice",
+  "normalization": "Midrank percentiles within the 22 titles, highest value = 1 when untied",
+  "tie_break": "Baseline percentile descending, then current AI rank ascending, then series ID",
+  "sensitivity": "Broader frozen historical numerical baseline, same text weights",
+  "days_until_first_top20": "Calendar days from the original 21 November input snapshot",
+  "status": "First held-out cohort; fixed-weight ranking experiment, no text fitting",
+  "input_sha256": {
+    "AI榜22部逐剧信号.csv": "556372a860a87d08ae06a572f5c1dbe64e7637def10d8c8c39107ec374e9976e",
+    "board_only_baseline.csv": "329664ce091b7ce4291421958e259e53382d94004cc874d494fba79239bfbc41",
+    "11月21日两种数值基准.csv": "ee6d8bb123798b3886f8355e392eb2ac97d9576c3a112676bfbff2966d6aabf0"
+  },
+  "lock_sha256": "869ce2172f5a8575543158ada2a9e3489a5d6f9c42452e5da8ff7fb5accc698b"
+}

@@ -1,0 +1,9 @@
+﻿label,scope,rows,titles
+前后落差,first_episode_comment,4,4
+前后落差,series_review,12,12
+续季比较或疲劳,first_episode_comment,7,7
+续季比较或疲劳,series_review,39,36
+前季依赖或导航,first_episode_comment,5,5
+前季依赖或导航,series_review,3,3
+首集前瞻,first_episode_comment,71,62
+首集前瞻,series_review,108,103

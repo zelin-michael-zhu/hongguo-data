@@ -1,0 +1,23 @@
+{
+  "date_local": "2026-11-19",
+  "watchlist_ids": 207,
+  "status": {
+    "observed": 207
+  },
+  "observed_by_role": {
+    "predecessor": 63,
+    "comparison": 148
+  },
+  "source": {
+    "official_html": 136,
+    "supplemental_official_html_after_identity_audit": 63,
+    "same_day_shared_official_html": 8
+  },
+  "numeric_values": 207,
+  "multiples_of_1000": 207,
+  "gcd_of_nonzero_observed_values": 1000,
+  "first_utc": "2026-11-19T07:31:59+00:00",
+  "last_utc": "2026-11-19T07:40:18+00:00",
+  "observed_granularity_note": "Divisibility describes the snapshot. Platform rounding rule and counting population are unverified.",
+  "run_stop": null
+}

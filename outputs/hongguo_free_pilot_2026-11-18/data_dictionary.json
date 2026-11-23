@@ -1,0 +1,44 @@
+{
+  "series_metrics.csv": {
+    "grain": "每部剧在本次试采中的一条记录，共5部",
+    "play_count": "SDK返回的整剧总播放量",
+    "follow_count": "SDK原始关注/追剧相关计数字段，保留原名，订阅量口径待确认",
+    "click_count": "独立点击量，尚未核实来源，空值",
+    "subscription_count": "订阅量，定义待确认，空值",
+    "heat": "平台热度值",
+    "web_favorite_count_detail": "详情页收藏字段，部分数值为四舍五入后的展示精度",
+    "web_favorite_count_player": "播放页返回的收藏字段",
+    "collected_at": "本次SDK采集时间，上海时区",
+    "sampled_danmaku_count": "本次实际取得的弹幕条数",
+    "episode_danmaku_total_reported": "服务端报告的该集弹幕总数",
+    "series_reviews_total_reported": "整剧详情网页报告的剧评总数",
+    "first_episode_comments_total_reported": "首集播放网页报告的评论总数"
+  },
+  "episodes.csv": {
+    "grain": "每个分集一条记录，共1395集",
+    "comment_count": "App返回的单集评论数，保留该来源口径",
+    "digg_count": "App返回的单集点赞数"
+  },
+  "danmaku_sample.csv": {
+    "grain": "每部首集第一页的一条弹幕，共46条",
+    "offset_ms": "在单集播放中的出现时间，毫秒",
+    "likes": "SDK返回的点赞数，字段缺失时保留空值"
+  },
+  "comments_preview.csv": {
+    "grain": "网页预览中的一条正文记录，共120条",
+    "scope": "series_review为整剧剧评，episode_comment为首集评论",
+    "source_item_index": "原网页预览中的位置，从1开始",
+    "comment_id": "网页预览没有提供平台评论ID，空值",
+    "content": "评论原文",
+    "create_time_raw": "网页原始发布时间",
+    "created_at": "从Unix秒级时间戳转换的上海时区时间",
+    "digg_count": "网页返回的评论点赞数",
+    "rating": "整剧剧评评分，单集评论缺失时为空",
+    "source_total_count": "该来源返回的总数，与本次采样条数分别保留",
+    "limited_preview": "true，表示仅采到页面预览",
+    "collected_on": "已核实的采集日期",
+    "collected_at": "有请求级时间记录时保留时间，只有日期时为空"
+  },
+  "history": "仓库已发布历史快照的本地导出，2026-10-13至2026-11-17；日指标22901条、1388个唯一剧集ID。",
+  "common": "CSV采用UTF-8 BOM。所有剧集、分集、弹幕ID均按字符串处理。空值不等于0。评论预览未保存作者昵称与头像。"
+}

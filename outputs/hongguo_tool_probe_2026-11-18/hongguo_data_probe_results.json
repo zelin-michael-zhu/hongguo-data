@@ -1,0 +1,127 @@
+{
+  "tag": "full-20261118-44216082279-1",
+  "requests": [
+    {
+      "asset": "summary.json",
+      "http_status": 200,
+      "body_bytes_read": 1071,
+      "content_length": "1071",
+      "content_range": null,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "asset": "delta.summary.json",
+      "http_status": 200,
+      "body_bytes_read": 601,
+      "content_length": "601",
+      "content_range": null,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "asset": "catalog.json.gz",
+      "http_status": 206,
+      "body_bytes_read": 65536,
+      "content_length": "65536",
+      "content_range": "bytes 0-65535/97844086",
+      "content_type": "application/octet-stream"
+    }
+  ],
+  "summary.json": {
+    "schema": 2,
+    "tag": "full-20261118-44216082279-1",
+    "updated_at": "2026-11-18T01:33:19.830Z",
+    "published": false,
+    "sitemap_unique_total": 649311,
+    "catalog_total": 649225,
+    "catalog_hash": "56a984266025ea83183063f62326affb0810484656366985864b81c48d9f061c",
+    "source_hash": "17ffce68e938fc09f503dac1e498eb8c07d9ed1bf6bbbbed8b3be465f310fe7e",
+    "json_size_mb": 253.41,
+    "gzip_size_mb": 93.31,
+    "has_delta": true,
+    "delta": {
+      "schema": 2,
+      "type": "catalog-delta-summary",
+      "from_tag": "full-20261117-44001777779-1",
+      "to_tag": "full-20261118-44216082279-1",
+      "from_catalog_hash": "e720cc4d67a0044e12783247d4f6d50eaa6e06e971bbd0cc933e8efa945c0f0c",
+      "to_catalog_hash": "56a984266025ea83183063f62326affb0810484656366985864b81c48d9f061c",
+      "from_count": 646808,
+      "to_count": 649225,
+      "added_count": 10054,
+      "modified_count": 0,
+      "deleted_count": 7637,
+      "delta_gzip_size_kb": 1545.48,
+      "delta_sha256": "14e82e2a4d38399449fac590d239813236ed48857ff3b28441079db450abba64",
+      "created_at": "2026-11-18T01:33:19.829Z"
+    }
+  },
+  "delta.summary.json": {
+    "schema": 2,
+    "type": "catalog-delta-summary",
+    "from_tag": "full-20261117-44001777779-1",
+    "to_tag": "full-20261118-44216082279-1",
+    "from_catalog_hash": "e720cc4d67a0044e12783247d4f6d50eaa6e06e971bbd0cc933e8efa945c0f0c",
+    "to_catalog_hash": "56a984266025ea83183063f62326affb0810484656366985864b81c48d9f061c",
+    "from_count": 646808,
+    "to_count": 649225,
+    "added_count": 10054,
+    "modified_count": 0,
+    "deleted_count": 7637,
+    "delta_gzip_size_kb": 1545.48,
+    "delta_sha256": "14e82e2a4d38399449fac590d239813236ed48857ff3b28441079db450abba64",
+    "created_at": "2026-11-18T01:33:19.829Z"
+  },
+  "catalog_sample": {
+    "count": 3,
+    "fields": [
+      "ch",
+      "cover",
+      "eps",
+      "id",
+      "intro",
+      "new_at",
+      "tags",
+      "title"
+    ],
+    "ids": [
+      "7689044329746156569",
+      "7693470558096215065",
+      "7693881865349909528"
+    ],
+    "titles": [
+      "天眼",
+      "入赘三年，终讨百万公道",
+      "守本心兴乡业，鸭蛋铺就致富路"
+    ],
+    "new_at": [
+      "2026-11-16",
+      "2026-11-16",
+      "2026-11-16"
+    ],
+    "eps": [
+      60,
+      61,
+      65
+    ],
+    "tags": [
+      [
+        "都市",
+        "都市玄幻",
+        "女强",
+        "总裁",
+        "现代"
+      ],
+      [
+        "剧情",
+        "逆袭",
+        "都市"
+      ],
+      [
+        "种田",
+        "逆袭",
+        "乡村"
+      ]
+    ]
+  },
+  "total_body_bytes_read": 67208
+}

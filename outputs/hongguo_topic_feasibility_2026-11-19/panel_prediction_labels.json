@@ -1,0 +1,108 @@
+{
+  "target_complete_only": {
+    "rows": 13798,
+    "exits": 1646,
+    "exit_pct": 11.929265110885636,
+    "by_board": {
+      "hot": {
+        "rows": 3399,
+        "exits": 508
+      },
+      "real": {
+        "rows": 3500,
+        "exits": 246
+      },
+      "ai": {
+        "rows": 3399,
+        "exits": 373
+      },
+      "comic": {
+        "rows": 3500,
+        "exits": 519
+      }
+    },
+    "lags": {
+      "1": {
+        "metric_rows_exist_all_prior_days": 12084,
+        "nonmissing_heat_fav_like_including_today": 12083,
+        "metric_rows_exits": 1399,
+        "continuously_same_board_rows": 11789,
+        "complete_board_history_including_off_board_as_category": 13198
+      },
+      "2": {
+        "metric_rows_exist_all_prior_days": 10546,
+        "nonmissing_heat_fav_like_including_today": 10543,
+        "metric_rows_exits": 1199,
+        "continuously_same_board_rows": 10115,
+        "complete_board_history_including_off_board_as_category": 12598
+      },
+      "3": {
+        "metric_rows_exist_all_prior_days": 9196,
+        "nonmissing_heat_fav_like_including_today": 9192,
+        "metric_rows_exits": 1095,
+        "continuously_same_board_rows": 8713,
+        "complete_board_history_including_off_board_as_category": 11998
+      },
+      "7": {
+        "metric_rows_exist_all_prior_days": 4932,
+        "nonmissing_heat_fav_like_including_today": 4927,
+        "metric_rows_exits": 595,
+        "continuously_same_board_rows": 4571,
+        "complete_board_history_including_off_board_as_category": 9598
+      }
+    }
+  },
+  "both_current_and_target_complete": {
+    "rows": 13600,
+    "exits": 1624,
+    "exit_pct": 11.941176470588236,
+    "by_board": {
+      "hot": {
+        "rows": 3300,
+        "exits": 495
+      },
+      "real": {
+        "rows": 3500,
+        "exits": 246
+      },
+      "ai": {
+        "rows": 3300,
+        "exits": 364
+      },
+      "comic": {
+        "rows": 3500,
+        "exits": 519
+      }
+    },
+    "lags": {
+      "1": {
+        "metric_rows_exist_all_prior_days": 11902,
+        "nonmissing_heat_fav_like_including_today": 11901,
+        "metric_rows_exits": 1379,
+        "continuously_same_board_rows": 11613,
+        "complete_board_history_including_off_board_as_category": 13000
+      },
+      "2": {
+        "metric_rows_exist_all_prior_days": 10378,
+        "nonmissing_heat_fav_like_including_today": 10375,
+        "metric_rows_exits": 1181,
+        "continuously_same_board_rows": 9956,
+        "complete_board_history_including_off_board_as_category": 12400
+      },
+      "3": {
+        "metric_rows_exist_all_prior_days": 9041,
+        "nonmissing_heat_fav_like_including_today": 9037,
+        "metric_rows_exits": 1078,
+        "continuously_same_board_rows": 8573,
+        "complete_board_history_including_off_board_as_category": 11800
+      },
+      "7": {
+        "metric_rows_exist_all_prior_days": 4845,
+        "nonmissing_heat_fav_like_including_today": 4840,
+        "metric_rows_exits": 583,
+        "continuously_same_board_rows": 4493,
+        "complete_board_history_including_off_board_as_category": 9400
+      }
+    }
+  }
+}

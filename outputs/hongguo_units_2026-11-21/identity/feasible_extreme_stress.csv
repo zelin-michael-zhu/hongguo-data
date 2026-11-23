@@ -1,0 +1,5 @@
+﻿period,board,depth,model,changed_missing_ids,original_confirmed_group_leader,resulting_leader,largest,total_extra,largest_share
+original35,ai,100,fixed_id_extreme_witness,163,g:7676739369444576281,g:7676739369444576281,246,1245,0.19759036144578312
+original35,comic,100,fixed_id_extreme_witness,39,g:7683128465725328408,g:7683128465725328408,259,675,0.3837037037037037
+extended39,ai,100,fixed_id_extreme_witness,175,g:7676739369444576281,g:7676739369444576281,286,1399,0.20443173695496783
+extended39,comic,100,fixed_id_extreme_witness,42,g:7683128465725328408,g:7683128465725328408,284,739,0.38430311231393777

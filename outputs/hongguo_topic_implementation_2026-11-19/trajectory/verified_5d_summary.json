@@ -1,0 +1,48 @@
+{
+  "eligible": 32,
+  "families": 29,
+  "event_days": 12,
+  "status": {
+    "matched": 18,
+    "donor_followup_missing": 13,
+    "outside_calipers_or_no_exact_stratum": 1
+  },
+  "strata": {
+    "ai": 8,
+    "comic": 24
+  },
+  "actual": {
+    "pairs": 18,
+    "families": 16,
+    "days": 12,
+    "mean": 1166.6666666666667,
+    "median": 166.66666666666652,
+    "positive": 10,
+    "zero": 1,
+    "negative": 7,
+    "old_pre": 13388.888888888889,
+    "old_post": 7569.444444444444,
+    "control_pre": 13833.333333333334,
+    "control_post": 6847.222222222223
+  },
+  "placebo_status": {
+    "incomplete_board_calendar": 32
+  },
+  "placebo": {
+    "pairs": 0
+  },
+  "same_pairs_actual": {
+    "pairs": 0
+  },
+  "same_pairs_placebo": {
+    "pairs": 0
+  },
+  "leave_one_family_mean_range": [
+    313.7254901960785,
+    1588.2352941176473
+  ],
+  "leave_one_event_date_mean_range": [
+    317.70833333333337,
+    1401.0416666666667
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "checked_shanghai": "2026-11-21T15:11:04.514183+08:00",
+  "source_pages": [
+    {
+      "series_id": "7705463285830667288",
+      "url": "https://hongguoduanju.com/player/7705463285830667288",
+      "stratum": "category_only",
+      "http": 200,
+      "returned_url": "https://hongguoduanju.com/player/7705463285830667288",
+      "first_episode_id": "7705463292818361368",
+      "series_title": "烬九州：三十五季",
+      "html_toggle_labels": [
+        "关闭弹幕"
+      ],
+      "page_fields": [
+        "protectedPlayback",
+        "publicVideoSeo",
+        "req",
+        "isSuccess",
+        "series_id",
+        "vid",
+        "seriesSocialInfo",
+        "episodeSocialInfo",
+        "seriesDetail",
+        "videoList",
+        "recommendationsFromSearch"
+      ],
+      "episode_social_fields": [
+        "episode_like_count",
+        "reviews"
+      ],
+      "danmaku_payload_keys": [],
+      "protected_playback": true,
+      "seen_duration_seconds": 52.309,
+      "episode_likes": "13479",
+      "episode_review_preview_count": 15,
+      "episode_review_total_reported": "1529"
+    },
+    {
+      "series_id": "7703173252444589080",
+      "url": "https://hongguoduanju.com/player/7703173252444589080",
+      "stratum": "hot",
+      "http": 200,
+      "returned_url": "https://hongguoduanju.com/player/7703173252444589080",
+      "first_episode_id": "7703173259977559064",
+      "series_title": "悍妻当家，靠美食扶起一家软骨头",
+      "html_toggle_labels": [
+        "关闭弹幕"
+      ],
+      "page_fields": [
+        "protectedPlayback",
+        "publicVideoSeo",
+        "req",
+        "isSuccess",
+        "series_id",
+        "vid",
+        "seriesSocialInfo",
+        "episodeSocialInfo",
+        "seriesDetail",
+        "videoList",
+        "recommendationsFromSearch"
+      ],
+      "episode_social_fields": [
+        "episode_like_count",
+        "reviews"
+      ],
+      "danmaku_payload_keys": [],
+      "protected_playback": true,
+      "seen_duration_seconds": 174.289,
+      "episode_likes": "31851",
+      "episode_review_preview_count": 15,
+      "episode_review_total_reported": "311"
+    },
+    {
+      "series_id": "7698752588157553726",
+      "url": "https://hongguoduanju.com/player/7698752588157553726",
+      "stratum": "tracked_off_board",
+      "http": 200,
+      "returned_url": "https://hongguoduanju.com/player/7698752588157553726",
+      "first_episode_id": "7698754392823958552",
+      "series_title": "皇帝读心后咸鱼妃躺赢封后",
+      "html_toggle_labels": [
+        "关闭弹幕"
+      ],
+      "page_fields": [
+        "protectedPlayback",
+        "publicVideoSeo",
+        "req",
+        "isSuccess",
+        "series_id",
+        "vid",
+        "seriesSocialInfo",
+        "episodeSocialInfo",
+        "seriesDetail",
+        "videoList",
+        "recommendationsFromSearch"
+      ],
+      "episode_social_fields": [
+        "episode_like_count",
+        "reviews"
+      ],
+      "danmaku_payload_keys": [],
+      "protected_playback": true,
+      "seen_duration_seconds": 138.135,
+      "episode_likes": "18659",
+      "episode_review_preview_count": 15,
+      "episode_review_total_reported": "315"
+    },
+    {
+      "series_id": "7561390625552092222",
+      "url": "https://hongguoduanju.com/player/7561390625552092222",
+      "stratum": "old_control",
+      "http": 200,
+      "returned_url": "https://hongguoduanju.com/player/7561390625552092222",
+      "first_episode_id": "7561394907001130046",
+      "series_title": "掌上珠",
+      "html_toggle_labels": [
+        "关闭弹幕"
+      ],
+      "page_fields": [
+        "protectedPlayback",
+        "publicVideoSeo",
+        "req",
+        "isSuccess",
+        "series_id",
+        "vid",
+        "seriesSocialInfo",
+        "episodeSocialInfo",
+        "seriesDetail",
+        "videoList",
+        "recommendationsFromSearch"
+      ],
+      "episode_social_fields": [
+        "episode_like_count",
+        "reviews"
+      ],
+      "danmaku_payload_keys": [],
+      "protected_playback": true,
+      "seen_duration_seconds": 61.603,
+      "episode_likes": "19534",
+      "episode_review_preview_count": 15,
+      "episode_review_total_reported": "523"
+    }
+  ],
+  "original_sample": {
+    "rows": 46,
+    "unique_bullet_ids": 46,
+    "distinct_episode_ids": 5,
+    "total_reported_sum": 16734,
+    "episodes_with_has_more": 5,
+    "offset_ms_range": [
+      0,
+      29550
+    ]
+  },
+  "robots_directives": [
+    "User-agent: *",
+    "Allow: /",
+    "",
+    "Disallow: /category?*background=",
+    "Disallow: /category?*setting=",
+    "Disallow: /category?*topic=",
+    "Disallow: /category?*sort_type=",
+    "Disallow: /category?*time=",
+    "Disallow: /category?*gender=",
+    "Disallow: /player/*/*",
+    "Disallow: /series/",
+    "Disallow: /query/",
+    "",
+    "Sitemap: https://hongguoduanju.com/seo-important.xml",
+    "Sitemap: https://hongguoduanju.com/seo-static.xml",
+    "Sitemap: https://hongguoduanju.com/sitemap/hongguoduanju/index.xml"
+  ]
+}

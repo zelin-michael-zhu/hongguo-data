@@ -1,0 +1,1264 @@
+{
+  "checked_at": "2026-11-19",
+  "raw_directory": "/var/folders/3c/rp2p0_4x7blcyb18cf7ylssh0000gn/T/hongguo-tool-probe-ocpwhkae/radar/data/snapshots/hongguo",
+  "files": 36,
+  "rows": 22901,
+  "ids": 1388,
+  "date_range": [
+    "2026-10-13",
+    "2026-11-17"
+  ],
+  "status_code_rows": {
+    "1": 22663,
+    "0": 238
+  },
+  "status_code_ids": {
+    "ever0": 25,
+    "ever1": 1375,
+    "both": 12,
+    "only0": 13,
+    "only1": 1363
+  },
+  "episodes_total_present": 21534,
+  "episodes_total_missing": 1367,
+  "episodes_total_equal_episodes": 21534,
+  "episodes_total_unequal_episodes": 0,
+  "status_transition_count": 24,
+  "status_transition_ids": 12,
+  "status_transition_directions": {
+    "0->1": 16,
+    "1->0": 8
+  },
+  "status_transition_gap_days": {
+    "1": 24
+  },
+  "episode_change_pairs": 238,
+  "episode_change_ids": 93,
+  "episode_change_directions": {
+    "increase": 171,
+    "decrease": 67
+  },
+  "episode_total_change_pairs": 225,
+  "episode_total_change_ids": 88,
+  "raw_item_key_counts": {
+    "detail_tags": 22901,
+    "episodes": 22901,
+    "fav": 22901,
+    "first_visible": 22897,
+    "heat": 22883,
+    "heat_exact": 22901,
+    "like": 22901,
+    "rating": 19710,
+    "rating_count": 19844,
+    "review_count": 22891,
+    "status_code": 22901,
+    "status_tags": 22901,
+    "tags": 22901,
+    "title": 22901,
+    "tracked_by": 22901,
+    "episodes_total": 21534,
+    "pay_type": 21534
+  },
+  "daily": [
+    {
+      "date": "2026-10-13",
+      "rows": 302,
+      "status_code": {
+        "1": 299,
+        "0": 3
+      },
+      "episodes_total_present": 0
+    },
+    {
+      "date": "2026-10-14",
+      "rows": 332,
+      "status_code": {
+        "1": 330,
+        "0": 2
+      },
+      "episodes_total_present": 0
+    },
+    {
+      "date": "2026-10-15",
+      "rows": 354,
+      "status_code": {
+        "1": 352,
+        "0": 2
+      },
+      "episodes_total_present": 0
+    },
+    {
+      "date": "2026-10-16",
+      "rows": 379,
+      "status_code": {
+        "1": 375,
+        "0": 4
+      },
+      "episodes_total_present": 0
+    },
+    {
+      "date": "2026-10-17",
+      "rows": 408,
+      "status_code": {
+        "1": 403,
+        "0": 5
+      },
+      "episodes_total_present": 408
+    },
+    {
+      "date": "2026-10-18",
+      "rows": 441,
+      "status_code": {
+        "1": 437,
+        "0": 4
+      },
+      "episodes_total_present": 441
+    },
+    {
+      "date": "2026-10-19",
+      "rows": 470,
+      "status_code": {
+        "1": 465,
+        "0": 5
+      },
+      "episodes_total_present": 470
+    },
+    {
+      "date": "2026-10-20",
+      "rows": 493,
+      "status_code": {
+        "1": 488,
+        "0": 5
+      },
+      "episodes_total_present": 493
+    },
+    {
+      "date": "2026-10-21",
+      "rows": 527,
+      "status_code": {
+        "1": 523,
+        "0": 4
+      },
+      "episodes_total_present": 527
+    },
+    {
+      "date": "2026-10-22",
+      "rows": 553,
+      "status_code": {
+        "1": 549,
+        "0": 4
+      },
+      "episodes_total_present": 553
+    },
+    {
+      "date": "2026-10-23",
+      "rows": 579,
+      "status_code": {
+        "1": 575,
+        "0": 4
+      },
+      "episodes_total_present": 579
+    },
+    {
+      "date": "2026-10-24",
+      "rows": 614,
+      "status_code": {
+        "1": 608,
+        "0": 6
+      },
+      "episodes_total_present": 614
+    },
+    {
+      "date": "2026-10-25",
+      "rows": 644,
+      "status_code": {
+        "1": 638,
+        "0": 6
+      },
+      "episodes_total_present": 644
+    },
+    {
+      "date": "2026-10-26",
+      "rows": 681,
+      "status_code": {
+        "1": 675,
+        "0": 6
+      },
+      "episodes_total_present": 681
+    },
+    {
+      "date": "2026-10-27",
+      "rows": 713,
+      "status_code": {
+        "1": 708,
+        "0": 5
+      },
+      "episodes_total_present": 713
+    },
+    {
+      "date": "2026-10-28",
+      "rows": 710,
+      "status_code": {
+        "1": 704,
+        "0": 6
+      },
+      "episodes_total_present": 710
+    },
+    {
+      "date": "2026-10-29",
+      "rows": 713,
+      "status_code": {
+        "1": 707,
+        "0": 6
+      },
+      "episodes_total_present": 713
+    },
+    {
+      "date": "2026-10-30",
+      "rows": 717,
+      "status_code": {
+        "1": 711,
+        "0": 6
+      },
+      "episodes_total_present": 717
+    },
+    {
+      "date": "2026-10-31",
+      "rows": 717,
+      "status_code": {
+        "1": 711,
+        "0": 6
+      },
+      "episodes_total_present": 717
+    },
+    {
+      "date": "2026-11-01",
+      "rows": 717,
+      "status_code": {
+        "1": 711,
+        "0": 6
+      },
+      "episodes_total_present": 717
+    },
+    {
+      "date": "2026-11-02",
+      "rows": 718,
+      "status_code": {
+        "1": 711,
+        "0": 7
+      },
+      "episodes_total_present": 718
+    },
+    {
+      "date": "2026-11-03",
+      "rows": 727,
+      "status_code": {
+        "1": 720,
+        "0": 7
+      },
+      "episodes_total_present": 727
+    },
+    {
+      "date": "2026-11-04",
+      "rows": 720,
+      "status_code": {
+        "1": 714,
+        "0": 6
+      },
+      "episodes_total_present": 720
+    },
+    {
+      "date": "2026-11-05",
+      "rows": 723,
+      "status_code": {
+        "1": 716,
+        "0": 7
+      },
+      "episodes_total_present": 723
+    },
+    {
+      "date": "2026-11-06",
+      "rows": 729,
+      "status_code": {
+        "1": 722,
+        "0": 7
+      },
+      "episodes_total_present": 729
+    },
+    {
+      "date": "2026-11-07",
+      "rows": 731,
+      "status_code": {
+        "1": 724,
+        "0": 7
+      },
+      "episodes_total_present": 731
+    },
+    {
+      "date": "2026-11-08",
+      "rows": 735,
+      "status_code": {
+        "1": 729,
+        "0": 6
+      },
+      "episodes_total_present": 735
+    },
+    {
+      "date": "2026-11-09",
+      "rows": 735,
+      "status_code": {
+        "1": 727,
+        "0": 8
+      },
+      "episodes_total_present": 735
+    },
+    {
+      "date": "2026-11-10",
+      "rows": 730,
+      "status_code": {
+        "1": 722,
+        "0": 8
+      },
+      "episodes_total_present": 730
+    },
+    {
+      "date": "2026-11-11",
+      "rows": 735,
+      "status_code": {
+        "1": 726,
+        "0": 9
+      },
+      "episodes_total_present": 735
+    },
+    {
+      "date": "2026-11-12",
+      "rows": 746,
+      "status_code": {
+        "1": 735,
+        "0": 11
+      },
+      "episodes_total_present": 746
+    },
+    {
+      "date": "2026-11-13",
+      "rows": 759,
+      "status_code": {
+        "1": 749,
+        "0": 10
+      },
+      "episodes_total_present": 759
+    },
+    {
+      "date": "2026-11-14",
+      "rows": 757,
+      "status_code": {
+        "1": 746,
+        "0": 11
+      },
+      "episodes_total_present": 757
+    },
+    {
+      "date": "2026-11-15",
+      "rows": 763,
+      "status_code": {
+        "1": 750,
+        "0": 13
+      },
+      "episodes_total_present": 763
+    },
+    {
+      "date": "2026-11-16",
+      "rows": 765,
+      "status_code": {
+        "1": 752,
+        "0": 13
+      },
+      "episodes_total_present": 765
+    },
+    {
+      "date": "2026-11-17",
+      "rows": 764,
+      "status_code": {
+        "1": 751,
+        "0": 13
+      },
+      "episodes_total_present": 764
+    }
+  ],
+  "status_transitions": [
+    {
+      "id": "7675288927619533886",
+      "title": "咱家剑宗团宠小师妹第五季",
+      "from_date": "2026-11-03",
+      "to_date": "2026-11-04",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 961,
+      "to_episodes": 961,
+      "from_total": 961,
+      "to_total": 961
+    },
+    {
+      "id": "7675288927619533886",
+      "title": "咱家剑宗团宠小师妹第五季",
+      "from_date": "2026-11-04",
+      "to_date": "2026-11-05",
+      "gap_days": 1,
+      "from_status": 1,
+      "to_status": 0,
+      "from_episodes": 961,
+      "to_episodes": 962,
+      "from_total": 961,
+      "to_total": 962
+    },
+    {
+      "id": "7675288927619533886",
+      "title": "咱家剑宗团宠小师妹第五季",
+      "from_date": "2026-11-05",
+      "to_date": "2026-11-06",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 962,
+      "to_episodes": 1000,
+      "from_total": 962,
+      "to_total": 1000
+    },
+    {
+      "id": "7684207371295411262",
+      "title": "重生后我转身离开，大小姐悔哭了",
+      "from_date": "2026-10-13",
+      "to_date": "2026-10-14",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 999,
+      "to_episodes": 999,
+      "from_total": null,
+      "to_total": null
+    },
+    {
+      "id": "7690948774083955736",
+      "title": "垫底漫画家：靠考古一战成名",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-24",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 160,
+      "to_episodes": 160,
+      "from_total": 160,
+      "to_total": 160
+    },
+    {
+      "id": "7690948774083955736",
+      "title": "垫底漫画家：靠考古一战成名",
+      "from_date": "2026-10-25",
+      "to_date": "2026-10-26",
+      "gap_days": 1,
+      "from_status": 1,
+      "to_status": 0,
+      "from_episodes": 190,
+      "to_episodes": 195,
+      "from_total": 190,
+      "to_total": 195
+    },
+    {
+      "id": "7695983124034882584",
+      "title": "惊悚世界：我是诡异大哥!2",
+      "from_date": "2026-10-17",
+      "to_date": "2026-10-18",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 20,
+      "to_episodes": 83,
+      "from_total": 20,
+      "to_total": 83
+    },
+    {
+      "id": "7695983124034882584",
+      "title": "惊悚世界：我是诡异大哥!2",
+      "from_date": "2026-10-18",
+      "to_date": "2026-10-19",
+      "gap_days": 1,
+      "from_status": 1,
+      "to_status": 0,
+      "from_episodes": 83,
+      "to_episodes": 83,
+      "from_total": 83,
+      "to_total": 83
+    },
+    {
+      "id": "7695983124034882584",
+      "title": "惊悚世界：我是诡异大哥!2",
+      "from_date": "2026-10-20",
+      "to_date": "2026-10-21",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 130,
+      "to_episodes": 130,
+      "from_total": 130,
+      "to_total": 130
+    },
+    {
+      "id": "7695984658428726296",
+      "title": "问鼎仙途：踏碎仙凡第三季",
+      "from_date": "2026-10-25",
+      "to_date": "2026-10-26",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 949,
+      "to_episodes": 1000,
+      "from_total": 949,
+      "to_total": 1000
+    },
+    {
+      "id": "7695990851964521534",
+      "title": "天道余途：苍途问道3",
+      "from_date": "2026-10-22",
+      "to_date": "2026-10-23",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 799,
+      "to_episodes": 900,
+      "from_total": 799,
+      "to_total": 900
+    },
+    {
+      "id": "7695990851964521534",
+      "title": "天道余途：苍途问道3",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-24",
+      "gap_days": 1,
+      "from_status": 1,
+      "to_status": 0,
+      "from_episodes": 900,
+      "to_episodes": 950,
+      "from_total": 900,
+      "to_total": 950
+    },
+    {
+      "id": "7695990851964521534",
+      "title": "天道余途：苍途问道3",
+      "from_date": "2026-10-25",
+      "to_date": "2026-10-26",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 1000,
+      "to_episodes": 1000,
+      "from_total": 1000,
+      "to_total": 1000
+    },
+    {
+      "id": "7690874509326306328",
+      "title": "万倍返还：收徒筑基我直接成仙",
+      "from_date": "2026-10-22",
+      "to_date": "2026-10-23",
+      "gap_days": 1,
+      "from_status": 1,
+      "to_status": 0,
+      "from_episodes": 452,
+      "to_episodes": 462,
+      "from_total": 452,
+      "to_total": 462
+    },
+    {
+      "id": "7690874509326306328",
+      "title": "万倍返还：收徒筑基我直接成仙",
+      "from_date": "2026-10-26",
+      "to_date": "2026-10-27",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 492,
+      "to_episodes": 502,
+      "from_total": 492,
+      "to_total": 502
+    },
+    {
+      "id": "7699053840934390808",
+      "title": "来自未来的女儿2",
+      "from_date": "2026-11-10",
+      "to_date": "2026-11-11",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 168,
+      "to_episodes": 188,
+      "from_total": 168,
+      "to_total": 188
+    },
+    {
+      "id": "7699053840934390808",
+      "title": "来自未来的女儿2",
+      "from_date": "2026-11-11",
+      "to_date": "2026-11-12",
+      "gap_days": 1,
+      "from_status": 1,
+      "to_status": 0,
+      "from_episodes": 188,
+      "to_episodes": 188,
+      "from_total": 188,
+      "to_total": 188
+    },
+    {
+      "id": "7699053840934390808",
+      "title": "来自未来的女儿2",
+      "from_date": "2026-11-12",
+      "to_date": "2026-11-13",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 188,
+      "to_episodes": 188,
+      "from_total": 188,
+      "to_total": 188
+    },
+    {
+      "id": "7699029110256831550",
+      "title": "问鼎仙途：踏碎仙凡第四季",
+      "from_date": "2026-10-31",
+      "to_date": "2026-11-01",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 464,
+      "to_episodes": 464,
+      "from_total": 464,
+      "to_total": 464
+    },
+    {
+      "id": "7699029110256831550",
+      "title": "问鼎仙途：踏碎仙凡第四季",
+      "from_date": "2026-11-01",
+      "to_date": "2026-11-02",
+      "gap_days": 1,
+      "from_status": 1,
+      "to_status": 0,
+      "from_episodes": 464,
+      "to_episodes": 464,
+      "from_total": 464,
+      "to_total": 464
+    },
+    {
+      "id": "7699029110256831550",
+      "title": "问鼎仙途：踏碎仙凡第四季",
+      "from_date": "2026-11-08",
+      "to_date": "2026-11-09",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 1000,
+      "to_episodes": 1000,
+      "from_total": 1000,
+      "to_total": 1000
+    },
+    {
+      "id": "7698201907558353982",
+      "title": "晚崽逆袭成了大佬",
+      "from_date": "2026-11-07",
+      "to_date": "2026-11-08",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 90,
+      "to_episodes": 99,
+      "from_total": 90,
+      "to_total": 99
+    },
+    {
+      "id": "7699513062054710296",
+      "title": "nova：新星",
+      "from_date": "2026-11-08",
+      "to_date": "2026-11-09",
+      "gap_days": 1,
+      "from_status": 1,
+      "to_status": 0,
+      "from_episodes": 43,
+      "to_episodes": 43,
+      "from_total": 43,
+      "to_total": 43
+    },
+    {
+      "id": "7702755413808139326",
+      "title": "问鼎仙途：踏碎仙凡第五季",
+      "from_date": "2026-11-12",
+      "to_date": "2026-11-13",
+      "gap_days": 1,
+      "from_status": 0,
+      "to_status": 1,
+      "from_episodes": 630,
+      "to_episodes": 630,
+      "from_total": 630,
+      "to_total": 630
+    }
+  ],
+  "ever0_candidates": [
+    {
+      "id": "7675288927619533886",
+      "title": "咱家剑宗团宠小师妹第五季",
+      "first_observed": "2026-10-13",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 738,
+      "episodes_last": 1000,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7684207371295411262",
+      "title": "重生后我转身离开，大小姐悔哭了",
+      "first_observed": "2026-10-13",
+      "last_observed": "2026-10-27",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 999,
+      "episodes_last": 999,
+      "boards": [
+        "comic",
+        "detail"
+      ]
+    },
+    {
+      "id": "7690184933037329432",
+      "title": "困兽之战",
+      "first_observed": "2026-10-24",
+      "last_observed": "2026-11-12",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 12,
+      "episodes_last": 16,
+      "boards": [
+        "ai",
+        "detail"
+      ]
+    },
+    {
+      "id": "7690874509326306328",
+      "title": "万倍返还：收徒筑基我直接成仙",
+      "first_observed": "2026-10-22",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 452,
+      "episodes_last": 502,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7690948774083955736",
+      "title": "垫底漫画家：靠考古一战成名",
+      "first_observed": "2026-10-13",
+      "last_observed": "2026-11-03",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 130,
+      "episodes_last": 200,
+      "boards": [
+        "ai",
+        "detail"
+      ]
+    },
+    {
+      "id": "7693071659686693913",
+      "title": "山野春潮",
+      "first_observed": "2026-10-24",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 21,
+      "episodes_last": 46,
+      "boards": [
+        "ai",
+        "detail"
+      ]
+    },
+    {
+      "id": "7695983124034882584",
+      "title": "惊悚世界：我是诡异大哥!2",
+      "first_observed": "2026-10-16",
+      "last_observed": "2026-11-07",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 20,
+      "episodes_last": 130,
+      "boards": [
+        "comic",
+        "detail"
+      ]
+    },
+    {
+      "id": "7695984658428726296",
+      "title": "问鼎仙途：踏碎仙凡第三季",
+      "first_observed": "2026-10-16",
+      "last_observed": "2026-11-01",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 490,
+      "episodes_last": 1000,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7695990851964521534",
+      "title": "天道余途：苍途问道3",
+      "first_observed": "2026-10-17",
+      "last_observed": "2026-11-12",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 599,
+      "episodes_last": 1000,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7698201907558353982",
+      "title": "晚崽逆袭成了大佬",
+      "first_observed": "2026-11-01",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 71,
+      "episodes_last": 100,
+      "boards": [
+        "comic",
+        "detail"
+      ]
+    },
+    {
+      "id": "7699029110256831550",
+      "title": "问鼎仙途：踏碎仙凡第四季",
+      "first_observed": "2026-10-28",
+      "last_observed": "2026-11-14",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 430,
+      "episodes_last": 1000,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7699053840934390808",
+      "title": "来自未来的女儿2",
+      "first_observed": "2026-10-26",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 65,
+      "episodes_last": 188,
+      "boards": [
+        "ai",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7699513062054710296",
+      "title": "nova：新星",
+      "first_observed": "2026-11-02",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 43,
+      "episodes_last": 60,
+      "boards": [
+        "ai",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7700154277083221017",
+      "title": "真假千金京枝回归，阙爷沦陷了",
+      "first_observed": "2026-11-04",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 122,
+      "episodes_last": 228,
+      "boards": [
+        "ai",
+        "detail"
+      ]
+    },
+    {
+      "id": "7701588705932217406",
+      "title": "家有五女，穿越来的他连夜搞事业啦第二季",
+      "first_observed": "2026-11-06",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 758,
+      "episodes_last": 852,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7702737375541087294",
+      "title": "我，万古第一第四季",
+      "first_observed": "2026-11-11",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 35,
+      "episodes_last": 45,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7702755413808139326",
+      "title": "问鼎仙途：踏碎仙凡第五季",
+      "first_observed": "2026-11-09",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0,
+        1
+      ],
+      "episodes_first": 465,
+      "episodes_last": 900,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7703441922748058649",
+      "title": "垫底漫画家：靠考古一战成名第二季",
+      "first_observed": "2026-11-15",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 115,
+      "episodes_last": 115,
+      "boards": [
+        "ai",
+        "detail"
+      ]
+    },
+    {
+      "id": "7703870379235757081",
+      "title": "万倍返还：收徒筑基我直接成仙第二季",
+      "first_observed": "2026-11-09",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 200,
+      "episodes_last": 320,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7703960641844808766",
+      "title": "反向拿捏2：和闺蜜穿七零带着婆婆一起离",
+      "first_observed": "2026-11-09",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 60,
+      "episodes_last": 115,
+      "boards": [
+        "ai",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7704521854651747353",
+      "title": "血量亿倍增幅，被当成废物异能第九季",
+      "first_observed": "2026-11-13",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 94,
+      "episodes_last": 94,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7704742001933044760",
+      "title": "天道余途：苍途问道5",
+      "first_observed": "2026-11-12",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 416,
+      "episodes_last": 616,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    },
+    {
+      "id": "7705052464579349529",
+      "title": "谁又惹她了！第四季",
+      "first_observed": "2026-11-11",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 188,
+      "episodes_last": 224,
+      "boards": [
+        "comic",
+        "detail"
+      ]
+    },
+    {
+      "id": "7705086855095520281",
+      "title": "永夜苟神：十万住户供我发育第五季",
+      "first_observed": "2026-11-14",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 158,
+      "episodes_last": 158,
+      "boards": [
+        "comic",
+        "detail"
+      ]
+    },
+    {
+      "id": "7706056509775449112",
+      "title": "末日宿舍求生：从刷广告开始变强4",
+      "first_observed": "2026-11-15",
+      "last_observed": "2026-11-17",
+      "statuses": [
+        0
+      ],
+      "episodes_first": 47,
+      "episodes_last": 63,
+      "boards": [
+        "comic",
+        "detail",
+        "hot"
+      ]
+    }
+  ],
+  "snapshot_sha256": {
+    "2026-10-13.json": "5f83562a566ae5a882ecc690c2dd8d459cd2cc733dcc76cdcb60726bbcc63ac7",
+    "2026-10-14.json": "b0a7e3f9fa5594fcc6c7c770a7b1e28a050dcf2086f481c11db80d677ad9e92f",
+    "2026-10-15.json": "245a46607f8ebc4e28a745664af7ff9efdfdcd5200ba183c8b3440065adf8b62",
+    "2026-10-16.json": "9894a3368b1d14fb3cccb1626c9a49c9736e28a0adcb2a91204dae19702d280c",
+    "2026-10-17.json": "70e6b7386a679c675fd640d20065866b63e45fa72f6066606f01c6cb2ee07312",
+    "2026-10-18.json": "322c5fd56d8bfee82231e33a72d3707f4634ed6fb8a05893ea0b871bb6a1ccd4",
+    "2026-10-19.json": "049afdf9b786c3bc8ec330db9353ca7c588d16d7a5dcf7d78c2641ef58f2a0da",
+    "2026-10-20.json": "c8c4c39740d45e4ff5ab46fb5118386ba037bb12ddfccedfa3e9f2cc43575cf4",
+    "2026-10-21.json": "e784debebd40a90491c8d5d6a576418b124c00c7347d75db63885234dfd938d7",
+    "2026-10-22.json": "987fc4ace56fcf33b47c0f5299c7b5987e7cbdace69fe0b2e566431a4a9b7b7f",
+    "2026-10-23.json": "92d53f3bb935bdc9e747c39e4e3fad7cb2c4cf463d35014ed78dfcb265fd96fc",
+    "2026-10-24.json": "0db289d293b71e3b0b1281d8bdb4d9edb7d85d7d930f896c9a28646b16c3886c",
+    "2026-10-25.json": "b7d489f118f61cbed84b40a667a58b489c1f731cb5f846f830221c63f91d5bb7",
+    "2026-10-26.json": "e0b83ce27449102857d153e74545de95504e39a710b75c05f3ae8640c069eb47",
+    "2026-10-27.json": "295010b8549e2fa289525bb230c7eb6b16683c1683e93547e788bf572adc9781",
+    "2026-10-28.json": "cf5cd1edeefe5eb5231abf666a02e9836f9431c0a9d54b79cf3ee4002e49b177",
+    "2026-10-29.json": "62d3739d8590ae876c534568399440f04a3613fc74996273c083557b3592f8bd",
+    "2026-10-30.json": "df4d6c3b2b8411cb0568c2557e7af8b6faed2ee5ba90527eafecb98e7bd8a659",
+    "2026-10-31.json": "6bdd2ecfee9c1dd288a7c70783385f92778674b504b89edddd65249671c3fac4",
+    "2026-11-01.json": "975df50de7fb59df2c607a26b91b663af591dd6078d51f3d2dffeded9887a8f6",
+    "2026-11-02.json": "0b7577c483fcf25f08dc92ef89b4a4bc81d256c6b22f1a5199262ad2e0d800ab",
+    "2026-11-03.json": "8d9b2a9679104091cc83a42886f9d0bae39ff972245e59521203f6558c95b44e",
+    "2026-11-04.json": "1dacc9f4386a532fa5d8155d0b64e13d9b1a5e765d01d7dba053522cce0c7a38",
+    "2026-11-05.json": "93817e3e5f7f00f4b5ab23ab3d244119e096f35deb217b6247166280990bfd2b",
+    "2026-11-06.json": "d7340951b9da03b7aa23b7b716dc3b6d6a022df27802e27956dd58e6afe6e8ff",
+    "2026-11-07.json": "9371b34d5cae66eb7c1c278107400d24954f87d01da5292ecbc811e94d52c9b8",
+    "2026-11-08.json": "45e5501db903320eb94a481fb48875bbb9ab261a3afb40324c1110d204482480",
+    "2026-11-09.json": "f36d6bd0932130dcd5f0ba64e7d888b16951d546e7e9d4c644ab24feb5c7a5dc",
+    "2026-11-10.json": "f3b53524efed90ff79f0618c57d225a85a93f7f8ddb03b7c991d6d42fe24b1e8",
+    "2026-11-11.json": "32814fecfc478fee1158a3b78224b62961243ab4eb12220c109a119e1c767bce",
+    "2026-11-12.json": "86f0ba7a1607c0da2fc29530aacce903f0d9e3a8b5dd7de6d9dc5d1b1ae66a02",
+    "2026-11-13.json": "24abf2debe675d1fea2e44549f648ed6e76d2b03f48898899e787589684b3ade",
+    "2026-11-14.json": "3cbf6891a87100e77da273d6aa203aca8af7e8a91cda3ecf465079c54efa99e4",
+    "2026-11-15.json": "7dbe90f514a18d63f3e1cda153b01cd0c73e797976a6c2411ab9150f929a6113",
+    "2026-11-16.json": "b9fa3e0195c80229c4e18adb79ce659d571294791ed04dd23733f8d0f89dc961",
+    "2026-11-17.json": "3f736f343b4308436cfbeee66b37d40fa956ed3c47070f75d88743168ace3572"
+  },
+  "power_planning": [
+    {
+      "p0": 0.5,
+      "p1": 0.65,
+      "alpha": 0.05,
+      "power": 0.8,
+      "per_arm": 169.31137141966892,
+      "total_rounded": 340
+    },
+    {
+      "p0": 0.425,
+      "p1": 0.575,
+      "alpha": 0.05,
+      "power": 0.8,
+      "per_arm": 173.2359205583626,
+      "total_rounded": 348
+    },
+    {
+      "p0": 0.1,
+      "p1": 0.25,
+      "alpha": 0.05,
+      "power": 0.8,
+      "per_arm": 99.54015919611695,
+      "total_rounded": 200
+    },
+    {
+      "p0": 0.25,
+      "p1": 0.4,
+      "alpha": 0.05,
+      "power": 0.8,
+      "per_arm": 151.86886211727602,
+      "total_rounded": 304
+    }
+  ],
+  "docx_sha256": {
+    "4 FYP Operational Manual 2026-27.docx": "03b1b3e6da026cfe2fd8802ac74ea2efeb5984ebcf03287f503bb5e118e439e7",
+    "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx": "522c2b63f3e256348cc48e9774ea8b065172ac84a821da0e23acd3ac00c448b9"
+  },
+  "guidance_clauses": [
+    {
+      "file": "4 FYP Operational Manual 2026-27.docx",
+      "paragraph": 140,
+      "text": "AI-assisted Writing Tools are generally prohibited from use in the BBA project. Faculty should remind students of this policy at the beginning of the project. Student submission of the final report will also go through Turnitin AI Detection Tool. A resulting index of more than 20 may also lead to a return for rework and resubmission."
+    },
+    {
+      "file": "4 FYP Operational Manual 2026-27.docx",
+      "paragraph": 152,
+      "text": "Students are advised to keep a storage device that contains all research data. Upon the request of the Examination Board, students may be required to submit these materials for verification and clarification of their reported findings."
+    },
+    {
+      "file": "4 FYP Operational Manual 2026-27.docx",
+      "paragraph": 247,
+      "text": "Submission of project proposal, and (if needed) the application for ethics approval* "
+    },
+    {
+      "file": "4 FYP Operational Manual 2026-27.docx",
+      "paragraph": 248,
+      "text": "Nov. 27, 2026 (Week 12)"
+    },
+    {
+      "file": "4 FYP Operational Manual 2026-27.docx",
+      "paragraph": 300,
+      "text": "*FYP projects involving human participants is required to obtain an ethics approval from the BNBU Research Ethics Committee."
+    },
+    {
+      "file": "4 FYP Operational Manual 2026-27.docx",
+      "paragraph": 301,
+      "text": "**     FYP reports should be submitted by students on Apr. 23, 2027 by 3:00 p.m."
+    },
+    {
+      "file": "4 FYP Operational Manual 2026-27.docx",
+      "paragraph": 1539,
+      "text": "We declare that this BBA Project (Final Year Project), submitted in partial fulfillment of the graduation requirements for BNBU’s Bachelor of Business Administration (Honours) degree, is our original work. No portion of the project report has been submitted to any other university or institute of learning for any other degree or qualification. All original sources of materials consulted have been properly cited and acknowledged."
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 1,
+      "text": "BCom Project Operational Guidance for AY2026-27"
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 4,
+      "text": "For the academic year 2026-27 only, all BUSA students and their supervisors should note:"
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 6,
+      "text": "1. BCom FYP follows the same Continuous Assessment (CA), rubrics, and workflow of BBA FYP, while the course will be registered in semester 2."
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 8,
+      "text": "2. BUSA students must use the templates and the forms provided in the subsequent pages of this document instead of those in the BBA FYP operational manual."
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 61,
+      "text": "The Project Proposal should contain NOT more than 10 double-spaced pages, excluding the cover page and list of references. The format of the standard title page is shown on the next page."
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 81,
+      "text": "As noted in semester 1’s monthly report template, the target is to complete approximately 20% of the project proposal by end of October and approximately 70% by around 21st of November. The project proposal is due November 27, 2026."
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 159,
+      "text": "The Project Report should contain NOT more than 30 double-spaced pages, excluding the cover page, acknowledgement, table of contents, abstract, list of references, and appendices. It should be noted that the quality of the project will always outweigh the number of words."
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 166,
+      "text": "Acknowledgement: This should include the contributions made from supervisor(s), appreciation extended to other individuals/parties who should receive recognition for their parts in the project."
+    },
+    {
+      "file": "5 AY2026-27 BUSA FYP Operational Guidance (Based on BBA FYP Operational Manual).docx",
+      "paragraph": 260,
+      "text": "We declare that this BCom Project (Final Year Project), submitted in partial fulfillment of the graduation requirements for BNBU’s Bachelor of Commerce (Honours) degree, is our original work. No portion of the project report has been submitted to any other university or institute of learning for any other degree or qualification. All original sources of materials consulted have been properly cited and acknowledged."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-23",
+  "reservation_pages_complete": false,
+  "cohort": 100,
+  "verified_post": 0,
+  "by_stage": {
+    "waiting_for_release": 100
+  },
+  "classification": {
+    "sequel": 96,
+    "unknown": 4
+  },
+  "confirmed_spinoff_excluded": 1,
+  "today_player_checks": {},
+  "paired_outcomes_by_group": {
+    "first_work": 0,
+    "sequel": 0
+  },
+  "complete_endpoints_missing_signals": 0,
+  "complete_unknown": 0
+}

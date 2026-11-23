@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-11-18T08:43:07.775Z",
+  "package_version": "0.4.0",
+  "requested_series_id": "7561390625552092222",
+  "requests": [
+    {
+      "host": "log5-applog-lq.fqnovel.com",
+      "path": "/service/2/device_register/",
+      "http_status": 200,
+      "body_bytes": 355
+    },
+    {
+      "host": "api5-normal-sinfonlinea.fqnovel.com",
+      "path": "/novel/player/multi_video_detail/player/v1",
+      "http_status": 200,
+      "body_bytes": 72631
+    },
+    {
+      "host": "api5-normal-sinfonlinea.fqnovel.com",
+      "path": "/novel/player/video_detail/v1/",
+      "http_status": 200,
+      "body_bytes": 72609
+    },
+    {
+      "host": "api5-normal-sinfonlinea.fqnovel.com",
+      "path": "/novel/commentapi/comment/list/7561394907001130046/v1/",
+      "http_status": 200,
+      "body_bytes": 5868
+    }
+  ],
+  "series": {
+    "id": "7561390625552092222",
+    "title": "掌上珠",
+    "episode_count": 84,
+    "heat": 44331661,
+    "play_count": 3931760,
+    "follow_count": 197310
+  },
+  "series_returned_fields": [
+    "id",
+    "title",
+    "description",
+    "cover_url",
+    "cover_expires_at",
+    "episode_count",
+    "status",
+    "content_type",
+    "platform",
+    "heat",
+    "play_count",
+    "follow_count",
+    "created_at",
+    "right_text",
+    "subtitles",
+    "related_novel_book_id",
+    "novel",
+    "rows"
+  ],
+  "episode_count_returned": 84,
+  "first_episode": {
+    "id": "7561394907001130046",
+    "series_id": "7561390625552092222",
+    "number": 1,
+    "comment_count": 623,
+    "digg_count": 19169
+  },
+  "danmaku_page": {
+    "items": [
+      {
+        "id": "7706547121235346201",
+        "text": "太值得看了。",
+        "offset_ms": 1496,
+        "created_at": "2026-11-10T16:28:44Z"
+      },
+      {
+        "id": "7701082802771247896",
+        "text": "王小艺新剧[赞]",
+        "offset_ms": 7516,
+        "created_at": "2026-10-27T01:08:48Z"
+      },
+      {
+        "id": "7701040494735901502",
+        "text": "经典老剧新上",
+        "offset_ms": 9507,
+        "created_at": "2026-10-27T01:27:45Z",
+        "likes": 9,
+        "plus_ones": 1
+      },
+      {
+        "id": "7701187492821189400",
+        "text": "小亿的剧[爱慕][爱慕][爱慕]",
+        "offset_ms": 12240,
+        "created_at": "2026-10-27T04:53:29Z",
+        "likes": 1
+      },
+      {
+        "id": "7704164482126840600",
+        "text": "经典短剧",
+        "offset_ms": 16954,
+        "created_at": "2026-11-04T04:41:23Z",
+        "likes": 2
+      },
+      {
+        "id": "7701680892473180953",
+        "text": "这是老剧新上，但是特别好看，值得追，那么女主演技颜值都嘎嘎的",
+        "offset_ms": 23100,
+        "created_at": "2026-10-28T12:49:54Z"
+      },
+      {
+        "id": "7701204714479436569",
+        "text": "再看亿遍感觉还不错",
+        "offset_ms": 29550,
+        "created_at": "2026-10-27T06:44:56Z"
+      }
+    ],
+    "start_ms": 0,
+    "end_ms": 30000,
+    "total": 106,
+    "has_more": true,
+    "cursor": "m1.eyJlIjoiNzU2MTM5NDkwNzAwMTEzMDA0NiIsImQiOjYyMDAwLCJ0IjozMDAwMCwibiI6IntcInN0YXJ0X29mZnNldF90aW1lXCI6MCxcImVuZF9vZmZzZXRfdGltZVwiOjMwMDAwLFwiZGFubWFrdV93aW5kb3dfY291bnRcIjp7XCIwXCI6NzYsXCIzMDAwMFwiOjI5LFwiNjAwMDBcIjoxfSxcImRhbm1ha3VfY291bnRcIjoxMDYsXCJzZXNzaW9uX2lkXCI6XCIyMDI2MTExODE2NDMwODNDNTdBNzIwNzUxQ0ZBOTk0QTU5XCJ9In0"
+  }
+}

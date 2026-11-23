@@ -1,0 +1,16 @@
+{
+  "observed_rows": 14398,
+  "calendar_days": 36,
+  "observed_ids": 1386,
+  "common_complete_count": 35,
+  "missing_ranks": {
+    "2026-10-31:ai": [
+      35
+    ],
+    "2026-10-31:hot": [
+      69
+    ]
+  },
+  "start_date": "2026-10-13",
+  "end_date": "2026-11-17"
+}

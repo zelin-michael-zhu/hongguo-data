@@ -1,0 +1,59 @@
+{
+  "pairs": {
+    "events": 169,
+    "groups": 101
+  },
+  "within": {
+    "events": 153,
+    "groups": 99
+  },
+  "chronological_in_window": {
+    "events": 152,
+    "groups": 99
+  },
+  "eligible_by_calendar": {
+    "events": 120,
+    "groups": 88
+  },
+  "full_net_like_fav": {
+    "events": 33,
+    "groups": 27
+  },
+  "eligible_sample_controls": {
+    "supported_events": 19,
+    "supported_groups": 17,
+    "possible_comparisons": 55
+  },
+  "full_through_nov20": {
+    "events": 30,
+    "groups": 25
+  },
+  "full_like_fav_heat": {
+    "events": 33,
+    "groups": 27
+  },
+  "full_old_at_least_one_day_offchart": {
+    "events": 30,
+    "groups": 25
+  },
+  "full_with_no_other_7d": {
+    "events": 33,
+    "groups": 27
+  },
+  "full_with_no_other_14d": {
+    "events": 11,
+    "groups": 10
+  },
+  "historical_visible_dates_agree": 169,
+  "old_daily_rows": 22901,
+  "old_offchart_rows": 12102,
+  "source_days_old": 36,
+  "within_but_first_chart_earlier": 0,
+  "within_but_first_chart_different": 152,
+  "old_does_not_precede_new": [
+    [
+      "凡人百世书第九季",
+      "凡人百世书第十季"
+    ]
+  ]
+}

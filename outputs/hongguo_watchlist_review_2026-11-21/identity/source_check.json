@@ -1,0 +1,29 @@
+{
+  "slots_compared": 14398,
+  "slots_with_retrospective_title_change": 125,
+  "chart_series_days_affected": 81,
+  "date_count": 36,
+  "tracked_ids_with_title_changes": 14,
+  "item_fields": [
+    "detail_tags",
+    "episodes",
+    "episodes_total",
+    "fav",
+    "first_visible",
+    "heat",
+    "heat_exact",
+    "like",
+    "pay_type",
+    "rating",
+    "rating_count",
+    "review_count",
+    "status_code",
+    "status_tags",
+    "tags",
+    "title",
+    "tracked_by"
+  ],
+  "commit": "9963122332b7bc93b508547fb6802f663afe6d43",
+  "archive_sha256": "0bc115eb4abd23552acea0247653c2d02403d9e5b839363fb7f4cd29fadbac65",
+  "archive_url": "https://codeload.github.com/SentDz/drama-radar/zip/9963122332b7bc93b508547fb6802f663afe6d43"
+}

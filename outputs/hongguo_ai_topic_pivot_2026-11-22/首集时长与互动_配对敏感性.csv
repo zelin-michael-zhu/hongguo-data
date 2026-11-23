@@ -1,0 +1,10 @@
+﻿max_first_visible_gap_days,min_duration_gap_seconds,pairs,groups,equal_duration,longer_first_episode_more_comments,longer_first_episode_more_likes,equal_comments,equal_likes
+all,0,42,24,1,19,20,0,0
+all,10,29,16,0,13,14,0,0
+all,20,22,13,0,13,13,0,0
+7,0,15,8,1,7,9,0,0
+7,10,11,6,0,7,6,0,0
+7,20,9,5,0,7,5,0,0
+14,0,29,14,1,14,16,0,0
+14,10,19,8,0,10,10,0,0
+14,20,15,7,0,10,9,0,0

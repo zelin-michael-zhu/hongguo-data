@@ -1,0 +1,160 @@
+{
+  "labeled_rows": 424,
+  "labeled_titles": 181,
+  "labeled_positive_rows": 81,
+  "labeled_positive_titles": 43,
+  "all_rank_days": 20,
+  "all_rank_slots": 100,
+  "all_rank_hits": 41,
+  "oos_rows": 146,
+  "oos_titles": 68,
+  "oos_dates": [
+    "2026-11-02",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14"
+  ],
+  "oos_positive_rows": 26,
+  "historical_text_archive_dates": [
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-21"
+  ],
+  "matched_historical_text_and_label_rows": 0,
+  "comparisons": {
+    "rank": {
+      "ap": 0.3583365388291604,
+      "auc": 0.7506410256410257,
+      "top5": {
+        "slots": 40,
+        "hits": 13,
+        "unique_titles": 28,
+        "unique_hit_titles": 11
+      },
+      "top10": {
+        "slots": 75,
+        "hits": 22,
+        "unique_titles": 47,
+        "unique_hit_titles": 15
+      }
+    },
+    "metrics": {
+      "ap": 0.6875696222194209,
+      "auc": 0.8900641025641027,
+      "top5": {
+        "slots": 40,
+        "hits": 18,
+        "unique_titles": 30,
+        "unique_hit_titles": 13
+      },
+      "top10": {
+        "slots": 75,
+        "hits": 25,
+        "unique_titles": 51,
+        "unique_hit_titles": 16
+      }
+    }
+  },
+  "live_titles": 22,
+  "valid_text": 524,
+  "text_outcome_pairs": 0,
+  "text_published_before_chart_first_seen": 431,
+  "paired_series_higher": 16,
+  "paired_equal": 4,
+  "paired_episode_higher": 2,
+  "paired_median_difference": 0.31666649999999996,
+  "channels": {
+    "episode": {
+      "n": 330,
+      "nonpromo_n": 330,
+      "totals": {
+        "quality_positive": 69,
+        "chase_intent": 18,
+        "recommend": 8,
+        "quit_intent": 9,
+        "production_criticism": 3,
+        "self_declared_promo": 0
+      },
+      "clean_positive": 69,
+      "clean_chase": 18,
+      "clean_chase_without_positive": 8,
+      "titles_with_chase": 11
+    },
+    "series": {
+      "n": 194,
+      "nonpromo_n": 188,
+      "totals": {
+        "quality_positive": 115,
+        "chase_intent": 76,
+        "recommend": 15,
+        "quit_intent": 4,
+        "production_criticism": 5,
+        "self_declared_promo": 6
+      },
+      "clean_positive": 115,
+      "clean_chase": 76,
+      "clean_chase_without_positive": 24,
+      "titles_with_chase": 17
+    }
+  },
+  "reliability": {
+    "quality_positive": {
+      "n": 80,
+      "both_yes": 29,
+      "both_no": 48,
+      "only_primary": 3,
+      "only_second": 0,
+      "agreement": 0.9625,
+      "kappa": 0.9206349206349207
+    },
+    "chase_intent": {
+      "n": 80,
+      "both_yes": 15,
+      "both_no": 65,
+      "only_primary": 0,
+      "only_second": 0,
+      "agreement": 1.0,
+      "kappa": 1.0
+    },
+    "recommend": {
+      "n": 80,
+      "both_yes": 5,
+      "both_no": 75,
+      "only_primary": 0,
+      "only_second": 0,
+      "agreement": 1.0,
+      "kappa": 1.0
+    },
+    "quit_intent": {
+      "n": 80,
+      "both_yes": 3,
+      "both_no": 77,
+      "only_primary": 0,
+      "only_second": 0,
+      "agreement": 1.0,
+      "kappa": 1.0
+    },
+    "production_criticism": {
+      "n": 80,
+      "both_yes": 0,
+      "both_no": 80,
+      "only_primary": 0,
+      "only_second": 0,
+      "agreement": 1.0,
+      "kappa": null
+    },
+    "self_declared_promo": {
+      "n": 80,
+      "both_yes": 2,
+      "both_no": 78,
+      "only_primary": 0,
+      "only_second": 0,
+      "agreement": 1.0,
+      "kappa": 1.0
+    }
+  }
+}

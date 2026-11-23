@@ -1,0 +1,78 @@
+{
+  "verified_at": "2026-11-18T16:39:46.913349+08:00",
+  "radar": {
+    "repository": "https://github.com/SentDz/drama-radar",
+    "commit": "9963122332b7bc93b508547fb6802f663afe6d43",
+    "operation": "python3 -m radar build from existing published snapshots",
+    "new_live_collection": false,
+    "daily_rows": 22901,
+    "unique_series_ids": 1388,
+    "start_date": "2026-10-13",
+    "end_date": "2026-11-17",
+    "columns": [
+      "date",
+      "id",
+      "title",
+      "heat",
+      "heat_exact",
+      "fav",
+      "like",
+      "rating",
+      "rating_count",
+      "review_count",
+      "episodes",
+      "first_visible",
+      "age_days",
+      "tags",
+      "status_tags",
+      "rank_hot",
+      "rank_real",
+      "rank_ai",
+      "rank_comic"
+    ]
+  },
+  "catalog": {
+    "repository": "https://github.com/wmefanit/hongguo-data",
+    "download_scope": "two small summaries and first 65536 gzip bytes, three parsed records",
+    "full_catalog_independently_counted": false
+  },
+  "socialdatax": {
+    "endpoint": "https://mcp.socialdatax.com/hongguo/mcp",
+    "initialize_http_status": 200,
+    "tools_list_http_status": 200,
+    "tools_count": 12,
+    "balance_request_http_status": 401,
+    "balance_request_error": "missing_api_key",
+    "business_data_retrieved": false
+  },
+  "qualifications": [
+    "drama-radar heat is a heat score",
+    "fav is a favorite count",
+    "review_count is a count of series reviews",
+    "drama-radar exports contain neither click/play/subscription counts nor comment/danmaku bodies. The separate openhongguo live sample includes play_count, follow_count, and one page of danmaku.",
+    "The directory summary record count is publisher-reported."
+  ],
+  "openhongguo": {
+    "package_version": "0.4.0",
+    "live_requests": 4,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "series": {
+      "id": "7561390625552092222",
+      "title": "掌上珠",
+      "episode_count": 84,
+      "heat": 44331661,
+      "play_count": 3931760,
+      "follow_count": 197310
+    },
+    "danmaku_page_items": 7,
+    "danmaku_total_reported": 106,
+    "has_more": true,
+    "subscription_semantics_confirmed": false,
+    "independent_click_count_found": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "available": 4000,
+  "actual_exits": 511,
+  "slots_each": 400,
+  "base_hits": 288,
+  "extended_hits": 288,
+  "shared_slots": 362,
+  "shared_hits": 271,
+  "base_cutoff_tie": 0,
+  "extended_cutoff_tie": 0,
+  "extra_hits": 0,
+  "overlap_share": 0.905,
+  "jaccard_pooled": 0.8264840182648402,
+  "input_score_sha256": "d990c6517b5ca5de92698155bd558bc4c14b2e16ccb681510ed02a154c58f7a6",
+  "labels_verified_against_archived_ids": 4000,
+  "dates": 10,
+  "day_boards": 40,
+  "ties_rule": "Numeric ID ascending for equal unrounded predicted probability",
+  "day_wins_ties_losses": [
+    3,
+    3,
+    4
+  ],
+  "mean_extra_hits_per_day": 0.0,
+  "leave_one_date_out_mean_range": [
+    -0.2222222222222222,
+    0.1111111111111111
+  ],
+  "circular_block_bootstrap_sensitivity": [
+    {
+      "block_days": 2,
+      "combinations": 100000,
+      "mean_extra_hits_per_day_percentile_2_5": -0.6,
+      "mean_extra_hits_per_day_percentile_97_5": 0.5
+    },
+    {
+      "block_days": 3,
+      "combinations": 10000,
+      "mean_extra_hits_per_day_percentile_2_5": -0.5,
+      "mean_extra_hits_per_day_percentile_97_5": 0.5
+    }
+  ]
+}

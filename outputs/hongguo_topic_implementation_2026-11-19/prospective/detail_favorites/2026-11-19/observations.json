@@ -1,0 +1,1656 @@
+{
+  "local_date": "2026-11-19",
+  "timezone": "Asia/Shanghai",
+  "field": "loaderData.detail_page.seriesSocialInfo.series_favorite_count",
+  "watchlist_sha256": "0ee4fa79bb72fa1689b22137f7f9e557865d84e359b759584113f57b6d73cb38",
+  "entries": {
+    "7702718307429796888": {
+      "public_fav_display": "162000",
+      "fetched_at_utc": "2026-11-19T07:31:59+00:00",
+      "url": "https://hongguoduanju.com/detail?series_id=7702718307429796888",
+      "source": "same_day_shared_official_html",
+      "value": 162000
+    },
+    "7702841940475120702": {
+      "public_fav_display": "230000",
+      "fetched_at_utc": "2026-11-19T07:32:04+00:00",
+      "url": "https://hongguoduanju.com/detail?series_id=7702841940475120702",
+      "source": "same_day_shared_official_html",
+      "value": 230000
+    },
+    "7702845090779106366": {
+      "public_fav_display": "68000",
+      "fetched_at_utc": "2026-11-19T07:32:06+00:00",
+      "url": "https://hongguoduanju.com/detail?series_id=7702845090779106366",
+      "source": "same_day_shared_official_html",
+      "value": 68000
+    },
+    "7703043002771442750": {
+      "public_fav_display": "131000",
+      "fetched_at_utc": "2026-11-19T07:32:08+00:00",
+      "url": "https://hongguoduanju.com/detail?series_id=7703043002771442750",
+      "source": "same_day_shared_official_html",
+      "value": 131000
+    },
+    "7703090936783326232": {
+      "public_fav_display": "245000",
+      "fetched_at_utc": "2026-11-19T07:32:10+00:00",
+      "url": "https://hongguoduanju.com/detail?series_id=7703090936783326232",
+      "source": "same_day_shared_official_html",
+      "value": 245000
+    },
+    "7703571799304309784": {
+      "public_fav_display": "136000",
+      "fetched_at_utc": "2026-11-19T07:32:21+00:00",
+      "url": "https://hongguoduanju.com/detail?series_id=7703571799304309784",
+      "source": "same_day_shared_official_html",
+      "value": 136000
+    },
+    "7703573345681280024": {
+      "public_fav_display": "273000",
+      "fetched_at_utc": "2026-11-19T07:32:23+00:00",
+      "url": "https://hongguoduanju.com/detail?series_id=7703573345681280024",
+      "source": "same_day_shared_official_html",
+      "value": 273000
+    },
+    "7703857844549848088": {
+      "public_fav_display": "418000",
+      "fetched_at_utc": "2026-11-19T07:32:28+00:00",
+      "url": "https://hongguoduanju.com/detail?series_id=7703857844549848088",
+      "source": "same_day_shared_official_html",
+      "value": 418000
+    },
+    "7685973095064030233": {
+      "public_fav_display": "1098000",
+      "url": "https://hongguoduanju.com/detail?series_id=7685973095064030233",
+      "fetched_at_utc": "2026-11-19T07:33:36+00:00",
+      "html_sha256": "175b4a440aff2a17e51ef437251e1f50408f4d05f11b7f491500a4aa6dd16969",
+      "source": "official_html",
+      "value": 1098000
+    },
+    "7686894628578020414": {
+      "public_fav_display": "1104000",
+      "url": "https://hongguoduanju.com/detail?series_id=7686894628578020414",
+      "fetched_at_utc": "2026-11-19T07:33:38+00:00",
+      "html_sha256": "585a06cd6c250936cae6451d9ddc10e89f20409055ab8dafaa1ef0a5092d268d",
+      "source": "official_html",
+      "value": 1104000
+    },
+    "7687950663602408473": {
+      "public_fav_display": "1446000",
+      "url": "https://hongguoduanju.com/detail?series_id=7687950663602408473",
+      "fetched_at_utc": "2026-11-19T07:33:40+00:00",
+      "html_sha256": "01f2ad3eac542dd8c515970a3d303979fd4c27c88f7dac17fe168b3febd836b1",
+      "source": "official_html",
+      "value": 1446000
+    },
+    "7688355768239672344": {
+      "public_fav_display": "859000",
+      "url": "https://hongguoduanju.com/detail?series_id=7688355768239672344",
+      "fetched_at_utc": "2026-11-19T07:33:41+00:00",
+      "html_sha256": "d319ba4df63935abf75df54fa26e40d7558e12a16a91aeb35afc20edc9c9bf8f",
+      "source": "official_html",
+      "value": 859000
+    },
+    "7688751589397384254": {
+      "public_fav_display": "1198000",
+      "url": "https://hongguoduanju.com/detail?series_id=7688751589397384254",
+      "fetched_at_utc": "2026-11-19T07:33:43+00:00",
+      "html_sha256": "ec76e558ea8dc095f3bcdcb91c9cbf3dc39dadb8631b95fa891908c3c4442d5f",
+      "source": "official_html",
+      "value": 1198000
+    },
+    "7689448937878473753": {
+      "public_fav_display": "1176000",
+      "url": "https://hongguoduanju.com/detail?series_id=7689448937878473753",
+      "fetched_at_utc": "2026-11-19T07:33:45+00:00",
+      "html_sha256": "20c988184334ac119dd7c7f1673e561dd44e19b6c763d2157d027a6c05f16f55",
+      "source": "official_html",
+      "value": 1176000
+    },
+    "7689458194980015128": {
+      "public_fav_display": "1801000",
+      "url": "https://hongguoduanju.com/detail?series_id=7689458194980015128",
+      "fetched_at_utc": "2026-11-19T07:33:47+00:00",
+      "html_sha256": "88a5c5fbc3709744225b51605159fba1988671697fedfd03b8b503875f419a8a",
+      "source": "official_html",
+      "value": 1801000
+    },
+    "7689841670413618238": {
+      "public_fav_display": "802000",
+      "url": "https://hongguoduanju.com/detail?series_id=7689841670413618238",
+      "fetched_at_utc": "2026-11-19T07:33:49+00:00",
+      "html_sha256": "c089e78993192443a187fc0b453a9e79f89213e6ab4ef6d52c75d9d7f3fb9139",
+      "source": "official_html",
+      "value": 802000
+    },
+    "7690155535936539710": {
+      "public_fav_display": "2590000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690155535936539710",
+      "fetched_at_utc": "2026-11-19T07:33:51+00:00",
+      "html_sha256": "db1f3f9c4cdb3e83b340e515227725ec8402a8f14ef7e35ec39b68021ccbe10b",
+      "source": "official_html",
+      "value": 2590000
+    },
+    "7690186465237535768": {
+      "public_fav_display": "997000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690186465237535768",
+      "fetched_at_utc": "2026-11-19T07:33:53+00:00",
+      "html_sha256": "fe0c49eca26971c074e848b5d995819101cf7d150d956be65d878d7014ed0d53",
+      "source": "official_html",
+      "value": 997000
+    },
+    "7690195777649380414": {
+      "public_fav_display": "1056000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690195777649380414",
+      "fetched_at_utc": "2026-11-19T07:33:54+00:00",
+      "html_sha256": "3d380026d65dca0dda51a3e2c8f4be1a6597db0014588f444fbd41595a1185cb",
+      "source": "official_html",
+      "value": 1056000
+    },
+    "7690409104472296510": {
+      "public_fav_display": "1341000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690409104472296510",
+      "fetched_at_utc": "2026-11-19T07:33:57+00:00",
+      "html_sha256": "0fc33d69473d76f563ff84f44fa9897ab166250ec1ef11b340ba6673c7cecf6a",
+      "source": "official_html",
+      "value": 1341000
+    },
+    "7690413747721997336": {
+      "public_fav_display": "1800000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690413747721997336",
+      "fetched_at_utc": "2026-11-19T07:33:58+00:00",
+      "html_sha256": "69adfcb95e735ee037696ab99e16e8db81fce8034f91e431e2f31f72d47fe621",
+      "source": "official_html",
+      "value": 1800000
+    },
+    "7690495711065934872": {
+      "public_fav_display": "1317000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690495711065934872",
+      "fetched_at_utc": "2026-11-19T07:34:00+00:00",
+      "html_sha256": "16113e00bc094af4997de89ea6b5a75e50c920db9b53039640e2c9e51ec4776c",
+      "source": "official_html",
+      "value": 1317000
+    },
+    "7690596204589091864": {
+      "public_fav_display": "973000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690596204589091864",
+      "fetched_at_utc": "2026-11-19T07:34:02+00:00",
+      "html_sha256": "8ff74234297be4f4796d18979da634fea73e4568df2400e2b376ae8eab6c8d59",
+      "source": "official_html",
+      "value": 973000
+    },
+    "7690865236810681369": {
+      "public_fav_display": "1221000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690865236810681369",
+      "fetched_at_utc": "2026-11-19T07:34:04+00:00",
+      "html_sha256": "f7eba805cb5a25953c7914a90a1ffb8fc98b67ec55b6943743738e7f4312f674",
+      "source": "official_html",
+      "value": 1221000
+    },
+    "7690883800057777177": {
+      "public_fav_display": "1509000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690883800057777177",
+      "fetched_at_utc": "2026-11-19T07:34:06+00:00",
+      "html_sha256": "22b77fed11961c19a41082bd3fe36e147d73a01c3efe5d42aaa2d231128fbf6b",
+      "source": "official_html",
+      "value": 1509000
+    },
+    "7690928620021238808": {
+      "public_fav_display": "1374000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690928620021238808",
+      "fetched_at_utc": "2026-11-19T07:34:08+00:00",
+      "html_sha256": "bdc28874491fb3b5385e6eff4f904bef2f7d8ad2276300489fd563b671a0f5d3",
+      "source": "official_html",
+      "value": 1374000
+    },
+    "7690964201052834841": {
+      "public_fav_display": "2477000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690964201052834841",
+      "fetched_at_utc": "2026-11-19T07:34:10+00:00",
+      "html_sha256": "42a12af40c3723f5efccb843408d224875895f65a25776e4c4c012ccb105163b",
+      "source": "official_html",
+      "value": 2477000
+    },
+    "7691647603770919961": {
+      "public_fav_display": "945000",
+      "url": "https://hongguoduanju.com/detail?series_id=7691647603770919961",
+      "fetched_at_utc": "2026-11-19T07:34:12+00:00",
+      "html_sha256": "5cc5d5cf7e49107368387ef26badd66da28852229211ce6d29783a71e6d4089f",
+      "source": "official_html",
+      "value": 945000
+    },
+    "7691715655367658521": {
+      "public_fav_display": "331000",
+      "url": "https://hongguoduanju.com/detail?series_id=7691715655367658521",
+      "fetched_at_utc": "2026-11-19T07:34:14+00:00",
+      "html_sha256": "55ee8f44e2599fe6d641898e5be5ee1e7b25997036b436a5bab46e0fdaecc192",
+      "source": "official_html",
+      "value": 331000
+    },
+    "7691975395733687320": {
+      "public_fav_display": "985000",
+      "url": "https://hongguoduanju.com/detail?series_id=7691975395733687320",
+      "fetched_at_utc": "2026-11-19T07:34:16+00:00",
+      "html_sha256": "73eb80ae39917062132cdeb1fbc214ece7ff76e2d5fed1aa2d34bda8eb8f4f05",
+      "source": "official_html",
+      "value": 985000
+    },
+    "7691978484985383960": {
+      "public_fav_display": "1365000",
+      "url": "https://hongguoduanju.com/detail?series_id=7691978484985383960",
+      "fetched_at_utc": "2026-11-19T07:34:17+00:00",
+      "html_sha256": "3b8ce9846e0bee7e337a55d095c354892d74fba873fd9da88401ede1cf673a2d",
+      "source": "official_html",
+      "value": 1365000
+    },
+    "7691986233051843646": {
+      "public_fav_display": "1961000",
+      "url": "https://hongguoduanju.com/detail?series_id=7691986233051843646",
+      "fetched_at_utc": "2026-11-19T07:34:19+00:00",
+      "html_sha256": "8e2cfd86610facddb9b4ca8fd0ac311dc8cfea43e8ebb2b940718c6e1bb20b33",
+      "source": "official_html",
+      "value": 1961000
+    },
+    "7691989306964970520": {
+      "public_fav_display": "1245000",
+      "url": "https://hongguoduanju.com/detail?series_id=7691989306964970520",
+      "fetched_at_utc": "2026-11-19T07:34:21+00:00",
+      "html_sha256": "6db6d9da6daf0cc0cf3fce56074ec2038a43d9ef36b1b22a33cf26218d9b7887",
+      "source": "official_html",
+      "value": 1245000
+    },
+    "7692037252787997721": {
+      "public_fav_display": "752000",
+      "url": "https://hongguoduanju.com/detail?series_id=7692037252787997721",
+      "fetched_at_utc": "2026-11-19T07:34:23+00:00",
+      "html_sha256": "baec83b121e5b4acf5a05c142c7c449a7bb7952ba2707d34c68e603ca49f331c",
+      "source": "official_html",
+      "value": 752000
+    },
+    "7692089829793729561": {
+      "public_fav_display": "1176000",
+      "url": "https://hongguoduanju.com/detail?series_id=7692089829793729561",
+      "fetched_at_utc": "2026-11-19T07:34:25+00:00",
+      "html_sha256": "5381afde5250e867bf0eb7d91b6c225796364ce7aee61c35a684caace06f4a6c",
+      "source": "official_html",
+      "value": 1176000
+    },
+    "7692258346459466814": {
+      "public_fav_display": "1957000",
+      "url": "https://hongguoduanju.com/detail?series_id=7692258346459466814",
+      "fetched_at_utc": "2026-11-19T07:34:26+00:00",
+      "html_sha256": "8dc933fa4af597135c45ecaf5b764925420a3a404997f9f8c21f5cbcb06ca9e7",
+      "source": "official_html",
+      "value": 1957000
+    },
+    "7692307825573252120": {
+      "public_fav_display": "562000",
+      "url": "https://hongguoduanju.com/detail?series_id=7692307825573252120",
+      "fetched_at_utc": "2026-11-19T07:34:28+00:00",
+      "html_sha256": "847989765f2a3b8483e774b468e8c9e0d7028c8ff87ebaa466bd8463f6b1ed8b",
+      "source": "official_html",
+      "value": 562000
+    },
+    "7692357327466269720": {
+      "public_fav_display": "286000",
+      "url": "https://hongguoduanju.com/detail?series_id=7692357327466269720",
+      "fetched_at_utc": "2026-11-19T07:34:30+00:00",
+      "html_sha256": "4cd81b91bb2e76a58ec366cd5b5561fa30e75ac5cda627f02a44e2792ab5b475",
+      "source": "official_html",
+      "value": 286000
+    },
+    "7692377406916545561": {
+      "public_fav_display": "598000",
+      "url": "https://hongguoduanju.com/detail?series_id=7692377406916545561",
+      "fetched_at_utc": "2026-11-19T07:34:32+00:00",
+      "html_sha256": "8322bbc4235401ee5c774dc10139ca643c2470aa1e8d8f16a0dcc4ade058368b",
+      "source": "official_html",
+      "value": 598000
+    },
+    "7692699023395802137": {
+      "public_fav_display": "818000",
+      "url": "https://hongguoduanju.com/detail?series_id=7692699023395802137",
+      "fetched_at_utc": "2026-11-19T07:34:33+00:00",
+      "html_sha256": "c67d602eecc2385825f42f1f608d0d7ddcfbc666a78ba365628af3fa3074982b",
+      "source": "official_html",
+      "value": 818000
+    },
+    "7693164412823161880": {
+      "public_fav_display": "1101000",
+      "url": "https://hongguoduanju.com/detail?series_id=7693164412823161880",
+      "fetched_at_utc": "2026-11-19T07:34:35+00:00",
+      "html_sha256": "35cd6280c763721eb6599de043764c92e5158a3419258b990a8f5e65416d0388",
+      "source": "official_html",
+      "value": 1101000
+    },
+    "7693447379596364825": {
+      "public_fav_display": "328000",
+      "url": "https://hongguoduanju.com/detail?series_id=7693447379596364825",
+      "fetched_at_utc": "2026-11-19T07:34:37+00:00",
+      "html_sha256": "522f8989321861e8eb90557672030afb10cce80aa5ad232f0e6d5e316a1ec9ad",
+      "source": "official_html",
+      "value": 328000
+    },
+    "7693461278974561342": {
+      "public_fav_display": "1011000",
+      "url": "https://hongguoduanju.com/detail?series_id=7693461278974561342",
+      "fetched_at_utc": "2026-11-19T07:34:39+00:00",
+      "html_sha256": "f98c8296cf62d1349a3decaefcde3b7c13a486ec878e429a69faaa602ca2b38b",
+      "source": "official_html",
+      "value": 1011000
+    },
+    "7693473648308390974": {
+      "public_fav_display": "360000",
+      "url": "https://hongguoduanju.com/detail?series_id=7693473648308390974",
+      "fetched_at_utc": "2026-11-19T07:34:40+00:00",
+      "html_sha256": "69a11ef56b814b508eabd858609083b6cb53b9ed6e0a752dbb4a608609e2bd71",
+      "source": "official_html",
+      "value": 360000
+    },
+    "7694194177961118744": {
+      "public_fav_display": "815000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694194177961118744",
+      "fetched_at_utc": "2026-11-19T07:34:42+00:00",
+      "html_sha256": "0ef6ed960a9f81948c5f6f386bcf81a160c3defb103f7ceb6fd4825134192ff1",
+      "source": "official_html",
+      "value": 815000
+    },
+    "7694260673496222782": {
+      "public_fav_display": "117000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694260673496222782",
+      "fetched_at_utc": "2026-11-19T07:34:44+00:00",
+      "html_sha256": "24778cee399344de848f07649ae89ce978ff6b95f3dc157d5e054583702a49d6",
+      "source": "official_html",
+      "value": 117000
+    },
+    "7694299326494821400": {
+      "public_fav_display": "182000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694299326494821400",
+      "fetched_at_utc": "2026-11-19T07:34:46+00:00",
+      "html_sha256": "1b2c0ab3b2804fae090e94ada8989372dd3dab97443814f21b14281c2308fca1",
+      "source": "official_html",
+      "value": 182000
+    },
+    "7694568377079041048": {
+      "public_fav_display": "236000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694568377079041048",
+      "fetched_at_utc": "2026-11-19T07:34:47+00:00",
+      "html_sha256": "3dc3c2ba489a68346467a521b7dfab803a45945da9338d347f61b25b7579e315",
+      "source": "official_html",
+      "value": 236000
+    },
+    "7694586906335530008": {
+      "public_fav_display": "611000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694586906335530008",
+      "fetched_at_utc": "2026-11-19T07:34:49+00:00",
+      "html_sha256": "0d104c4f350c977df5c884242ac8ab2ab622a5214916e2de26203b2cb5f7e562",
+      "source": "official_html",
+      "value": 611000
+    },
+    "7694647206392908824": {
+      "public_fav_display": "161000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694647206392908824",
+      "fetched_at_utc": "2026-11-19T07:34:51+00:00",
+      "html_sha256": "aef6fc2da9932ccc866d5ac963da89aa9ed188da501f6ba9440447f885211112",
+      "source": "official_html",
+      "value": 161000
+    },
+    "7694651843879652376": {
+      "public_fav_display": "781000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694651843879652376",
+      "fetched_at_utc": "2026-11-19T07:34:53+00:00",
+      "html_sha256": "4832c5bd66075335cc69001c17bb3edd3304cdadfad5cdac10932b2ac67380a3",
+      "source": "official_html",
+      "value": 781000
+    },
+    "7694936354156727321": {
+      "public_fav_display": "284000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694936354156727321",
+      "fetched_at_utc": "2026-11-19T07:34:55+00:00",
+      "html_sha256": "be73ee4a22bfa812ec652ab3c094aed0623380ccc18a3af8c5d1f1e28186521b",
+      "source": "official_html",
+      "value": 284000
+    },
+    "7694968816039627838": {
+      "public_fav_display": "279000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694968816039627838",
+      "fetched_at_utc": "2026-11-19T07:34:56+00:00",
+      "html_sha256": "2f1c3f1b8572f9cbcc037b2b5ab125b9576f88b540b1ab1fb0e4d790eed7b4aa",
+      "source": "official_html",
+      "value": 279000
+    },
+    "7695026024953695256": {
+      "public_fav_display": "657000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695026024953695256",
+      "fetched_at_utc": "2026-11-19T07:34:58+00:00",
+      "html_sha256": "1454547091bb1e036f177d57cb8aa214a9887b9bb5436dfc1642d354ae65b9b0",
+      "source": "official_html",
+      "value": 657000
+    },
+    "7695341444659170328": {
+      "public_fav_display": "254000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695341444659170328",
+      "fetched_at_utc": "2026-11-19T07:35:00+00:00",
+      "html_sha256": "5d03ba9496ee27511858da70273c37d9ec08f62d3e0006b411c5c7043a4cdfd8",
+      "source": "official_html",
+      "value": 254000
+    },
+    "7695347627382017048": {
+      "public_fav_display": "1401000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695347627382017048",
+      "fetched_at_utc": "2026-11-19T07:35:02+00:00",
+      "html_sha256": "8672a5b4f393d5032e9617c3b3ac8e44e80d0bc184f5d060f693aa56e395f87e",
+      "source": "official_html",
+      "value": 1401000
+    },
+    "7695347629001018392": {
+      "public_fav_display": "276000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695347629001018392",
+      "fetched_at_utc": "2026-11-19T07:35:04+00:00",
+      "html_sha256": "0699d80ba0b299a6fad7e11a096e9aacc9a6fb7fad7c694af2d538f664b2be45",
+      "source": "official_html",
+      "value": 276000
+    },
+    "7695659976248806462": {
+      "public_fav_display": "179000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695659976248806462",
+      "fetched_at_utc": "2026-11-19T07:35:06+00:00",
+      "html_sha256": "2f199c48b0b654525d45d0b40de3fd61a3febce4f1e55e1b25eb594d931b7e48",
+      "source": "official_html",
+      "value": 179000
+    },
+    "7695700156041137214": {
+      "public_fav_display": "488000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695700156041137214",
+      "fetched_at_utc": "2026-11-19T07:35:08+00:00",
+      "html_sha256": "11fd94c50b15fec6233db8b2bc70f1262e99ce3c2da15da06918f27061deba3a",
+      "source": "official_html",
+      "value": 488000
+    },
+    "7695726441282931774": {
+      "public_fav_display": "396000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695726441282931774",
+      "fetched_at_utc": "2026-11-19T07:35:10+00:00",
+      "html_sha256": "3fafe583b0d4d8faadcf77d8ecfbf4aee2f03de89f1e753abfe7c55be737399b",
+      "source": "official_html",
+      "value": 396000
+    },
+    "7695754334847388696": {
+      "public_fav_display": "795000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695754334847388696",
+      "fetched_at_utc": "2026-11-19T07:35:11+00:00",
+      "html_sha256": "7fba660b3a4d55b76ed7aefe02fed328e4a1b11ac4050585bffa5ce2cd2f2ae3",
+      "source": "official_html",
+      "value": 795000
+    },
+    "7695983124034882584": {
+      "public_fav_display": "594000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695983124034882584",
+      "fetched_at_utc": "2026-11-19T07:35:13+00:00",
+      "html_sha256": "81ce2667d4408e5f243c1ca6bc52ef510adc664278f97e58a1f51ab475400a8d",
+      "source": "official_html",
+      "value": 594000
+    },
+    "7696091370296970265": {
+      "public_fav_display": "880000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696091370296970265",
+      "fetched_at_utc": "2026-11-19T07:35:15+00:00",
+      "html_sha256": "06f3f1123d0fbd8faddf2fd917ffd804843cb8de090893f27adcbfec8e7f625e",
+      "source": "official_html",
+      "value": 880000
+    },
+    "7696103724854283289": {
+      "public_fav_display": "178000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696103724854283289",
+      "fetched_at_utc": "2026-11-19T07:35:17+00:00",
+      "html_sha256": "e9ae6c8c1fa88d2b940fbd3143b151e96a7c25171c21d4b6ff8c6f6b41c2e5f6",
+      "source": "official_html",
+      "value": 178000
+    },
+    "7696130051850374206": {
+      "public_fav_display": "101000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696130051850374206",
+      "fetched_at_utc": "2026-11-19T07:35:18+00:00",
+      "html_sha256": "7add43fb076041ba39225f70e893b9bdbff3d25130e0d79529017a8800f331e5",
+      "source": "official_html",
+      "value": 101000
+    },
+    "7696145461312228414": {
+      "public_fav_display": "257000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696145461312228414",
+      "fetched_at_utc": "2026-11-19T07:35:20+00:00",
+      "html_sha256": "7e6b7e4366cf169c0c3d17e73e2c8e823f36aad54f02214cc4f2eef4b61df2f0",
+      "source": "official_html",
+      "value": 257000
+    },
+    "7696179487662165016": {
+      "public_fav_display": "201000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696179487662165016",
+      "fetched_at_utc": "2026-11-19T07:35:22+00:00",
+      "html_sha256": "eb9af74a805abdc6889dac9d88fb1cd9faa46969c3a0ab077807265d6aaf921d",
+      "source": "official_html",
+      "value": 201000
+    },
+    "7696375852438654014": {
+      "public_fav_display": "175000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696375852438654014",
+      "fetched_at_utc": "2026-11-19T07:35:24+00:00",
+      "html_sha256": "7f1d7db977773749a25108a922e949e4362717fdefab28148ed97225e74a76ba",
+      "source": "official_html",
+      "value": 175000
+    },
+    "7696416052686638104": {
+      "public_fav_display": "342000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696416052686638104",
+      "fetched_at_utc": "2026-11-19T07:35:25+00:00",
+      "html_sha256": "5acb514405e7e2bf98b6c36b312570bc75fa72b5d96cf60aee8798fd101d076f",
+      "source": "official_html",
+      "value": 342000
+    },
+    "7696419143196609561": {
+      "public_fav_display": "586000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696419143196609561",
+      "fetched_at_utc": "2026-11-19T07:35:27+00:00",
+      "html_sha256": "ec16d4246457a8a040775f9ea885eb614e20e0d92af1da963cf98ab0afd7df9b",
+      "source": "official_html",
+      "value": 586000
+    },
+    "7696429962349251609": {
+      "public_fav_display": "192000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696429962349251609",
+      "fetched_at_utc": "2026-11-19T07:35:29+00:00",
+      "html_sha256": "ed7af2ac9ff728fb2a0ba456343536ac8e1974d4518e012ddedfa438276c35a3",
+      "source": "official_html",
+      "value": 192000
+    },
+    "7696446971468319806": {
+      "public_fav_display": "614000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696446971468319806",
+      "fetched_at_utc": "2026-11-19T07:35:31+00:00",
+      "html_sha256": "a8577dbb06b957d8daca294785d8d04ac85edc9c40b8d2c2d24a67bf2755571f",
+      "source": "official_html",
+      "value": 614000
+    },
+    "7696508821635615806": {
+      "public_fav_display": "524000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696508821635615806",
+      "fetched_at_utc": "2026-11-19T07:35:33+00:00",
+      "html_sha256": "d57bdb23478f1fcb1e5d3d0e41e3bbdc18edb592920eb1c33d34e3d84c27389e",
+      "source": "official_html",
+      "value": 524000
+    },
+    "7696524292594338840": {
+      "public_fav_display": "580000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696524292594338840",
+      "fetched_at_utc": "2026-11-19T07:35:35+00:00",
+      "html_sha256": "84df915c7d00c732653fad1a7a3f9fda9bcbabe235412629f32ad30f510581cd",
+      "source": "official_html",
+      "value": 580000
+    },
+    "7696733020396457022": {
+      "public_fav_display": "182000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696733020396457022",
+      "fetched_at_utc": "2026-11-19T07:35:36+00:00",
+      "html_sha256": "70a336a4e0dad669a140f3af2728ed72e039d8ba62b1057bff70481c91802a11",
+      "source": "official_html",
+      "value": 182000
+    },
+    "7696737673263713304": {
+      "public_fav_display": "892000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696737673263713304",
+      "fetched_at_utc": "2026-11-19T07:35:38+00:00",
+      "html_sha256": "c14b240086126f95a5b96f5740812806cbbb14385b8d33fb5942510f5c16cb5a",
+      "source": "official_html",
+      "value": 892000
+    },
+    "7696858265291852862": {
+      "public_fav_display": "97000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696858265291852862",
+      "fetched_at_utc": "2026-11-19T07:35:40+00:00",
+      "html_sha256": "81509494b941d91ea6d0a638f7f43c3bb90d448be7d7b3f0382d765c7ee74919",
+      "source": "official_html",
+      "value": 97000
+    },
+    "7696861393403776025": {
+      "public_fav_display": "143000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696861393403776025",
+      "fetched_at_utc": "2026-11-19T07:35:42+00:00",
+      "html_sha256": "1832abcf955e76161f061da0be849237ee94a421e676ca1ac0bf58b826bf46c2",
+      "source": "official_html",
+      "value": 143000
+    },
+    "7697148947701189657": {
+      "public_fav_display": "453000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697148947701189657",
+      "fetched_at_utc": "2026-11-19T07:35:44+00:00",
+      "html_sha256": "ac895f489b827b6a66036aca0b237edcbd55cdef83d777e83c634eae4c20b744",
+      "source": "official_html",
+      "value": 453000
+    },
+    "7697206154455174206": {
+      "public_fav_display": "183000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697206154455174206",
+      "fetched_at_utc": "2026-11-19T07:35:46+00:00",
+      "html_sha256": "efe80015c274c9a4c73dc452def7643ec7ad47b8bb9baacc0e4dd4fe65d735a4",
+      "source": "official_html",
+      "value": 183000
+    },
+    "7697218523021462590": {
+      "public_fav_display": "124000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697218523021462590",
+      "fetched_at_utc": "2026-11-19T07:35:47+00:00",
+      "html_sha256": "2b3565b4f3c93756a359edbe647bfbec72061c13cfb82af523c5a1988b7d9f46",
+      "source": "official_html",
+      "value": 124000
+    },
+    "7697266472157973528": {
+      "public_fav_display": "248000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697266472157973528",
+      "fetched_at_utc": "2026-11-19T07:35:49+00:00",
+      "html_sha256": "94032dd31d214d41b0adf9b599ac3f863a991ab42b6b050fec1485f3d923a6a7",
+      "source": "official_html",
+      "value": 248000
+    },
+    "7697297371822050328": {
+      "public_fav_display": "768000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697297371822050328",
+      "fetched_at_utc": "2026-11-19T07:35:51+00:00",
+      "html_sha256": "df28b36085ac76f28d8badc4fd35253a175d622fe39b7cf5557b284a1f50140b",
+      "source": "official_html",
+      "value": 768000
+    },
+    "7697550962436623384": {
+      "public_fav_display": "327000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697550962436623384",
+      "fetched_at_utc": "2026-11-19T07:35:53+00:00",
+      "html_sha256": "6bd26b6e4bc8734dfe50b4f3f398e36a4ba82aaa1e3964a99bdc0ee699328cd6",
+      "source": "official_html",
+      "value": 327000
+    },
+    "7697557151367040024": {
+      "public_fav_display": "531000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697557151367040024",
+      "fetched_at_utc": "2026-11-19T07:35:55+00:00",
+      "html_sha256": "894b50ef4e1daacf333061ceb396220dbf96f2a283ad77330459308627dae936",
+      "source": "official_html",
+      "value": 531000
+    },
+    "7697852455970671678": {
+      "public_fav_display": "1233000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697852455970671678",
+      "fetched_at_utc": "2026-11-19T07:35:57+00:00",
+      "html_sha256": "7477561413b0f98b817626443636edd12e09ec5267235e474a26f7bd054acb64",
+      "source": "official_html",
+      "value": 1233000
+    },
+    "7697903495218727998": {
+      "public_fav_display": "181000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697903495218727998",
+      "fetched_at_utc": "2026-11-19T07:35:59+00:00",
+      "html_sha256": "cf315d91dbdabf421435b6c68a2d6714f0466ce65fd514b4d15cb84d1a08caf3",
+      "source": "official_html",
+      "value": 181000
+    },
+    "7697922033526524990": {
+      "public_fav_display": "172000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697922033526524990",
+      "fetched_at_utc": "2026-11-19T07:36:01+00:00",
+      "html_sha256": "60c4a04d7163bbbc431ae860e82d85d9a7836929955bed9e84b03e1198f182b9",
+      "source": "official_html",
+      "value": 172000
+    },
+    "7697925132244749336": {
+      "public_fav_display": "327000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697925132244749336",
+      "fetched_at_utc": "2026-11-19T07:36:02+00:00",
+      "html_sha256": "4a3ec45ca921d24e1af36fcf7866bf0f2156c14ca8e0d61240819ba264380a00",
+      "source": "official_html",
+      "value": 327000
+    },
+    "7697983901360196633": {
+      "public_fav_display": "452000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697983901360196633",
+      "fetched_at_utc": "2026-11-19T07:36:04+00:00",
+      "html_sha256": "4c1a784c9e6e7027ba83be7d0bfd88b65342be3b87146ae42f6386f7b4d55d56",
+      "source": "official_html",
+      "value": 452000
+    },
+    "7698003995750583320": {
+      "public_fav_display": "518000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698003995750583320",
+      "fetched_at_utc": "2026-11-19T07:36:06+00:00",
+      "html_sha256": "672798580b8bc838892dfbc2332b2210674d5204bc26b547f73637e737d51857",
+      "source": "official_html",
+      "value": 518000
+    },
+    "7698007072213830680": {
+      "public_fav_display": "144000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698007072213830680",
+      "fetched_at_utc": "2026-11-19T07:36:08+00:00",
+      "html_sha256": "e7ade80c71d6b3fa11c9b52311ca58937fec55a9570ef02f8a6975c1c9079ab4",
+      "source": "official_html",
+      "value": 144000
+    },
+    "7698370430184197144": {
+      "public_fav_display": "115000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698370430184197144",
+      "fetched_at_utc": "2026-11-19T07:36:10+00:00",
+      "html_sha256": "d2d2877ed6120b4110a61cf322fd8fb797cf18b59f9a56c1b305df93d9331306",
+      "source": "official_html",
+      "value": 115000
+    },
+    "7698627114362227737": {
+      "public_fav_display": "621000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698627114362227737",
+      "fetched_at_utc": "2026-11-19T07:36:11+00:00",
+      "html_sha256": "0d9cb76a95fc24881a608b382129e3b0096980ef632fe56a3e57fe1f2fd245c4",
+      "source": "official_html",
+      "value": 621000
+    },
+    "7698684311565765656": {
+      "public_fav_display": "193000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698684311565765656",
+      "fetched_at_utc": "2026-11-19T07:36:13+00:00",
+      "html_sha256": "f986d944c9e379f8cd5eb400990810de69e164fbdd7341c3c39d79cf45e696e6",
+      "source": "official_html",
+      "value": 193000
+    },
+    "7698766257591422014": {
+      "public_fav_display": "312000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698766257591422014",
+      "fetched_at_utc": "2026-11-19T07:36:15+00:00",
+      "html_sha256": "2dc0a16841c1e4c1adfcde3bc01caff09cb68ff8b15462b31261b119f057d48f",
+      "source": "official_html",
+      "value": 312000
+    },
+    "7698982719056792638": {
+      "public_fav_display": "325000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698982719056792638",
+      "fetched_at_utc": "2026-11-19T07:36:17+00:00",
+      "html_sha256": "cfd6832ca28291a491e24091aed41283d00c06d9d5ec7385229a17e32e317eca",
+      "source": "official_html",
+      "value": 325000
+    },
+    "7698993548615502910": {
+      "public_fav_display": "393000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698993548615502910",
+      "fetched_at_utc": "2026-11-19T07:36:18+00:00",
+      "html_sha256": "e90e3d08f02d53cbccf360f72361268f9b9a17482c76098e26cdce87217f5617",
+      "source": "official_html",
+      "value": 393000
+    },
+    "7699047670899297342": {
+      "public_fav_display": "173000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699047670899297342",
+      "fetched_at_utc": "2026-11-19T07:36:20+00:00",
+      "html_sha256": "2e26d71454e9c54f436310c8d37e270b7ca7ab4efe13405731085d9f73ed7206",
+      "source": "official_html",
+      "value": 173000
+    },
+    "7699080821285587992": {
+      "public_fav_display": "254000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699080821285587992",
+      "fetched_at_utc": "2026-11-19T07:36:22+00:00",
+      "html_sha256": "65cbb8318b7de835f7b38b2fbb0b5e9cc707a7032ecea08402cf2732653d29ca",
+      "source": "official_html",
+      "value": 254000
+    },
+    "7699084777072102462": {
+      "public_fav_display": "380000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699084777072102462",
+      "fetched_at_utc": "2026-11-19T07:36:23+00:00",
+      "html_sha256": "48f95e30e8ab56d86c3485fc1b012a0d9c624c81a4ba52e61534ebeada4d4aac",
+      "source": "official_html",
+      "value": 380000
+    },
+    "7699087855586397209": {
+      "public_fav_display": "240000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699087855586397209",
+      "fetched_at_utc": "2026-11-19T07:36:25+00:00",
+      "html_sha256": "d2ccfc2c36f50b245fd369ff45fbd03c1ea3f0cfc084488a63ae92a048e69c3e",
+      "source": "official_html",
+      "value": 240000
+    },
+    "7699112621730958361": {
+      "public_fav_display": "81000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699112621730958361",
+      "fetched_at_utc": "2026-11-19T07:36:27+00:00",
+      "html_sha256": "b7b37b4c01349eb9fcbba42a4e9e8852951a7535e15c64f31638c1cec248ec83",
+      "source": "official_html",
+      "value": 81000
+    },
+    "7699342996235373592": {
+      "public_fav_display": "423000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699342996235373592",
+      "fetched_at_utc": "2026-11-19T07:36:29+00:00",
+      "html_sha256": "f54b4f5eab5c058ac3808d0e75be39aa9ef36fe100abf6fc4f5ba41449cd35be",
+      "source": "official_html",
+      "value": 423000
+    },
+    "7699509055223516185": {
+      "public_fav_display": "316000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699509055223516185",
+      "fetched_at_utc": "2026-11-19T07:36:31+00:00",
+      "html_sha256": "336e208fe3db8246a05e67ac41318dacabe310c2da985bd775af58cb2091f0cb",
+      "source": "official_html",
+      "value": 316000
+    },
+    "7699683154444946457": {
+      "public_fav_display": "697000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699683154444946457",
+      "fetched_at_utc": "2026-11-19T07:36:33+00:00",
+      "html_sha256": "d72167b5917fed21d8d87b7a8bc74b575ae980fdfe1956d5f4d83de077ef7801",
+      "source": "official_html",
+      "value": 697000
+    },
+    "7699788281050844184": {
+      "public_fav_display": "470000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699788281050844184",
+      "fetched_at_utc": "2026-11-19T07:36:34+00:00",
+      "html_sha256": "e12a756693baf512a66049cc49e0ad5aafaff5f194ca82b2009f758e7d9aca75",
+      "source": "official_html",
+      "value": 470000
+    },
+    "7700072591414807577": {
+      "public_fav_display": "127000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700072591414807577",
+      "fetched_at_utc": "2026-11-19T07:36:36+00:00",
+      "html_sha256": "76cdd3afb20adafe888afd4c74a0885f7c1fd0e708cde5ab527d29adb724c52a",
+      "source": "official_html",
+      "value": 127000
+    },
+    "7700193386157837336": {
+      "public_fav_display": "499000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700193386157837336",
+      "fetched_at_utc": "2026-11-19T07:36:38+00:00",
+      "html_sha256": "399d1326fe4edc235f42f7f9a7cc27aeecaaf3e529c8f33a64704d585fbe1169",
+      "source": "official_html",
+      "value": 499000
+    },
+    "7700504170154970174": {
+      "public_fav_display": "256000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700504170154970174",
+      "fetched_at_utc": "2026-11-19T07:36:40+00:00",
+      "html_sha256": "153685515bff0e8cb79758e5b84c8192e5d0166c1709decc1b75c0b9e3056486",
+      "source": "official_html",
+      "value": 256000
+    },
+    "7700570653836971032": {
+      "public_fav_display": "392000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700570653836971032",
+      "fetched_at_utc": "2026-11-19T07:36:42+00:00",
+      "html_sha256": "68b94b6674651f2c7b987f6f14592a2f6d1f75c7df3a47ef73d033ee9d5e0a21",
+      "source": "official_html",
+      "value": 392000
+    },
+    "7700811856591457304": {
+      "public_fav_display": "303000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700811856591457304",
+      "fetched_at_utc": "2026-11-19T07:36:43+00:00",
+      "html_sha256": "ec04b15a0c6dc4218843b9c66ed1464907811b106f2ea96c3584cadd31f387d0",
+      "source": "official_html",
+      "value": 303000
+    },
+    "7700890729500904510": {
+      "public_fav_display": "270000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700890729500904510",
+      "fetched_at_utc": "2026-11-19T07:36:45+00:00",
+      "html_sha256": "fc797f1b7f5be8f4ecc4ca16196ba06b3fa3284eff588d56b599d8b739046006",
+      "source": "official_html",
+      "value": 270000
+    },
+    "7700893803439197209": {
+      "public_fav_display": "173000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700893803439197209",
+      "fetched_at_utc": "2026-11-19T07:36:47+00:00",
+      "html_sha256": "468e06209f881f66b72f9ad8746bb2e38d449d6ed056d18a31bff7376adb1b88",
+      "source": "official_html",
+      "value": 173000
+    },
+    "7700969567492787225": {
+      "public_fav_display": "282000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700969567492787225",
+      "fetched_at_utc": "2026-11-19T07:36:50+00:00",
+      "html_sha256": "b4191fa81722166fe3a71864b7fc8c79058993d31b96e90f372b3144423f5183",
+      "source": "official_html",
+      "value": 282000
+    },
+    "7701186030967213081": {
+      "public_fav_display": "293000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701186030967213081",
+      "fetched_at_utc": "2026-11-19T07:36:52+00:00",
+      "html_sha256": "6798a029a6b92fe2927c5aa0074605309372ab8d41aa501513e3eae49fb14d7d",
+      "source": "official_html",
+      "value": 293000
+    },
+    "7701199948087299096": {
+      "public_fav_display": "692000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701199948087299096",
+      "fetched_at_utc": "2026-11-19T07:36:54+00:00",
+      "html_sha256": "6585075d14422b58275f3d9128b65d1cc617aa19c417d56a7d8de6e22941b209",
+      "source": "official_html",
+      "value": 692000
+    },
+    "7701272618531310617": {
+      "public_fav_display": "721000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701272618531310617",
+      "fetched_at_utc": "2026-11-19T07:36:56+00:00",
+      "html_sha256": "06065134294768de166941f4d88997d6353d8f447177712492d24864367dab15",
+      "source": "official_html",
+      "value": 721000
+    },
+    "7701288079167851544": {
+      "public_fav_display": "74000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701288079167851544",
+      "fetched_at_utc": "2026-11-19T07:36:57+00:00",
+      "html_sha256": "bba6b2a321181fef09a4f4a53e8e51cdd09c44f69bc1b593e0ad9afab1780bcc",
+      "source": "official_html",
+      "value": 74000
+    },
+    "7701308183607790617": {
+      "public_fav_display": "169000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701308183607790617",
+      "fetched_at_utc": "2026-11-19T07:36:59+00:00",
+      "html_sha256": "889012e02294082d7ed29fcfc96bc7b1a695f8408a40943efa8238db358d2d3f",
+      "source": "official_html",
+      "value": 169000
+    },
+    "7701391677319040025": {
+      "public_fav_display": "175000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701391677319040025",
+      "fetched_at_utc": "2026-11-19T07:37:01+00:00",
+      "html_sha256": "1ccadcd8dd5e5d5f261bad72519d4b595a5ea51b5a6a6b9ca559a33376500af1",
+      "source": "official_html",
+      "value": 175000
+    },
+    "7701554023651871769": {
+      "public_fav_display": "114000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701554023651871769",
+      "fetched_at_utc": "2026-11-19T07:37:03+00:00",
+      "html_sha256": "f897f2504d70c6cbc4d6ff8445dde97e79e40dd9594928c30ecfec675b8f86b9",
+      "source": "official_html",
+      "value": 114000
+    },
+    "7701631333163879449": {
+      "public_fav_display": "250000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701631333163879449",
+      "fetched_at_utc": "2026-11-19T07:37:04+00:00",
+      "html_sha256": "b03cfa03d0153fa4f0d52f17455bc334e2c8089fce5a8a1fcd1d82a08edd10d6",
+      "source": "official_html",
+      "value": 250000
+    },
+    "7701714829299436568": {
+      "public_fav_display": "349000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701714829299436568",
+      "fetched_at_utc": "2026-11-19T07:37:06+00:00",
+      "html_sha256": "6a20595c387f42844a413a99d2db2382cacfde9473451a8ade941271844da015",
+      "source": "official_html",
+      "value": 349000
+    },
+    "7701755029891353624": {
+      "public_fav_display": "217000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701755029891353624",
+      "fetched_at_utc": "2026-11-19T07:37:08+00:00",
+      "html_sha256": "f1cd88de3b6d0a95760e4f96b423b7c03633c40bee5cf14a33b31953acc0fdf4",
+      "source": "official_html",
+      "value": 217000
+    },
+    "7701906554538183705": {
+      "public_fav_display": "323000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701906554538183705",
+      "fetched_at_utc": "2026-11-19T07:37:10+00:00",
+      "html_sha256": "94eec5b0e9ae308ecda06d6af3c2eb8abab16e53979fba8bf6b8dcddbacc951d",
+      "source": "official_html",
+      "value": 323000
+    },
+    "7701907156169133118": {
+      "public_fav_display": "137000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701907156169133118",
+      "fetched_at_utc": "2026-11-19T07:37:11+00:00",
+      "html_sha256": "b9daefc08b86787bd02a1ca7b7f152c0076e7e0dc96199530f1004f1816e1b21",
+      "source": "official_html",
+      "value": 137000
+    },
+    "7701987688320076862": {
+      "public_fav_display": "152000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701987688320076862",
+      "fetched_at_utc": "2026-11-19T07:37:13+00:00",
+      "html_sha256": "d15527c9edab926671d4e1408f4eeca4f28336f75168b6358fd7c5e235aa4ee1",
+      "source": "official_html",
+      "value": 152000
+    },
+    "7701994688688950297": {
+      "public_fav_display": "138000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701994688688950297",
+      "fetched_at_utc": "2026-11-19T07:37:15+00:00",
+      "html_sha256": "ef54737af3adac9ba7784b4401558ea8730ef8c403439cc9c59a04dd75a67483",
+      "source": "official_html",
+      "value": 138000
+    },
+    "7702000289926106174": {
+      "public_fav_display": "254000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702000289926106174",
+      "fetched_at_utc": "2026-11-19T07:37:17+00:00",
+      "html_sha256": "277f18b124d06f58199ec1d31ac6818f2d3bea609e50a8b0620fff0c62ca49af",
+      "source": "official_html",
+      "value": 254000
+    },
+    "7702016333881281561": {
+      "public_fav_display": "224000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702016333881281561",
+      "fetched_at_utc": "2026-11-19T07:37:19+00:00",
+      "html_sha256": "3689996dd5f2e9479185f48f5c0c7f0ade7a163796eb74d36076aafc87292eb5",
+      "source": "official_html",
+      "value": 224000
+    },
+    "7702024064654658622": {
+      "public_fav_display": "203000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702024064654658622",
+      "fetched_at_utc": "2026-11-19T07:37:20+00:00",
+      "html_sha256": "220ba596c0e55d852b9d2a896f58d13618656b986a475219dcfc8831386a58f9",
+      "source": "official_html",
+      "value": 203000
+    },
+    "7702069820539276313": {
+      "public_fav_display": "267000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702069820539276313",
+      "fetched_at_utc": "2026-11-19T07:37:22+00:00",
+      "html_sha256": "fb3ca2743c3eb5d1c76a44480d960206c614e52a79e03ebe41440987136c58c6",
+      "source": "official_html",
+      "value": 267000
+    },
+    "7702338663002147902": {
+      "public_fav_display": "142000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702338663002147902",
+      "fetched_at_utc": "2026-11-19T07:37:24+00:00",
+      "html_sha256": "d1e5a69d0e76ece37e382621b1f4a8924556e28158ead805c78804673db80984",
+      "source": "official_html",
+      "value": 142000
+    },
+    "7702412157731753022": {
+      "public_fav_display": "362000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702412157731753022",
+      "fetched_at_utc": "2026-11-19T07:37:26+00:00",
+      "html_sha256": "8b7683975bb76eab154c0d16a00e7d9f2641aa1aa2a7200bb30dc4ba28ab79e4",
+      "source": "official_html",
+      "value": 362000
+    },
+    "7702470915640003609": {
+      "public_fav_display": "222000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702470915640003609",
+      "fetched_at_utc": "2026-11-19T07:37:27+00:00",
+      "html_sha256": "5d1099d6060ccf3435ca9738b2ab41f880f3ccffb1cffc5c56abdbba1410a139",
+      "source": "official_html",
+      "value": 222000
+    },
+    "7702730673768909849": {
+      "public_fav_display": "323000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702730673768909849",
+      "fetched_at_utc": "2026-11-19T07:37:29+00:00",
+      "html_sha256": "310d54d1b19eef70d906248dc0b555b7069e287cf1b24c327443340080ac3614",
+      "source": "official_html",
+      "value": 323000
+    },
+    "7702763143092522009": {
+      "public_fav_display": "280000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702763143092522009",
+      "fetched_at_utc": "2026-11-19T07:37:31+00:00",
+      "html_sha256": "403226a92987c9c33f284d6b9f5f6076167c978418574f3262e756a6f4711a7f",
+      "source": "official_html",
+      "value": 280000
+    },
+    "7702809528298916926": {
+      "public_fav_display": "81000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702809528298916926",
+      "fetched_at_utc": "2026-11-19T07:37:33+00:00",
+      "html_sha256": "b19ddded164e17be5beeacbc3ff0c94fc254cad1cbee86c8f75e9541d878210a",
+      "source": "official_html",
+      "value": 81000
+    },
+    "7703036820056968254": {
+      "public_fav_display": "230000",
+      "url": "https://hongguoduanju.com/detail?series_id=7703036820056968254",
+      "fetched_at_utc": "2026-11-19T07:37:35+00:00",
+      "html_sha256": "c74b43be5205050f49d12b8029906e4c7c405c830b4790aff5854c019b12c746",
+      "source": "official_html",
+      "value": 230000
+    },
+    "7703051332655008830": {
+      "public_fav_display": "178000",
+      "url": "https://hongguoduanju.com/detail?series_id=7703051332655008830",
+      "fetched_at_utc": "2026-11-19T07:37:37+00:00",
+      "html_sha256": "7ff8c27a326861676a5c20f7a97cbb3898227660822939a3021aceb7127dfef0",
+      "source": "official_html",
+      "value": 178000
+    },
+    "7703143505115237438": {
+      "public_fav_display": "111000",
+      "url": "https://hongguoduanju.com/detail?series_id=7703143505115237438",
+      "fetched_at_utc": "2026-11-19T07:37:38+00:00",
+      "html_sha256": "678c88f4c2554303753434dd9a5926cbde7f54d4d8104e8d68f4e7344f9766a9",
+      "source": "official_html",
+      "value": 111000
+    },
+    "7703479033782094873": {
+      "public_fav_display": "292000",
+      "url": "https://hongguoduanju.com/detail?series_id=7703479033782094873",
+      "fetched_at_utc": "2026-11-19T07:37:40+00:00",
+      "html_sha256": "f7ca87e7ee3337be065e760566f5daefc62b93c758dee906e4785d94970162b7",
+      "source": "official_html",
+      "value": 292000
+    },
+    "7703520775487097880": {
+      "public_fav_display": "247000",
+      "url": "https://hongguoduanju.com/detail?series_id=7703520775487097880",
+      "fetched_at_utc": "2026-11-19T07:37:42+00:00",
+      "html_sha256": "69c8dbc6ad7e9885b2270272a91d8b95af5c803b9e7e26ea957687b5d4761033",
+      "source": "official_html",
+      "value": 247000
+    },
+    "7688372772879223870": {
+      "public_fav_display": "1841000",
+      "url": "https://hongguoduanju.com/detail?series_id=7688372772879223870",
+      "fetched_at_utc": "2026-11-19T07:38:20+00:00",
+      "html_sha256": "98d0a975186ae76b8f8bb11940de9383a50f348e8184a9e053777e00fa19e0f8",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1841000
+    },
+    "7689482965906099262": {
+      "public_fav_display": "1068000",
+      "url": "https://hongguoduanju.com/detail?series_id=7689482965906099262",
+      "fetched_at_utc": "2026-11-19T07:38:22+00:00",
+      "html_sha256": "c1fb8e6bc675f0dc7bbb19413f056dd7fb94bca31d769832b7cca0942259f673",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1068000
+    },
+    "7690059679510055960": {
+      "public_fav_display": "1469000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690059679510055960",
+      "fetched_at_utc": "2026-11-19T07:38:24+00:00",
+      "html_sha256": "8dc8750c6af3ce1c99a870810c4d205a2e02cfb705c8a288ed3e521fabc11820",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1469000
+    },
+    "7690163276214176792": {
+      "public_fav_display": "2539000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690163276214176792",
+      "fetched_at_utc": "2026-11-19T07:38:26+00:00",
+      "html_sha256": "cb20b3bbc20cc4f8a2c8ff01360b24869db17c4bd57b22b8c599ad24e52b6bbe",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 2539000
+    },
+    "7690205033022884889": {
+      "public_fav_display": "2427000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690205033022884889",
+      "fetched_at_utc": "2026-11-19T07:38:29+00:00",
+      "html_sha256": "4a61f7cee5040ef66b34b9f437003ed73676a1c2d322d4d018bea75589dd2420",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 2427000
+    },
+    "7690412195565276184": {
+      "public_fav_display": "1869000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690412195565276184",
+      "fetched_at_utc": "2026-11-19T07:38:30+00:00",
+      "html_sha256": "574ada3d46b1171f9eadbd47c99ccb68098753442d2626bef8353a918621792f",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1869000
+    },
+    "7690487981513116696": {
+      "public_fav_display": "863000",
+      "url": "https://hongguoduanju.com/detail?series_id=7690487981513116696",
+      "fetched_at_utc": "2026-11-19T07:38:32+00:00",
+      "html_sha256": "3d7935c13007a38c392a8b052ae57df812db04b6419bd747b5eeedfb061648fb",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 863000
+    },
+    "7691228619774905368": {
+      "public_fav_display": "1072000",
+      "url": "https://hongguoduanju.com/detail?series_id=7691228619774905368",
+      "fetched_at_utc": "2026-11-19T07:38:34+00:00",
+      "html_sha256": "5f7c403a0dd8cb040cd9961f7f7d0b4fff7dc464e3058fd2d650f7ed1c136e65",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1072000
+    },
+    "7691615145977449496": {
+      "public_fav_display": "1061000",
+      "url": "https://hongguoduanju.com/detail?series_id=7691615145977449496",
+      "fetched_at_utc": "2026-11-19T07:38:36+00:00",
+      "html_sha256": "d8b085673ffda5428e3e6819a8632d862c00aa3fc3a536a5ced5ab23c661170c",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1061000
+    },
+    "7692340296318733336": {
+      "public_fav_display": "1145000",
+      "url": "https://hongguoduanju.com/detail?series_id=7692340296318733336",
+      "fetched_at_utc": "2026-11-19T07:38:38+00:00",
+      "html_sha256": "631046f057d03ae98dff19dc9b362ec0cc2a81df84d34fd4935f40069724cccf",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1145000
+    },
+    "7693492249157438489": {
+      "public_fav_display": "1045000",
+      "url": "https://hongguoduanju.com/detail?series_id=7693492249157438489",
+      "fetched_at_utc": "2026-11-19T07:38:40+00:00",
+      "html_sha256": "b9f43c0f3c53d908e7af073a7ecb1d28fbbe1748505b4588b4003a499cf74e91",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1045000
+    },
+    "7693753523955043353": {
+      "public_fav_display": "757000",
+      "url": "https://hongguoduanju.com/detail?series_id=7693753523955043353",
+      "fetched_at_utc": "2026-11-19T07:38:42+00:00",
+      "html_sha256": "37a2003ff6d236c5f8bc12998c4387bdc7a1bb23dc4b6bfb99becbece0c06778",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 757000
+    },
+    "7693802994134944792": {
+      "public_fav_display": "425000",
+      "url": "https://hongguoduanju.com/detail?series_id=7693802994134944792",
+      "fetched_at_utc": "2026-11-19T07:38:43+00:00",
+      "html_sha256": "6522bec711190afd2c3dfcbc5ae6785e9621ec5975cd786443ec86eef8485fa5",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 425000
+    },
+    "7694296230335089688": {
+      "public_fav_display": "195000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694296230335089688",
+      "fetched_at_utc": "2026-11-19T07:38:46+00:00",
+      "html_sha256": "3ce8644ba433e4ca86798168dd43bd4092c8fc0b35e44fad117cf8060c7421d9",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 195000
+    },
+    "7694297765454564377": {
+      "public_fav_display": "283000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694297765454564377",
+      "fetched_at_utc": "2026-11-19T07:38:48+00:00",
+      "html_sha256": "0ced04663a2011732112b7b78adb07bf41945bd64201d01a0f0a1849cba3b7d2",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 283000
+    },
+    "7694557563865549886": {
+      "public_fav_display": "404000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694557563865549886",
+      "fetched_at_utc": "2026-11-19T07:38:50+00:00",
+      "html_sha256": "bcc7bad26e2d3507d5ee60328ba303dac0641e62d9e1d5b7fd3482b8bada878d",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 404000
+    },
+    "7694939439503510590": {
+      "public_fav_display": "1082000",
+      "url": "https://hongguoduanju.com/detail?series_id=7694939439503510590",
+      "fetched_at_utc": "2026-11-19T07:38:51+00:00",
+      "html_sha256": "bb446745da43d9adfba44264f917d1804cbbfebbed22afeb9599e42ef553d06a",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1082000
+    },
+    "7695230118729354265": {
+      "public_fav_display": "264000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695230118729354265",
+      "fetched_at_utc": "2026-11-19T07:38:53+00:00",
+      "html_sha256": "5d475cee5fa3c2ad81c8f646594b47626b505e8f20eca2c9995ac4ee24ddaad5",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 264000
+    },
+    "7695304352482741273": {
+      "public_fav_display": "141000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695304352482741273",
+      "fetched_at_utc": "2026-11-19T07:38:55+00:00",
+      "html_sha256": "f3a5b613a2336755e486c7d5353787e6a53ee9082bf27dfba74bee51192440fa",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 141000
+    },
+    "7695308981182401561": {
+      "public_fav_display": "268000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695308981182401561",
+      "fetched_at_utc": "2026-11-19T07:38:57+00:00",
+      "html_sha256": "5b5f28df70b17ee7e7f3ebe882048d9fbede3207c12907a530f90a62393b5bac",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 268000
+    },
+    "7695375471592098841": {
+      "public_fav_display": "519000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695375471592098841",
+      "fetched_at_utc": "2026-11-19T07:38:59+00:00",
+      "html_sha256": "b3eb805d2a24fd58cff6e029badcaf6e75ebf70edaab2e3a06ef17698841bf45",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 519000
+    },
+    "7695732640636210200": {
+      "public_fav_display": "614000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695732640636210200",
+      "fetched_at_utc": "2026-11-19T07:39:01+00:00",
+      "html_sha256": "b81c6133302335d9afb7037f0f62e7f8111ba24ff647e4df9cbf0a7ce07f19f9",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 614000
+    },
+    "7695990843450068030": {
+      "public_fav_display": "417000",
+      "url": "https://hongguoduanju.com/detail?series_id=7695990843450068030",
+      "fetched_at_utc": "2026-11-19T07:39:02+00:00",
+      "html_sha256": "de2a759eedbb61ddf8fa1ce8fe56be792297937059fc20ed572414f0bc19ca66",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 417000
+    },
+    "7696069707807345726": {
+      "public_fav_display": "173000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696069707807345726",
+      "fetched_at_utc": "2026-11-19T07:39:05+00:00",
+      "html_sha256": "4b1dea285222d08a349407656bd8a5484b899fbe8a3363dbe6609b55721a8ad1",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 173000
+    },
+    "7696071263730551870": {
+      "public_fav_display": "817000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696071263730551870",
+      "fetched_at_utc": "2026-11-19T07:39:07+00:00",
+      "html_sha256": "f008f3956645e4e11c8b8586db1244a9529e0981eedfce3e8efcfb183c48f8f2",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 817000
+    },
+    "7696095984266251326": {
+      "public_fav_display": "1615000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696095984266251326",
+      "fetched_at_utc": "2026-11-19T07:39:09+00:00",
+      "html_sha256": "c685d0f600690caab4fae127f3ea40a6a106d4a1b3b0f9ba49aa96de580d6b84",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 1615000
+    },
+    "7696117667404467262": {
+      "public_fav_display": "242000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696117667404467262",
+      "fetched_at_utc": "2026-11-19T07:39:11+00:00",
+      "html_sha256": "4fcb4049054f786031022a9495c6895d6d8a6238e0e8056dc4809287d0ba3937",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 242000
+    },
+    "7696139303272860696": {
+      "public_fav_display": "231000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696139303272860696",
+      "fetched_at_utc": "2026-11-19T07:39:12+00:00",
+      "html_sha256": "ce7af2aff920ffcf2dbbbf54536c07c22e57139d7a07dda76fb7b8f64d5cd984",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 231000
+    },
+    "7696437705822981182": {
+      "public_fav_display": "957000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696437705822981182",
+      "fetched_at_utc": "2026-11-19T07:39:14+00:00",
+      "html_sha256": "9f9293566c1d5fe1b5c622a0f06f15c526355f4fc1033609c3baf93a8a51dad4",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 957000
+    },
+    "7696477895874579518": {
+      "public_fav_display": "318000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696477895874579518",
+      "fetched_at_utc": "2026-11-19T07:39:16+00:00",
+      "html_sha256": "a770fe0e1315f1c61dc9d060ef8d285795611fb2f8f56d149e01d56a320f42f0",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 318000
+    },
+    "7696522747056229438": {
+      "public_fav_display": "740000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696522747056229438",
+      "fetched_at_utc": "2026-11-19T07:39:17+00:00",
+      "html_sha256": "63a90cfca25e1c11d8531ecfc6b29d97ad7ab3afe6b749a5e12dbd01fcbbc6d4",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 740000
+    },
+    "7696923205193174040": {
+      "public_fav_display": "524000",
+      "url": "https://hongguoduanju.com/detail?series_id=7696923205193174040",
+      "fetched_at_utc": "2026-11-19T07:39:19+00:00",
+      "html_sha256": "d2a8cb0e14ecc9b16362676149df161fcde154519b182847c8d53712e38fb272",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 524000
+    },
+    "7697189138281286718": {
+      "public_fav_display": "223000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697189138281286718",
+      "fetched_at_utc": "2026-11-19T07:39:21+00:00",
+      "html_sha256": "0d4191669e90bbacaffe23a6cfad35fda37cba1132440ed00c1f6cb41f4c78d0",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 223000
+    },
+    "7697289665442761752": {
+      "public_fav_display": "217000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697289665442761752",
+      "fetched_at_utc": "2026-11-19T07:39:23+00:00",
+      "html_sha256": "00caee153fb5289b386d83c454a9d595512f62a1b53c7baf2e82d64fd57a9ed1",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 217000
+    },
+    "7697557146845580312": {
+      "public_fav_display": "173000",
+      "url": "https://hongguoduanju.com/detail?series_id=7697557146845580312",
+      "fetched_at_utc": "2026-11-19T07:39:25+00:00",
+      "html_sha256": "dde520a96691e5f81249b9049b9a27fd6397fcf33cfb9269ae477275e9337dca",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 173000
+    },
+    "7698331769279351833": {
+      "public_fav_display": "802000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698331769279351833",
+      "fetched_at_utc": "2026-11-19T07:39:27+00:00",
+      "html_sha256": "bb23f7f90dea32e2fa3e1b2e30c2fa42825dfd5677f65b9d18e259ca76368403",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 802000
+    },
+    "7698594820779936792": {
+      "public_fav_display": "181000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698594820779936792",
+      "fetched_at_utc": "2026-11-19T07:39:29+00:00",
+      "html_sha256": "23e179dca7d275d67c0ec4531b8006352c28a9aeee0e575dd98de74bf14003d4",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 181000
+    },
+    "7698625577502116889": {
+      "public_fav_display": "225000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698625577502116889",
+      "fetched_at_utc": "2026-11-19T07:39:31+00:00",
+      "html_sha256": "d630e18404e10405b2b68a605b6146f60eed7e94d538e665f8f1cace3637b691",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 225000
+    },
+    "7698670608426486808": {
+      "public_fav_display": "412000",
+      "url": "https://hongguoduanju.com/detail?series_id=7698670608426486808",
+      "fetched_at_utc": "2026-11-19T07:39:33+00:00",
+      "html_sha256": "bf7b324ba3f5aa2a17e9ffdbb0070fd4d3a396268c1a58bd1026122cf21bc20a",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 412000
+    },
+    "7699029110256831550": {
+      "public_fav_display": "299000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699029110256831550",
+      "fetched_at_utc": "2026-11-19T07:39:35+00:00",
+      "html_sha256": "f832d4ed7b94a0cc13ec8b71a47a6004089afeded942eb78f4d19a184ed9cee7",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 299000
+    },
+    "7699053842612096024": {
+      "public_fav_display": "179000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699053842612096024",
+      "fetched_at_utc": "2026-11-19T07:39:37+00:00",
+      "html_sha256": "bb4575d61d24dbbd1686e2919a6db11d7281bb0b2c141d6570d4d78a83e53209",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 179000
+    },
+    "7699400191194975257": {
+      "public_fav_display": "470000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699400191194975257",
+      "fetched_at_utc": "2026-11-19T07:39:39+00:00",
+      "html_sha256": "bea9e92fdf49ad4312cc60f0fdcc8ca54ce6bd827ba3539d784b1092035b1ae8",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 470000
+    },
+    "7699423377970187288": {
+      "public_fav_display": "316000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699423377970187288",
+      "fetched_at_utc": "2026-11-19T07:39:40+00:00",
+      "html_sha256": "ac2e663943ce349fc4f9f543b2fd9809f519b04f082709a0e74af81c9b3019f4",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 316000
+    },
+    "7699429571447229464": {
+      "public_fav_display": "289000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699429571447229464",
+      "fetched_at_utc": "2026-11-19T07:39:42+00:00",
+      "html_sha256": "a1e2ac1d150101800223b996168326f69873027dabb548942aee68ebcc797fd5",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 289000
+    },
+    "7699715614029384766": {
+      "public_fav_display": "85000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699715614029384766",
+      "fetched_at_utc": "2026-11-19T07:39:44+00:00",
+      "html_sha256": "464d1f132518aef6486d54399212b51ae3aa257661ba67327d2e4ad42fab0c28",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 85000
+    },
+    "7699774375720913945": {
+      "public_fav_display": "744000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699774375720913945",
+      "fetched_at_utc": "2026-11-19T07:39:46+00:00",
+      "html_sha256": "7bf4708ed047a5b709054d3e12170d6a46fa8d01229f88bb11e9f9d6cd32e4f4",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 744000
+    },
+    "7699806837440252953": {
+      "public_fav_display": "650000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699806837440252953",
+      "fetched_at_utc": "2026-11-19T07:39:48+00:00",
+      "html_sha256": "1321e81240ed9849be1b3e1bd153d25ad9eda39a2460fdb660b65c3af8a06d71",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 650000
+    },
+    "7699809932706597913": {
+      "public_fav_display": "630000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699809932706597913",
+      "fetched_at_utc": "2026-11-19T07:39:49+00:00",
+      "html_sha256": "fbd420edf5b5bbf4650be859e3a93dd4ce9ccf7add9788b59120a208838b93a3",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 630000
+    },
+    "7699845503214701593": {
+      "public_fav_display": "412000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699845503214701593",
+      "fetched_at_utc": "2026-11-19T07:39:51+00:00",
+      "html_sha256": "c890241a7885cebae51a32262527256b6445c15161a532be15ca79c8b40ce940",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 412000
+    },
+    "7699893203498961944": {
+      "public_fav_display": "75000",
+      "url": "https://hongguoduanju.com/detail?series_id=7699893203498961944",
+      "fetched_at_utc": "2026-11-19T07:39:53+00:00",
+      "html_sha256": "8cdda49984333aec68c7a2a657ccacb325cfbeefdf0f38d947fc0a6610447759",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 75000
+    },
+    "7700125364105776153": {
+      "public_fav_display": "211000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700125364105776153",
+      "fetched_at_utc": "2026-11-19T07:39:55+00:00",
+      "html_sha256": "b4e58114919ce75a55a7aac0347deac029f3898b1ca4a92db6dbcd3c866d8f6b",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 211000
+    },
+    "7700890720743197758": {
+      "public_fav_display": "187000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700890720743197758",
+      "fetched_at_utc": "2026-11-19T07:39:57+00:00",
+      "html_sha256": "32d4792d2c2323a36d703fc2c22e62ac2800018907c7ce7405198b12e14f6799",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 187000
+    },
+    "7700988992191220761": {
+      "public_fav_display": "116000",
+      "url": "https://hongguoduanju.com/detail?series_id=7700988992191220761",
+      "fetched_at_utc": "2026-11-19T07:39:59+00:00",
+      "html_sha256": "10aafccd245d26f05d28f044e94abc300d04a0a155efa4723de5f2991104565d",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 116000
+    },
+    "7701274165407403033": {
+      "public_fav_display": "376000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701274165407403033",
+      "fetched_at_utc": "2026-11-19T07:40:01+00:00",
+      "html_sha256": "ff57bd2be4644a944b1ca38fad91aff186847585d0be53a4a091ebc1c6e34d9d",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 376000
+    },
+    "7701540112361901081": {
+      "public_fav_display": "233000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701540112361901081",
+      "fetched_at_utc": "2026-11-19T07:40:03+00:00",
+      "html_sha256": "1d4d980e863c6871f2e17e2c2dac1fbe1472cd0e35fe0ecca20d3cf9b8f6e03f",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 233000
+    },
+    "7701564849850960921": {
+      "public_fav_display": "380000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701564849850960921",
+      "fetched_at_utc": "2026-11-19T07:40:04+00:00",
+      "html_sha256": "5262240b5d6fdf8dacafed65dc2660f6b1c5da48a3a7adb581aaca4c9da78b5e",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 380000
+    },
+    "7701567939715025944": {
+      "public_fav_display": "976000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701567939715025944",
+      "fetched_at_utc": "2026-11-19T07:40:06+00:00",
+      "html_sha256": "1f2b63b724e4ce887fb50752babc585c21027a81ca7dd5d329825d02ad9fee85",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 976000
+    },
+    "7701639066739018776": {
+      "public_fav_display": "289000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701639066739018776",
+      "fetched_at_utc": "2026-11-19T07:40:08+00:00",
+      "html_sha256": "0e3dfa3a9fff636f63ba7c49183d8e3047e35ea4a02eb9c8d5f2ea6495494fc3",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 289000
+    },
+    "7701666895564393496": {
+      "public_fav_display": "241000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701666895564393496",
+      "fetched_at_utc": "2026-11-19T07:40:10+00:00",
+      "html_sha256": "ad58c9997da17fe2cb70fb1bfbd20e32cc267a36af522f816263c8da3c980609",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 241000
+    },
+    "7701711739062062105": {
+      "public_fav_display": "139000",
+      "url": "https://hongguoduanju.com/detail?series_id=7701711739062062105",
+      "fetched_at_utc": "2026-11-19T07:40:12+00:00",
+      "html_sha256": "fed0b73a1a096558cdde3bfce8e50f683462b5923c86c536deef33d8a1f8d11d",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 139000
+    },
+    "7702010148893510680": {
+      "public_fav_display": "269000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702010148893510680",
+      "fetched_at_utc": "2026-11-19T07:40:14+00:00",
+      "html_sha256": "51a2e29e307a6e365fa38ecdbe766ef3ee545f93fb03818bfd1602621307e7bf",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 269000
+    },
+    "7702289982806821913": {
+      "public_fav_display": "177000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702289982806821913",
+      "fetched_at_utc": "2026-11-19T07:40:16+00:00",
+      "html_sha256": "71d4d745aff4872d6500708368428205b8605a4d1864083a21737bf58f02e5e6",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 177000
+    },
+    "7702445132645141528": {
+      "public_fav_display": "64000",
+      "url": "https://hongguoduanju.com/detail?series_id=7702445132645141528",
+      "fetched_at_utc": "2026-11-19T07:40:18+00:00",
+      "html_sha256": "403877d55587f55c04657d3893eef74079d6001768b4f6ceace89995325c8ff3",
+      "source": "supplemental_official_html_after_identity_audit",
+      "value": 64000
+    }
+  }
+}

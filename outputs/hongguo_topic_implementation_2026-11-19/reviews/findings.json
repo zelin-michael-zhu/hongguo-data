@@ -1,0 +1,138 @@
+{
+  "snapshot_n": 30,
+  "capture_range": [
+    "2026-11-19T15:25:42+08:00",
+    "2026-11-19T15:26:47+08:00"
+  ],
+  "scope": "One public detail-page capture per title; not a census of authors, impressions, unique people, or reviews.",
+  "frame_n": {
+    "category_only": 200,
+    "hot": 96,
+    "tracked_off_board": 463
+  },
+  "total_rows": 270,
+  "unique_texts": 270,
+  "title_metadata_nonempty": {
+    "title": 30,
+    "synopsis": 30,
+    "tags": 30,
+    "episode_count": 30,
+    "cast": 10,
+    "display_rating": 27,
+    "rating_count": 27
+  },
+  "source_total_review_count_range": [
+    9,
+    193.5,
+    5651
+  ],
+  "display_rating_range": [
+    5.9,
+    8.4,
+    9.4
+  ],
+  "preview_rating_counts": {
+    "9": 31,
+    "10": 165,
+    "8": 15,
+    "6": 5,
+    "7": 12,
+    "1": 29,
+    "4": 4,
+    "3": 1,
+    "5": 8
+  },
+  "all_rule_positive": 57,
+  "preview_fraction_within_title_min_med_max": [
+    0.0015926384710670677,
+    0.04652685012022442,
+    1.0
+  ],
+  "close_read_counts": {
+    "0": 27,
+    "1": 26,
+    "?": 7
+  },
+  "close_read_strata": {
+    "hot": {
+      "0": 8,
+      "1": 9,
+      "?": 3
+    },
+    "tracked_off_board": {
+      "0": 7,
+      "1": 10,
+      "?": 3
+    },
+    "category_only": {
+      "0": 12,
+      "1": 7,
+      "?": 1
+    }
+  },
+  "close_read_positions": {
+    "4": 11,
+    "5": 6,
+    "3": 6,
+    "6": 9,
+    "9": 9,
+    "1": 6,
+    "7": 8,
+    "8": 2,
+    "2": 3
+  },
+  "close_read_titles_with_positive": 20,
+  "close_read_no_promo": {
+    "0": 25,
+    "1": 24,
+    "?": 6
+  },
+  "close_read_pure_reader_source": {
+    "1": 18,
+    "?": 3,
+    "0": 9
+  },
+  "rule_vs_close_read": {
+    "0/0": 27,
+    "1/1": 17,
+    "0/1": 9,
+    "0/?": 6,
+    "1/?": 1
+  },
+  "class_counts_nonexclusive": {
+    "N": 35,
+    "S": 25,
+    "G": 18,
+    "T": 32,
+    "M": 5,
+    "O": 2
+  },
+  "onetime_rule_flags": {
+    "creator_self_claim_word": 4,
+    "solicitation_word": 3,
+    "plot_word_or_synopsis_overlap": 10,
+    "broad_appraisal_word": 102,
+    "viewing_or_personal_statement_word": 47
+  },
+  "rechecked_calibration_prior_max": 33,
+  "rechecked_calibration_same_comments_between_days": 35,
+  "spoiler_all60": {
+    "0": 41,
+    "1": 10,
+    "?": 9
+  },
+  "spoiler_in_26": {
+    "1": 9,
+    "0": 14,
+    "?": 3
+  },
+  "confirmed_new_after_redacting_reveals": {
+    "0": 4,
+    "1": 21,
+    "?": 1
+  },
+  "title_counts_spoiler_sensitivity": {
+    "fully_clean": 13,
+    "survives_deletion": 17
+  }
+}

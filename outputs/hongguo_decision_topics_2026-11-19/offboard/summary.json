@@ -1,0 +1,147 @@
+{
+  "3": {
+    "eligible": 881,
+    "unique": 856,
+    "n_days": 27,
+    "have_endpoints": 868,
+    "returning": 33,
+    "sub": {
+      "all": {
+        "n": 868,
+        "unique": 843,
+        "median": 18000.0,
+        "net_pos": 862,
+        "net_ge10000": 658,
+        "net_neg": 5
+      },
+      "returned": {
+        "n": 32,
+        "unique": 32,
+        "median": 43000.0,
+        "net_pos": 32,
+        "net_ge10000": 28,
+        "net_neg": 0
+      },
+      "never_returned": {
+        "n": 836,
+        "unique": 829,
+        "median": 18000.0,
+        "net_pos": 830,
+        "net_ge10000": 630,
+        "net_neg": 5
+      }
+    }
+  },
+  "7": {
+    "eligible": 599,
+    "unique": 587,
+    "n_days": 19,
+    "have_endpoints": 585,
+    "returning": 25,
+    "sub": {
+      "all": {
+        "n": 585,
+        "unique": 573,
+        "median": 35000,
+        "net_pos": 581,
+        "net_ge10000": 522,
+        "net_neg": 4
+      },
+      "returned": {
+        "n": 24,
+        "unique": 24,
+        "median": 88500.0,
+        "net_pos": 24,
+        "net_ge10000": 22,
+        "net_neg": 0
+      },
+      "never_returned": {
+        "n": 561,
+        "unique": 559,
+        "median": 34000,
+        "net_pos": 557,
+        "net_ge10000": 500,
+        "net_neg": 4
+      }
+    }
+  },
+  "source": {
+    "event_rows": 1076,
+    "unique": 1033,
+    "complete_chart_days": 35,
+    "adjacent_complete_day_pairs": 33,
+    "single_board_exits": 1573
+  },
+  "policy": {
+    "prior_rank": {
+      "slots": 81,
+      "days": 27,
+      "returns": 3,
+      "overlap": 15,
+      "paired_complete_days": 24,
+      "sum_growth_paired_dates": 2618000
+    },
+    "prior_2d_favorite_growth": {
+      "slots": 81,
+      "days": 27,
+      "returns": 5,
+      "overlap": 15,
+      "paired_complete_days": 24,
+      "sum_growth_paired_dates": 4575000
+    }
+  },
+  "sensitivity": {
+    "prior_rank_2026-10-13": {
+      "days": 24,
+      "baseline": 2618000,
+      "momentum": 4575000,
+      "wins": 21,
+      "ties": 1,
+      "losses": 2,
+      "median_daily_difference": 99500.0,
+      "leave_one_out_sums": [
+        1612000,
+        2336000
+      ]
+    },
+    "prior_rank_2026-11-05": {
+      "days": 9,
+      "baseline": 1395000,
+      "momentum": 1377000,
+      "wins": 7,
+      "ties": 0,
+      "losses": 2,
+      "median_daily_difference": 15000,
+      "leave_one_out_sums": [
+        -205000,
+        361000
+      ]
+    },
+    "prior_favorite_stock_2026-10-13": {
+      "days": 25,
+      "baseline": 4371000,
+      "momentum": 4776000,
+      "wins": 14,
+      "ties": 0,
+      "losses": 11,
+      "median_daily_difference": 11000,
+      "leave_one_out_sums": [
+        267000,
+        663000
+      ]
+    },
+    "prior_favorite_stock_2026-11-05": {
+      "days": 9,
+      "baseline": 1193000,
+      "momentum": 1377000,
+      "wins": 5,
+      "ties": 0,
+      "losses": 4,
+      "median_daily_difference": 11000,
+      "leave_one_out_sums": [
+        104000,
+        208000
+      ]
+    }
+  }
+}

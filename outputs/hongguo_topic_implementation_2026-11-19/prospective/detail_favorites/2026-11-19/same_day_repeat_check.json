@@ -1,0 +1,10 @@
+{
+  "local_date": "2026-11-19",
+  "method": "Reran the normal collector with --limit 0 after completion. Verified byte-identical observation state, 207 CSV records and summary.",
+  "same_hashes": true,
+  "sha256": {
+    "observations.json": "b2c765bb9465ff4e52326d2ddc2abb7c5e935f7dac0dee27055163ebd53caa2d",
+    "favorites.csv": "9531bd347d99c01c15b2384a80cc1be9f42d060839e21ba0b8535fb253e39318",
+    "summary.json": "292197f59939fc9f6295090c4b31f1e456fbe2547dd164b41c74299a46e1efd9"
+  }
+}

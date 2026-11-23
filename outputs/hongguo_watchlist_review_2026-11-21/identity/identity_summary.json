@@ -1,0 +1,19 @@
+{
+  "archive_commit": "9963122332b7bc93b508547fb6802f663afe6d43",
+  "actual_on_chart_ids": 1386,
+  "anchors_unique": 196,
+  "n_blind_pairs": 21,
+  "current_key_differs_frozen_ids": 5,
+  "retrospective_known_ids": 923,
+  "snapshot_mismatch_days_ids": 81,
+  "asof_key_basis": "frozen explicit season suffix in title on first archived day listed",
+  "same_franchise_matched": 95,
+  "full_reference": {
+    "unverified_rule_pairs": 0,
+    "both_known_pairs": 425503,
+    "both_known_true_pairs": 550,
+    "both_known_rule_pairs": 309,
+    "both_known_rule_agreements": 304,
+    "all_rule_pairs": 309
+  }
+}

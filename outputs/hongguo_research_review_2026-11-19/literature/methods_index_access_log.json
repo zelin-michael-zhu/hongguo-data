@@ -1,0 +1,14 @@
+[
+  {
+    "request_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Beyond%20the%20margin%20of%20error%3A%20a%20systematic%20and%20replicable%20audit%20of%20the%20TikTok%20research%20API&limit=3&fields=title,authors,year,externalIds,url,venue",
+    "status": "error",
+    "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+    "retrieved_at": "2026-11-19"
+  },
+  {
+    "request_url": "https://scholar.google.com/scholar?hl=en&q=%22Beyond%20the%20margin%20of%20error%22%20TikTok",
+    "status": "error",
+    "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+    "retrieved_at": "2026-11-19"
+  }
+]

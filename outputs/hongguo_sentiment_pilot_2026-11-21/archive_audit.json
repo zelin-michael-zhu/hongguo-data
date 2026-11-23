@@ -1,0 +1,287 @@
+{
+  "daily_scopes": {
+    "2026-11-18/series_review": {
+      "titles": 5,
+      "rows": 45,
+      "rows_per_page_histogram": {
+        "9": 5
+      },
+      "excess_duplicate_fingerprints": 0,
+      "distinct_source_ids": 0,
+      "missing_exact_collection_time": 9,
+      "publication_after_capture": 0,
+      "min_publication_date": "2026-10-27",
+      "max_publication_date": "2026-11-16"
+    },
+    "2026-11-18/first_episode_comment": {
+      "titles": 5,
+      "rows": 75,
+      "rows_per_page_histogram": {
+        "15": 5
+      },
+      "excess_duplicate_fingerprints": 0,
+      "distinct_source_ids": 0,
+      "missing_exact_collection_time": 15,
+      "publication_after_capture": 0,
+      "min_publication_date": "2026-10-27",
+      "max_publication_date": "2026-11-17"
+    },
+    "2026-11-19/series_review": {
+      "titles": 35,
+      "rows": 315,
+      "rows_per_page_histogram": {
+        "9": 35
+      },
+      "excess_duplicate_fingerprints": 0,
+      "distinct_source_ids": 0,
+      "missing_exact_collection_time": 0,
+      "publication_after_capture": 0,
+      "min_publication_date": "2026-08-14",
+      "max_publication_date": "2026-11-19"
+    },
+    "2026-11-19/first_episode_comment": {
+      "titles": 0,
+      "rows": 0,
+      "rows_per_page_histogram": {},
+      "excess_duplicate_fingerprints": 0,
+      "distinct_source_ids": 0,
+      "missing_exact_collection_time": 0,
+      "publication_after_capture": 0,
+      "min_publication_date": null,
+      "max_publication_date": null
+    },
+    "2026-11-21/series_review": {
+      "titles": 1365,
+      "rows": 12247,
+      "rows_per_page_histogram": {
+        "1": 1,
+        "4": 2,
+        "5": 1,
+        "7": 6,
+        "8": 4,
+        "9": 1351
+      },
+      "excess_duplicate_fingerprints": 0,
+      "distinct_source_ids": 0,
+      "missing_exact_collection_time": 0,
+      "publication_after_capture": 0,
+      "min_publication_date": "2026-05-15",
+      "max_publication_date": "2026-11-21",
+      "total_reported_sum": 1001231,
+      "pages_preview_equals_reported_total": 17
+    },
+    "2026-11-21/first_episode_comment": {
+      "titles": 1365,
+      "rows": 20460,
+      "rows_per_page_histogram": {
+        "3": 1,
+        "14": 3,
+        "15": 1361
+      },
+      "excess_duplicate_fingerprints": 0,
+      "distinct_source_ids": 0,
+      "missing_exact_collection_time": 0,
+      "publication_after_capture": 0,
+      "min_publication_date": "2026-05-14",
+      "max_publication_date": "2026-11-21",
+      "total_reported_sum": 3180800,
+      "pages_preview_equals_reported_total": 1
+    }
+  },
+  "overlap": {
+    "2026-11-18_2026-11-19/series_review": {
+      "shared_titles": 5,
+      "fingerprints_before": 45,
+      "fingerprints_after": 45,
+      "common_fingerprints": 35,
+      "common_with_different_likes": 18,
+      "pages_same_set": 0,
+      "example_most_turnover": {
+        "title": "掌上珠",
+        "rows_before": 9,
+        "retained": 7,
+        "rows_after": 9
+      }
+    },
+    "2026-11-18_2026-11-19/first_episode_comment": {
+      "shared_titles": 0,
+      "fingerprints_before": 0,
+      "fingerprints_after": 0,
+      "common_fingerprints": 0,
+      "common_with_different_likes": 0,
+      "pages_same_set": 0,
+      "example_most_turnover": null
+    },
+    "2026-11-18_2026-11-21/series_review": {
+      "shared_titles": 5,
+      "fingerprints_before": 45,
+      "fingerprints_after": 45,
+      "common_fingerprints": 27,
+      "common_with_different_likes": 18,
+      "pages_same_set": 0,
+      "example_most_turnover": {
+        "title": "持械入宋：第十一季",
+        "rows_before": 9,
+        "retained": 0,
+        "rows_after": 9
+      }
+    },
+    "2026-11-18_2026-11-21/first_episode_comment": {
+      "shared_titles": 5,
+      "fingerprints_before": 75,
+      "fingerprints_after": 75,
+      "common_fingerprints": 63,
+      "common_with_different_likes": 42,
+      "pages_same_set": 1,
+      "example_most_turnover": {
+        "title": "穿越八零，我把娘俩宠成宝",
+        "rows_before": 15,
+        "retained": 10,
+        "rows_after": 15
+      }
+    },
+    "2026-11-19_2026-11-21/series_review": {
+      "shared_titles": 35,
+      "fingerprints_before": 315,
+      "fingerprints_after": 315,
+      "common_fingerprints": 272,
+      "common_with_different_likes": 108,
+      "pages_same_set": 16,
+      "example_most_turnover": {
+        "title": "持械入宋：第十一季",
+        "rows_before": 9,
+        "retained": 1,
+        "rows_after": 9
+      }
+    },
+    "2026-11-19_2026-11-21/first_episode_comment": {
+      "shared_titles": 0,
+      "fingerprints_before": 0,
+      "fingerprints_after": 0,
+      "common_fingerprints": 0,
+      "common_with_different_likes": 0,
+      "pages_same_set": 0,
+      "example_most_turnover": null
+    }
+  },
+  "catalogue_rows": 1388,
+  "episodes_numerics_11_18": {
+    "rows": 1395,
+    "series": 5
+  },
+  "danmaku_11_18": {
+    "rows": 46,
+    "series": 5,
+    "episode_ids": 5
+  },
+  "nov19_repeat_render_checks": 30,
+  "same_day_previously_never_top20_first_chart_age_1to3": {
+    "2026-11-18": {
+      "eligible_unique_titles": 52,
+      "series_review": 0,
+      "first_episode_comment": 0
+    },
+    "2026-11-19": {
+      "eligible_unique_titles": 57,
+      "series_review": 0,
+      "first_episode_comment": 0
+    },
+    "2026-11-21": {
+      "eligible_unique_titles": 67,
+      "series_review": 0,
+      "first_episode_comment": 0
+    }
+  },
+  "numeric_series": {
+    "history_days": 36,
+    "history_title_days": 22901,
+    "columns": [
+      "date",
+      "id",
+      "title",
+      "heat",
+      "heat_exact",
+      "fav",
+      "like",
+      "rating",
+      "rating_count",
+      "review_count",
+      "episodes",
+      "first_visible",
+      "age_days",
+      "tags",
+      "status_tags",
+      "rank_hot",
+      "rank_real",
+      "rank_ai",
+      "rank_comic"
+    ],
+    "extended_days": 40,
+    "extended_board_rows": 15998,
+    "extended_export_columns": [
+      "date",
+      "board",
+      "id",
+      "heat",
+      "likes",
+      "favorites",
+      "rating"
+    ]
+  },
+  "age7_horizon_contains_mature_capture_days": 0,
+  "cross_scope_simultaneous_same_title_stamp_text_11_21": 0,
+  "same_series_scope_second_with_multiple_texts_11_21": 2,
+  "example_historical_time_filter": {
+    "title": "持械入宋：第十一季",
+    "snapshots": {
+      "2026-11-18": {
+        "n": 9,
+        "published_by_nov18": 9
+      },
+      "2026-11-21": {
+        "n": 9,
+        "published_by_nov18": 9
+      }
+    }
+  },
+  "same_chart_top20_target_by_entry_clock": {
+    "2026-11-18/first_any_chart": {
+      "eligible_board_title_pairs": 68,
+      "eligible_distinct_titles": 61,
+      "titles_with_text": 0,
+      "matched_titles": []
+    },
+    "2026-11-18/first_same_chart": {
+      "eligible_board_title_pairs": 79,
+      "eligible_distinct_titles": 72,
+      "titles_with_text": 0,
+      "matched_titles": []
+    },
+    "2026-11-19/first_any_chart": {
+      "eligible_board_title_pairs": 67,
+      "eligible_distinct_titles": 63,
+      "titles_with_text": 0,
+      "matched_titles": []
+    },
+    "2026-11-19/first_same_chart": {
+      "eligible_board_title_pairs": 79,
+      "eligible_distinct_titles": 75,
+      "titles_with_text": 0,
+      "matched_titles": []
+    },
+    "2026-11-21/first_any_chart": {
+      "eligible_board_title_pairs": 86,
+      "eligible_distinct_titles": 73,
+      "titles_with_text": 0,
+      "matched_titles": []
+    },
+    "2026-11-21/first_same_chart": {
+      "eligible_board_title_pairs": 89,
+      "eligible_distinct_titles": 76,
+      "titles_with_text": 1,
+      "matched_titles": [
+        "督军府来了个猫姨娘"
+      ]
+    }
+  }
+}

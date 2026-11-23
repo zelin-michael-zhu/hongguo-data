@@ -1,0 +1,83 @@
+{
+  "eligible": 59,
+  "families": 46,
+  "event_days": 19,
+  "status": {
+    "matched": 51,
+    "donor_followup_missing": 8
+  },
+  "strata": {
+    "ai": 14,
+    "comic": 45
+  },
+  "actual": {
+    "pairs": 51,
+    "families": 40,
+    "days": 19,
+    "mean": -2411.7647058823527,
+    "median": -1833.333333333333,
+    "positive": 13,
+    "zero": 2,
+    "negative": 36,
+    "old_pre": 13509.803921568628,
+    "old_post": 6686.274509803921,
+    "control_pre": 13437.908496732027,
+    "control_post": 9026.143790849674
+  },
+  "placebo_status": {
+    "incomplete_board_calendar": 33,
+    "predecessor_window_missing": 14,
+    "matched": 10,
+    "donor_followup_missing": 2
+  },
+  "placebo": {
+    "pairs": 10,
+    "families": 10,
+    "days": 6,
+    "mean": -216.6666666666671,
+    "median": 0.0,
+    "positive": 4,
+    "zero": 2,
+    "negative": 4,
+    "old_pre": 33000.0,
+    "old_post": 14100.0,
+    "control_pre": 32166.666666666668,
+    "control_post": 13483.333333333334
+  },
+  "same_pairs_actual": {
+    "pairs": 10,
+    "families": 10,
+    "days": 6,
+    "mean": -3566.6666666666665,
+    "median": -4000.0,
+    "positive": 2,
+    "zero": 0,
+    "negative": 8,
+    "old_pre": 11000.0,
+    "old_post": 6000.0,
+    "control_pre": 10800.0,
+    "control_post": 9366.666666666666
+  },
+  "same_pairs_placebo": {
+    "pairs": 10,
+    "families": 10,
+    "days": 6,
+    "mean": -216.6666666666671,
+    "median": 0.0,
+    "positive": 4,
+    "zero": 2,
+    "negative": 4,
+    "old_pre": 33000.0,
+    "old_post": 14100.0,
+    "control_pre": 32166.666666666668,
+    "control_post": 13483.333333333334
+  },
+  "leave_one_family_mean_range": [
+    -2636.6666666666665,
+    -1938.7755102040817
+  ],
+  "leave_one_event_date_mean_range": [
+    -2631.9444444444443,
+    -1872.340425531915
+  ]
+}

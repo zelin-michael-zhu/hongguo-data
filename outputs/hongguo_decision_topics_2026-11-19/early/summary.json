@@ -1,0 +1,130 @@
+{
+  "eligible_decision_days": 15,
+  "dates": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14"
+  ],
+  "unique_candidates": 563,
+  "eligible_title_days": 1981,
+  "eligible_positive_title_days": 173,
+  "missing_heat": 3,
+  "target_date_count": 19,
+  "all_distinct_entries_in_union": 271,
+  "distinct_possible": 111,
+  "full_opportunities": {
+    "target_dates": 11,
+    "entries": 156,
+    "observable": 66,
+    "max_lead_days": {
+      "0": 90,
+      "2": 10,
+      "1": 37,
+      "3": 19
+    },
+    "observable_prior_7": 66,
+    "observable_day2_to7": 29,
+    "max_lead_in_prior_7": {
+      "0": 90,
+      "2": 10,
+      "1": 37,
+      "4": 7,
+      "3": 9,
+      "5": 1,
+      "7": 2
+    }
+  },
+  "methods": {
+    "category_rank": {
+      "slots": 75,
+      "hits": 8,
+      "lead_counts": {
+        "1": 6,
+        "3": 2
+      },
+      "full_opportunity_hits": 7,
+      "candidates_selected": 49,
+      "category_hits": {
+        "real": 8
+      },
+      "category_slots": {
+        "real": 75
+      }
+    },
+    "published_heat": {
+      "slots": 75,
+      "hits": 44,
+      "lead_counts": {
+        "1": 39,
+        "3": 4,
+        "2": 1
+      },
+      "full_opportunity_hits": 28,
+      "candidates_selected": 74,
+      "category_hits": {
+        "real": 3,
+        "comic": 13,
+        "ai": 28
+      },
+      "category_slots": {
+        "real": 7,
+        "comic": 29,
+        "ai": 39
+      }
+    },
+    "two_day_rise": {
+      "slots": 75,
+      "hits": 28,
+      "lead_counts": {
+        "1": 23,
+        "3": 5
+      },
+      "full_opportunity_hits": 20,
+      "candidates_selected": 75,
+      "category_hits": {
+        "real": 10,
+        "ai": 9,
+        "comic": 9
+      },
+      "category_slots": {
+        "real": 43,
+        "ai": 12,
+        "comic": 20
+      }
+    },
+    "one_per_category": {
+      "slots": 75,
+      "hits": 40,
+      "lead_counts": {
+        "1": 35,
+        "3": 4,
+        "2": 1
+      },
+      "full_opportunity_hits": 27,
+      "candidates_selected": 73,
+      "category_hits": {
+        "ai": 23,
+        "comic": 12,
+        "real": 5
+      },
+      "category_slots": {
+        "ai": 32,
+        "comic": 28,
+        "real": 15
+      }
+    }
+  },
+  "first_five_real_not_a_tie_days": 15
+}

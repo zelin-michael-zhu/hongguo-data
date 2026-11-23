@@ -1,0 +1,2542 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "tools": [
+      {
+        "name": "hongguo_get_video_comments_by_video_id",
+        "description": "按video_id读取一页红果视频评论，支持剧集单集及独立视频，返回正文、作者、计数及next_page_token。剧集分集ID可来自剧集详情的分集列表；有单集分享链接或整段分享文案时使用hongguo_get_video_comments_by_video_url。整剧评分剧评使用hongguo_get_series_comments_by_series_id。回复使用返回的video_id和主评论comment_id调用hongguo_get_video_comment_replies_by_comment_id。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "video_id": {
+              "description": "红果视频ID，支持剧集单集及独立视频；1至19位正十进制数字字符串。",
+              "maxLength": 19,
+              "minLength": 1,
+              "pattern": "^[1-9][0-9]{0,18}$",
+              "type": "string"
+            },
+            "page_token": {
+              "default": "",
+              "description": "首屏省略或传空字符串；续页原样传回上一页完整next_page_token，保持视频及回复主评论不变。不能与整剧剧评的分页令牌混用。",
+              "maxLength": 524288,
+              "type": "string"
+            }
+          },
+          "required": [
+            "video_id"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "items": {
+              "description": "当前页视频评论，保留平台顺序及重复条目。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "comment_id": {
+                    "description": "该条视频评论或回复自身的ID。",
+                    "minLength": 1,
+                    "title": "Comment Id",
+                    "type": "string"
+                  },
+                  "content": {
+                    "description": "正文，保留原有空白及表情。",
+                    "title": "Content",
+                    "type": "string"
+                  },
+                  "create_time": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "发布时间，Unix秒级时间戳；未提供时为null。",
+                    "title": "Create Time"
+                  },
+                  "like_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "点赞数量；未提供时为null。",
+                    "title": "Like Count"
+                  },
+                  "reply_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "该条内容的回复总数，不代表本次已返回全部回复；未提供时为null。",
+                    "title": "Reply Count"
+                  },
+                  "author": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "user_id": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者的红果用户ID；未提供时为null。",
+                        "title": "User Id"
+                      },
+                      "name": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者名称；未提供时为null。",
+                        "title": "Name"
+                      },
+                      "avatar_url": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者头像链接；未提供时为null。",
+                        "title": "Avatar Url"
+                      }
+                    },
+                    "required": [
+                      "user_id",
+                      "name",
+                      "avatar_url"
+                    ],
+                    "title": "HongguoCommentAuthor",
+                    "type": "object",
+                    "description": "作者摘要。"
+                  },
+                  "video_id": {
+                    "description": "所属视频ID。",
+                    "minLength": 1,
+                    "title": "Video Id",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "comment_id",
+                  "content",
+                  "create_time",
+                  "like_count",
+                  "reply_count",
+                  "author",
+                  "video_id"
+                ],
+                "title": "HongguoVideoCommentItem",
+                "type": "object"
+              },
+              "title": "Items",
+              "type": "array"
+            },
+            "next_page_token": {
+              "description": "下一页不透明分页令牌；为空表示没有下一页。",
+              "title": "Next Page Token",
+              "type": "string"
+            },
+            "comment_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "该视频的平台评论总数；未提供有效总数时为null，不作为分页结束依据。",
+              "title": "Comment Count"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "items",
+            "next_page_token",
+            "comment_count",
+            "points"
+          ],
+          "title": "HongguoVideoCommentsResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_video_comments_by_video_url",
+        "description": "按红果单集分享链接或包含链接的整段文案读取分享时对应分集的评论。需链接明确包含单集信息；不默认第一集。返回items和next_page_token，条目含video_id，可用于续页或读取回复；整剧剧评使用hongguo_get_series_comments_by_url。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "video_url": {
+              "description": "当前支持novelquickapp.com的红果漫剧单集分享链接或包含该链接的完整分享文案，例如https://novelquickapp.com/s/WqCuJHd7dz4/；按分享时的分集获取资源。不要传整剧ID、单集ID或媒体文件地址。",
+              "maxLength": 8192,
+              "minLength": 1,
+              "type": "string"
+            },
+            "page_token": {
+              "default": "",
+              "description": "首屏省略或传空字符串；续页原样传回上一页完整next_page_token，保持视频及回复主评论不变。不能与整剧剧评的分页令牌混用。",
+              "maxLength": 524288,
+              "type": "string"
+            }
+          },
+          "required": [
+            "video_url"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "items": {
+              "description": "当前页视频评论，保留平台顺序及重复条目。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "comment_id": {
+                    "description": "该条视频评论或回复自身的ID。",
+                    "minLength": 1,
+                    "title": "Comment Id",
+                    "type": "string"
+                  },
+                  "content": {
+                    "description": "正文，保留原有空白及表情。",
+                    "title": "Content",
+                    "type": "string"
+                  },
+                  "create_time": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "发布时间，Unix秒级时间戳；未提供时为null。",
+                    "title": "Create Time"
+                  },
+                  "like_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "点赞数量；未提供时为null。",
+                    "title": "Like Count"
+                  },
+                  "reply_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "该条内容的回复总数，不代表本次已返回全部回复；未提供时为null。",
+                    "title": "Reply Count"
+                  },
+                  "author": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "user_id": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者的红果用户ID；未提供时为null。",
+                        "title": "User Id"
+                      },
+                      "name": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者名称；未提供时为null。",
+                        "title": "Name"
+                      },
+                      "avatar_url": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者头像链接；未提供时为null。",
+                        "title": "Avatar Url"
+                      }
+                    },
+                    "required": [
+                      "user_id",
+                      "name",
+                      "avatar_url"
+                    ],
+                    "title": "HongguoCommentAuthor",
+                    "type": "object",
+                    "description": "作者摘要。"
+                  },
+                  "video_id": {
+                    "description": "所属视频ID。",
+                    "minLength": 1,
+                    "title": "Video Id",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "comment_id",
+                  "content",
+                  "create_time",
+                  "like_count",
+                  "reply_count",
+                  "author",
+                  "video_id"
+                ],
+                "title": "HongguoVideoCommentItem",
+                "type": "object"
+              },
+              "title": "Items",
+              "type": "array"
+            },
+            "next_page_token": {
+              "description": "下一页不透明分页令牌；为空表示没有下一页。",
+              "title": "Next Page Token",
+              "type": "string"
+            },
+            "comment_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "该视频的平台评论总数；未提供有效总数时为null，不作为分页结束依据。",
+              "title": "Comment Count"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "items",
+            "next_page_token",
+            "comment_count",
+            "points"
+          ],
+          "title": "HongguoVideoCommentsResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_video_comment_replies_by_comment_id",
+        "description": "读取红果视频主评论下的一页回复，支持剧集单集及独立视频。video_id和comment_id来自视频评论条目；返回回复正文、作者、回复目标及next_page_token。不接收level；整剧剧评及楼中楼使用hongguo_get_series_comment_replies_by_comment_id。续页保持同一视频和主评论，原样传回page_token。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "video_id": {
+              "description": "红果视频ID，支持剧集单集及独立视频；1至19位正十进制数字字符串。",
+              "maxLength": 19,
+              "minLength": 1,
+              "pattern": "^[1-9][0-9]{0,18}$",
+              "type": "string"
+            },
+            "comment_id": {
+              "description": "视频评论列表中的主评论ID，1至19位正十进制数字字符串。",
+              "maxLength": 19,
+              "minLength": 1,
+              "pattern": "^[1-9][0-9]{0,18}$",
+              "type": "string"
+            },
+            "page_token": {
+              "default": "",
+              "description": "首屏省略或传空字符串；续页原样传回上一页完整next_page_token，保持视频及回复主评论不变。不能与整剧剧评的分页令牌混用。",
+              "maxLength": 524288,
+              "type": "string"
+            }
+          },
+          "required": [
+            "video_id",
+            "comment_id"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "items": {
+              "description": "当前页视频评论回复，保留平台顺序及重复条目。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "comment_id": {
+                    "description": "该条视频评论或回复自身的ID。",
+                    "minLength": 1,
+                    "title": "Comment Id",
+                    "type": "string"
+                  },
+                  "content": {
+                    "description": "正文，保留原有空白及表情。",
+                    "title": "Content",
+                    "type": "string"
+                  },
+                  "create_time": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "发布时间，Unix秒级时间戳；未提供时为null。",
+                    "title": "Create Time"
+                  },
+                  "like_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "点赞数量；未提供时为null。",
+                    "title": "Like Count"
+                  },
+                  "reply_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "该条内容的回复总数，不代表本次已返回全部回复；未提供时为null。",
+                    "title": "Reply Count"
+                  },
+                  "author": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "user_id": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者的红果用户ID；未提供时为null。",
+                        "title": "User Id"
+                      },
+                      "name": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者名称；未提供时为null。",
+                        "title": "Name"
+                      },
+                      "avatar_url": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者头像链接；未提供时为null。",
+                        "title": "Avatar Url"
+                      }
+                    },
+                    "required": [
+                      "user_id",
+                      "name",
+                      "avatar_url"
+                    ],
+                    "title": "HongguoCommentAuthor",
+                    "type": "object",
+                    "description": "作者摘要。"
+                  },
+                  "video_id": {
+                    "description": "所属视频ID。",
+                    "minLength": 1,
+                    "title": "Video Id",
+                    "type": "string"
+                  },
+                  "root_comment_id": {
+                    "description": "所属视频主评论ID。",
+                    "minLength": 1,
+                    "title": "Root Comment Id",
+                    "type": "string"
+                  },
+                  "parent_comment_id": {
+                    "description": "本次回复列表所属的主评论ID，与请求comment_id一致。",
+                    "minLength": 1,
+                    "title": "Parent Comment Id",
+                    "type": "string"
+                  },
+                  "reply_to_comment_id": {
+                    "description": "直接被回复的评论或回复ID，可能与列表父级ID不同。",
+                    "minLength": 1,
+                    "title": "Reply To Comment Id",
+                    "type": "string"
+                  },
+                  "reply_to_author": {
+                    "anyOf": [
+                      {
+                        "additionalProperties": false,
+                        "properties": {
+                          "user_id": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ],
+                            "description": "作者的红果用户ID；未提供时为null。",
+                            "title": "User Id"
+                          },
+                          "name": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ],
+                            "description": "作者名称；未提供时为null。",
+                            "title": "Name"
+                          },
+                          "avatar_url": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ],
+                            "description": "作者头像链接；未提供时为null。",
+                            "title": "Avatar Url"
+                          }
+                        },
+                        "required": [
+                          "user_id",
+                          "name",
+                          "avatar_url"
+                        ],
+                        "title": "HongguoCommentAuthor",
+                        "type": "object"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "被回复作者摘要；未提供时为null。"
+                  }
+                },
+                "required": [
+                  "comment_id",
+                  "content",
+                  "create_time",
+                  "like_count",
+                  "reply_count",
+                  "author",
+                  "video_id",
+                  "root_comment_id",
+                  "parent_comment_id",
+                  "reply_to_comment_id",
+                  "reply_to_author"
+                ],
+                "title": "HongguoVideoCommentReplyItem",
+                "type": "object"
+              },
+              "title": "Items",
+              "type": "array"
+            },
+            "next_page_token": {
+              "description": "下一页不透明分页令牌；为空表示没有下一页。",
+              "title": "Next Page Token",
+              "type": "string"
+            },
+            "reply_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "当前视频主评论下的平台回复总数；未提供有效总数时为null，不作为分页结束依据。",
+              "title": "Reply Count"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "items",
+            "next_page_token",
+            "reply_count",
+            "points"
+          ],
+          "title": "HongguoVideoCommentRepliesResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_search_general",
+        "description": "按关键词综合搜索红果剧集、影片和图文帖子，支持内容类型筛选和分页；返回精简业务信息，聚合结果已展开。不提供独立剧集或视频页签搜索，也不解析播放地址。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "keyword": {
+              "description": "红果综合搜索的关键词或短语，例如剧名、人物名或题材；最多200个字符，部分表情符号计为两个字符。不含控制字符；不要传链接、作品 ID 或分页令牌。",
+              "maxLength": 200,
+              "minLength": 1,
+              "type": "string"
+            },
+            "content_types": {
+              "default": [],
+              "description": "内容类型可多选，不可重复。仅在用户明确限定内容类型时设置；未限定时省略或传空列表（不限），不要根据搜索关键词自行缩窄类型。live_action=真人剧，comic=漫剧（非静态漫画），ai_drama=红果平台单独列出的AI剧分类，film_tv=影视剧，short_video=短视频，image_text=图文。",
+              "items": {
+                "enum": [
+                  "live_action",
+                  "comic",
+                  "ai_drama",
+                  "film_tv",
+                  "short_video",
+                  "image_text"
+                ],
+                "type": "string"
+              },
+              "maxItems": 6,
+              "type": "array"
+            },
+            "page_token": {
+              "default": "",
+              "description": "首屏留空；续页将上一页完整 next_page_token 原样传回，不得修改或跨搜索复用。关键词和内容类型必须保持一致；有效期3天，原设备不可用时重新搜索。",
+              "maxLength": 524288,
+              "type": "string"
+            }
+          },
+          "required": [
+            "keyword"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "properties": {
+            "items": {
+              "description": "搜索到的剧集、影片或图文帖子，通过type区分；剧集标识为series_id，图文标识为post_id。聚合卡已展开，同页相同类型、相同标识的结果仅保留首次出现的条目。按搜索顺序返回；未提供的可选信息为null或空列表，不代表数值为零。",
+              "items": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "type": {
+                        "const": "series",
+                        "description": "剧集或影片。",
+                        "title": "Type",
+                        "type": "string"
+                      },
+                      "series_id": {
+                        "description": "剧集或影片ID，按字符串使用。",
+                        "minLength": 1,
+                        "title": "Series Id",
+                        "type": "string"
+                      },
+                      "title": {
+                        "description": "剧名或片名。",
+                        "minLength": 1,
+                        "title": "Title",
+                        "type": "string"
+                      },
+                      "description": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "剧情简介。",
+                        "title": "Description"
+                      },
+                      "cover_image_url": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "封面图片地址。",
+                        "title": "Cover Image Url"
+                      },
+                      "tags": {
+                        "description": "平台给出的题材标签。",
+                        "items": {
+                          "type": "string"
+                        },
+                        "title": "Tags",
+                        "type": "array"
+                      },
+                      "actors": {
+                        "description": "演员姓名；未提供时为空列表。",
+                        "items": {
+                          "type": "string"
+                        },
+                        "title": "Actors",
+                        "type": "array"
+                      },
+                      "total_episode_count": {
+                        "anyOf": [
+                          {
+                            "minimum": 0,
+                            "type": "integer"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "总集数。",
+                        "title": "Total Episode Count"
+                      },
+                      "rating": {
+                        "anyOf": [
+                          {
+                            "minimum": 0,
+                            "type": "number"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "平台评分。",
+                        "title": "Rating"
+                      },
+                      "play_count": {
+                        "anyOf": [
+                          {
+                            "minimum": 0,
+                            "type": "integer"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "平台返回的播放计数，与热度独立。",
+                        "title": "Play Count"
+                      },
+                      "hot_score_text": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "平台展示的热度文案，例如“1291万热度”；不是精确数值，也不是播放计数。",
+                        "title": "Hot Score Text"
+                      },
+                      "collect_count": {
+                        "anyOf": [
+                          {
+                            "minimum": 0,
+                            "type": "integer"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "收藏数。",
+                        "title": "Collect Count"
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "series_id",
+                      "title"
+                    ],
+                    "title": "HongguoSearchSeriesItem",
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "type": {
+                        "const": "image_text",
+                        "description": "图文帖子。",
+                        "title": "Type",
+                        "type": "string"
+                      },
+                      "post_id": {
+                        "description": "图文帖子ID，按字符串使用。",
+                        "minLength": 1,
+                        "title": "Post Id",
+                        "type": "string"
+                      },
+                      "title": {
+                        "description": "帖子标题。",
+                        "minLength": 1,
+                        "title": "Title",
+                        "type": "string"
+                      },
+                      "description": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "帖子正文。",
+                        "title": "Description"
+                      },
+                      "author": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "user_id": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ],
+                            "default": null,
+                            "description": "作者用户ID，按字符串使用。",
+                            "title": "User Id"
+                          },
+                          "name": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ],
+                            "default": null,
+                            "description": "作者昵称。",
+                            "title": "Name"
+                          }
+                        },
+                        "title": "HongguoSearchAuthor",
+                        "type": "object",
+                        "description": "图文作者；未提供的用户ID或昵称为null。"
+                      },
+                      "publish_time": {
+                        "anyOf": [
+                          {
+                            "minimum": 0,
+                            "type": "integer"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "发布时间，Unix时间戳，单位秒。",
+                        "title": "Publish Time"
+                      },
+                      "image_urls": {
+                        "description": "帖子图片地址，按原顺序返回。",
+                        "items": {
+                          "type": "string"
+                        },
+                        "title": "Image Urls",
+                        "type": "array"
+                      },
+                      "like_count": {
+                        "anyOf": [
+                          {
+                            "minimum": 0,
+                            "type": "integer"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "点赞数。",
+                        "title": "Like Count"
+                      },
+                      "comment_count": {
+                        "anyOf": [
+                          {
+                            "minimum": 0,
+                            "type": "integer"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "评论数。",
+                        "title": "Comment Count"
+                      },
+                      "collect_count": {
+                        "anyOf": [
+                          {
+                            "minimum": 0,
+                            "type": "integer"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "default": null,
+                        "description": "收藏数。",
+                        "title": "Collect Count"
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "post_id",
+                      "title",
+                      "author"
+                    ],
+                    "title": "HongguoSearchPostItem",
+                    "type": "object"
+                  }
+                ]
+              },
+              "title": "Items",
+              "type": "array"
+            },
+            "next_page_token": {
+              "description": "下一页不透明令牌。需要继续搜索时，将此值原样传入 page_token；空字符串表示分页结束。不要仅根据 items 是否为空判断结束。",
+              "title": "Next Page Token",
+              "type": "string"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "items",
+            "next_page_token",
+            "points"
+          ],
+          "title": "HongguoSearchResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_series_detail_by_series_id",
+        "description": "按series_id获取红果剧集详情和完整分集列表；ID可来自红果搜索结果。持有分享链接或整段分享文案时使用 hongguo_get_series_detail_by_url。不提供播放或下载地址。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "series_id": {
+              "description": "整部剧的ID，可使用红果搜索结果中的series_id；1至19位正十进制数字字符串，不是单集video_id。",
+              "maxLength": 19,
+              "minLength": 1,
+              "pattern": "^[1-9][0-9]{0,18}$",
+              "type": "string"
+            }
+          },
+          "required": [
+            "series_id"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "series_id": {
+              "description": "剧集ID，与请求的series_id一致。",
+              "minLength": 1,
+              "title": "Series Id",
+              "type": "string"
+            },
+            "title": {
+              "description": "剧名。",
+              "minLength": 1,
+              "title": "Title",
+              "type": "string"
+            },
+            "description": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "剧情简介。",
+              "title": "Description"
+            },
+            "cover_image_url": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "封面图片地址。",
+              "title": "Cover Image Url"
+            },
+            "tags": {
+              "description": "平台题材、分类标签。",
+              "items": {
+                "type": "string"
+              },
+              "title": "Tags",
+              "type": "array"
+            },
+            "total_episode_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "总集数。",
+              "title": "Total Episode Count"
+            },
+            "play_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "平台播放计数，与热度独立。",
+              "title": "Play Count"
+            },
+            "hot_score": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "平台热度的精确数值，不是播放计数。",
+              "title": "Hot Score"
+            },
+            "collect_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "收藏数。",
+              "title": "Collect Count"
+            },
+            "episodes": {
+              "description": "分集列表，按episode_number升序一次返回，不分页；未提供时为空列表。video_id是单集标识，不是播放地址。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "video_id": {
+                    "description": "单集视频ID，按字符串使用。",
+                    "minLength": 1,
+                    "title": "Video Id",
+                    "type": "string"
+                  },
+                  "episode_number": {
+                    "description": "第几集，从1开始。",
+                    "minimum": 1,
+                    "title": "Episode Number",
+                    "type": "integer"
+                  },
+                  "title": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "default": null,
+                    "description": "平台返回的分集标题，可能在多集间重复，不代表该集独立剧情简介；未提供时为null。",
+                    "title": "Title"
+                  }
+                },
+                "required": [
+                  "video_id",
+                  "episode_number"
+                ],
+                "title": "HongguoSeriesEpisode",
+                "type": "object"
+              },
+              "title": "Episodes",
+              "type": "array"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "series_id",
+            "title",
+            "points"
+          ],
+          "title": "HongguoSeriesDetailResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_series_detail_by_url",
+        "description": "使用红果剧集分享链接或整段分享文案获取详情和完整分集列表；已有series_id时使用 hongguo_get_series_detail_by_series_id。不提供播放或下载地址。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "description": "红果剧集分享链接，或包含该链接的整段分享文案；支持 https://novelquickapp.com/s/836Rt1LxwF4/ 这类链接。一次提供一条剧集链接。",
+              "maxLength": 8192,
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "url"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "series_id": {
+              "description": "剧集ID，与请求的series_id一致。",
+              "minLength": 1,
+              "title": "Series Id",
+              "type": "string"
+            },
+            "title": {
+              "description": "剧名。",
+              "minLength": 1,
+              "title": "Title",
+              "type": "string"
+            },
+            "description": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "剧情简介。",
+              "title": "Description"
+            },
+            "cover_image_url": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "封面图片地址。",
+              "title": "Cover Image Url"
+            },
+            "tags": {
+              "description": "平台题材、分类标签。",
+              "items": {
+                "type": "string"
+              },
+              "title": "Tags",
+              "type": "array"
+            },
+            "total_episode_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "总集数。",
+              "title": "Total Episode Count"
+            },
+            "play_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "平台播放计数，与热度独立。",
+              "title": "Play Count"
+            },
+            "hot_score": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "平台热度的精确数值，不是播放计数。",
+              "title": "Hot Score"
+            },
+            "collect_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "收藏数。",
+              "title": "Collect Count"
+            },
+            "episodes": {
+              "description": "分集列表，按episode_number升序一次返回，不分页；未提供时为空列表。video_id是单集标识，不是播放地址。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "video_id": {
+                    "description": "单集视频ID，按字符串使用。",
+                    "minLength": 1,
+                    "title": "Video Id",
+                    "type": "string"
+                  },
+                  "episode_number": {
+                    "description": "第几集，从1开始。",
+                    "minimum": 1,
+                    "title": "Episode Number",
+                    "type": "integer"
+                  },
+                  "title": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "default": null,
+                    "description": "平台返回的分集标题，可能在多集间重复，不代表该集独立剧情简介；未提供时为null。",
+                    "title": "Title"
+                  }
+                },
+                "required": [
+                  "video_id",
+                  "episode_number"
+                ],
+                "title": "HongguoSeriesEpisode",
+                "type": "object"
+              },
+              "title": "Episodes",
+              "type": "array"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "series_id",
+            "title",
+            "points"
+          ],
+          "title": "HongguoSeriesDetailResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_video_download_links_by_video_id",
+        "description": "按单集video_id获取红果各清晰度的视频下载地址和解密密钥；ID可来自剧集详情的分集列表。已有单集ID时使用此工具。\n\n返回地址为加密MP4，可用本地FFmpeg解密：从`streams`中按`definition`选择一项，将该项`download_url`下载为`encrypted.mp4`，\n下载成功后，用同一项`decryption_key`替换下例占位符。地址具有时效性，应及时下载。\n\n```bash\nffmpeg -decryption_key \"<decryption_key>\" -i encrypted.mp4 -map 0:v:0 -map \"0:a:0?\" -c copy -movflags +faststart output.mp4\n```\n\n`output.mp4`为可播放的普通MP4；`-decryption_key`需放在`-i`之前。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "video_id": {
+              "description": "单集视频ID，可使用剧集详情episodes中的video_id；1至19位正十进制数字字符串。",
+              "maxLength": 19,
+              "minLength": 1,
+              "pattern": "^[1-9][0-9]{0,18}$",
+              "type": "string"
+            }
+          },
+          "required": [
+            "video_id"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "video_id": {
+              "description": "本次解析的单集视频ID；链接入口返回分享时对应的分集。",
+              "minLength": 1,
+              "title": "Video Id",
+              "type": "string"
+            },
+            "streams": {
+              "description": "该分集可用的各清晰度资源，包含加密MP4主备地址和对应内容密钥；客户端选择一项下载并解密，不是整部剧的分集列表。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "definition": {
+                    "description": "平台清晰度标签，例如360p、720p；不代表已校验的实际像素尺寸。",
+                    "minLength": 1,
+                    "title": "Definition",
+                    "type": "string"
+                  },
+                  "download_url": {
+                    "description": "该清晰度的加密MP4下载地址，具有时效性；下载后使用同一项的decryption_key解密播放。",
+                    "minLength": 1,
+                    "title": "Download Url",
+                    "type": "string"
+                  },
+                  "backup_download_url": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "default": null,
+                    "description": "备用加密MP4下载地址；未提供时为null。",
+                    "title": "Backup Download Url"
+                  },
+                  "encryption_method": {
+                    "const": "cenc-aes-ctr",
+                    "description": "媒体加密方式；文件需要解密后播放。",
+                    "title": "Encryption Method",
+                    "type": "string"
+                  },
+                  "decryption_key": {
+                    "description": "与同一项download_url配套的AES-128内容密钥，32位十六进制字符串；原样传给FFmpeg输入选项-decryption_key，放在-i之前。",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "title": "Decryption Key",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "definition",
+                  "download_url",
+                  "encryption_method",
+                  "decryption_key"
+                ],
+                "title": "HongguoVideoDownloadStream",
+                "type": "object"
+              },
+              "minItems": 1,
+              "title": "Streams",
+              "type": "array"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "video_id",
+            "streams",
+            "points"
+          ],
+          "title": "HongguoVideoDownloadLinksResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_video_download_links_by_video_url",
+        "description": "按红果单集分享链接或分享文案获取分享时对应分集的各清晰度下载地址和解密密钥；当前支持novelquickapp.com的漫剧分享链接。用户提供此类链接时使用。\n\n返回地址为加密MP4，可用本地FFmpeg解密：从`streams`中按`definition`选择一项，将该项`download_url`下载为`encrypted.mp4`，\n下载成功后，用同一项`decryption_key`替换下例占位符。地址具有时效性，应及时下载。\n\n```bash\nffmpeg -decryption_key \"<decryption_key>\" -i encrypted.mp4 -map 0:v:0 -map \"0:a:0?\" -c copy -movflags +faststart output.mp4\n```\n\n`output.mp4`为可播放的普通MP4；`-decryption_key`需放在`-i`之前。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "video_url": {
+              "description": "当前支持novelquickapp.com的红果漫剧单集分享链接或包含该链接的完整分享文案，例如https://novelquickapp.com/s/WqCuJHd7dz4/；按分享时的分集获取资源。不要传整剧ID、单集ID或媒体文件地址。",
+              "maxLength": 8192,
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "video_url"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "video_id": {
+              "description": "本次解析的单集视频ID；链接入口返回分享时对应的分集。",
+              "minLength": 1,
+              "title": "Video Id",
+              "type": "string"
+            },
+            "streams": {
+              "description": "该分集可用的各清晰度资源，包含加密MP4主备地址和对应内容密钥；客户端选择一项下载并解密，不是整部剧的分集列表。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "definition": {
+                    "description": "平台清晰度标签，例如360p、720p；不代表已校验的实际像素尺寸。",
+                    "minLength": 1,
+                    "title": "Definition",
+                    "type": "string"
+                  },
+                  "download_url": {
+                    "description": "该清晰度的加密MP4下载地址，具有时效性；下载后使用同一项的decryption_key解密播放。",
+                    "minLength": 1,
+                    "title": "Download Url",
+                    "type": "string"
+                  },
+                  "backup_download_url": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "default": null,
+                    "description": "备用加密MP4下载地址；未提供时为null。",
+                    "title": "Backup Download Url"
+                  },
+                  "encryption_method": {
+                    "const": "cenc-aes-ctr",
+                    "description": "媒体加密方式；文件需要解密后播放。",
+                    "title": "Encryption Method",
+                    "type": "string"
+                  },
+                  "decryption_key": {
+                    "description": "与同一项download_url配套的AES-128内容密钥，32位十六进制字符串；原样传给FFmpeg输入选项-decryption_key，放在-i之前。",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "title": "Decryption Key",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "definition",
+                  "download_url",
+                  "encryption_method",
+                  "decryption_key"
+                ],
+                "title": "HongguoVideoDownloadStream",
+                "type": "object"
+              },
+              "minItems": 1,
+              "title": "Streams",
+              "type": "array"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "video_id",
+            "streams",
+            "points"
+          ],
+          "title": "HongguoVideoDownloadLinksResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_series_comments_by_series_id",
+        "description": "读取红果整剧剧评列表，一次返回一页剧评业务字段、作者、评分及next_page_token，不读取单集视频评论。series_id可来自搜索或剧集详情；有分享链接或分享文案时使用hongguo_get_series_comments_by_url；读取评论下的回复时使用hongguo_get_series_comment_replies_by_comment_id。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "series_id": {
+              "description": "整部剧的ID，可使用红果搜索结果中的series_id；1至19位正十进制数字字符串，不是单集video_id。",
+              "maxLength": 19,
+              "minLength": 1,
+              "pattern": "^[1-9][0-9]{0,18}$",
+              "type": "string"
+            },
+            "page_token": {
+              "default": "",
+              "description": "首屏省略或传空字符串；续页将上一页完整next_page_token原样作为page_token传回。令牌只用于同一整剧；回复还须保持comment_id及level不变，不能修改或跨上下文使用。",
+              "maxLength": 524288,
+              "type": "string"
+            }
+          },
+          "required": [
+            "series_id"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "items": {
+              "description": "当前页整剧剧评，保留平台顺序，不合并重复条目。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "comment_id": {
+                    "description": "该条剧评或回复自身的ID。",
+                    "minLength": 1,
+                    "title": "Comment Id",
+                    "type": "string"
+                  },
+                  "content": {
+                    "description": "正文，保留原有空白及表情。",
+                    "title": "Content",
+                    "type": "string"
+                  },
+                  "create_time": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "发布时间，Unix秒级时间戳；未提供时为null。",
+                    "title": "Create Time"
+                  },
+                  "like_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "点赞数量；未提供时为null。",
+                    "title": "Like Count"
+                  },
+                  "reply_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "该条内容的回复总数，不代表本次已返回全部回复；未提供时为null。",
+                    "title": "Reply Count"
+                  },
+                  "author": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "user_id": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者的红果用户ID；未提供时为null。",
+                        "title": "User Id"
+                      },
+                      "name": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者名称；未提供时为null。",
+                        "title": "Name"
+                      },
+                      "avatar_url": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者头像链接；未提供时为null。",
+                        "title": "Avatar Url"
+                      }
+                    },
+                    "required": [
+                      "user_id",
+                      "name",
+                      "avatar_url"
+                    ],
+                    "title": "HongguoCommentAuthor",
+                    "type": "object",
+                    "description": "作者摘要。"
+                  },
+                  "series_id": {
+                    "description": "所属整剧ID，可用于获取该剧评的回复。",
+                    "minLength": 1,
+                    "title": "Series Id",
+                    "type": "string"
+                  },
+                  "rating": {
+                    "anyOf": [
+                      {
+                        "maximum": 10,
+                        "minimum": 0,
+                        "type": "number"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "该条剧评的评分，数值范围0至10；缺失或无有效分值时为null，不推断星级。",
+                    "title": "Rating"
+                  }
+                },
+                "required": [
+                  "comment_id",
+                  "content",
+                  "create_time",
+                  "like_count",
+                  "reply_count",
+                  "author",
+                  "series_id",
+                  "rating"
+                ],
+                "title": "HongguoSeriesCommentItem",
+                "type": "object"
+              },
+              "title": "Items",
+              "type": "array"
+            },
+            "next_page_token": {
+              "description": "下一页不透明分页令牌，续页原样作为page_token传回；为空表示没有下一页。",
+              "title": "Next Page Token",
+              "type": "string"
+            },
+            "comment_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "平台提供的剧评总数；续页等场景未提供有效总数时为null，不作为分页结束依据。",
+              "title": "Comment Count"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "items",
+            "next_page_token",
+            "comment_count",
+            "points"
+          ],
+          "title": "HongguoSeriesCommentsResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_series_comments_by_url",
+        "description": "按整剧分享链接或包含链接的整段分享文案读取一页红果整剧剧评，返回items与分页信息，条目包含整剧ID，不读取单集视频评论。续页保持同一剧集并将next_page_token原样作为page_token传回；已有series_id时使用hongguo_get_series_comments_by_series_id。剧评回复使用同一条目中的series_id和comment_id。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "description": "红果剧集分享链接，或包含该链接的整段分享文案；支持 https://novelquickapp.com/s/836Rt1LxwF4/ 这类链接。一次提供一条剧集链接。",
+              "maxLength": 8192,
+              "minLength": 1,
+              "type": "string"
+            },
+            "page_token": {
+              "default": "",
+              "description": "首屏省略或传空字符串；续页将上一页完整next_page_token原样作为page_token传回。令牌只用于同一整剧；回复还须保持comment_id及level不变，不能修改或跨上下文使用。",
+              "maxLength": 524288,
+              "type": "string"
+            }
+          },
+          "required": [
+            "url"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "items": {
+              "description": "当前页整剧剧评，保留平台顺序，不合并重复条目。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "comment_id": {
+                    "description": "该条剧评或回复自身的ID。",
+                    "minLength": 1,
+                    "title": "Comment Id",
+                    "type": "string"
+                  },
+                  "content": {
+                    "description": "正文，保留原有空白及表情。",
+                    "title": "Content",
+                    "type": "string"
+                  },
+                  "create_time": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "发布时间，Unix秒级时间戳；未提供时为null。",
+                    "title": "Create Time"
+                  },
+                  "like_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "点赞数量；未提供时为null。",
+                    "title": "Like Count"
+                  },
+                  "reply_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "该条内容的回复总数，不代表本次已返回全部回复；未提供时为null。",
+                    "title": "Reply Count"
+                  },
+                  "author": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "user_id": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者的红果用户ID；未提供时为null。",
+                        "title": "User Id"
+                      },
+                      "name": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者名称；未提供时为null。",
+                        "title": "Name"
+                      },
+                      "avatar_url": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者头像链接；未提供时为null。",
+                        "title": "Avatar Url"
+                      }
+                    },
+                    "required": [
+                      "user_id",
+                      "name",
+                      "avatar_url"
+                    ],
+                    "title": "HongguoCommentAuthor",
+                    "type": "object",
+                    "description": "作者摘要。"
+                  },
+                  "series_id": {
+                    "description": "所属整剧ID，可用于获取该剧评的回复。",
+                    "minLength": 1,
+                    "title": "Series Id",
+                    "type": "string"
+                  },
+                  "rating": {
+                    "anyOf": [
+                      {
+                        "maximum": 10,
+                        "minimum": 0,
+                        "type": "number"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "该条剧评的评分，数值范围0至10；缺失或无有效分值时为null，不推断星级。",
+                    "title": "Rating"
+                  }
+                },
+                "required": [
+                  "comment_id",
+                  "content",
+                  "create_time",
+                  "like_count",
+                  "reply_count",
+                  "author",
+                  "series_id",
+                  "rating"
+                ],
+                "title": "HongguoSeriesCommentItem",
+                "type": "object"
+              },
+              "title": "Items",
+              "type": "array"
+            },
+            "next_page_token": {
+              "description": "下一页不透明分页令牌，续页原样作为page_token传回；为空表示没有下一页。",
+              "title": "Next Page Token",
+              "type": "string"
+            },
+            "comment_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "平台提供的剧评总数；续页等场景未提供有效总数时为null，不作为分页结束依据。",
+              "title": "Comment Count"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "items",
+            "next_page_token",
+            "comment_count",
+            "points"
+          ],
+          "title": "HongguoSeriesCommentsResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "hongguo_get_series_comment_replies_by_comment_id",
+        "description": "读取红果整剧剧评回复，一次返回一页回复正文、作者、根剧评及回复目标和分页信息，不读取单集视频评论。level=2读取主评论下的回复，level=3读取父回复下的楼中楼；保持剧集、评论或父回复及层级不变续页。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "series_id": {
+              "description": "整部剧的ID，可使用红果搜索结果中的series_id；1至19位正十进制数字字符串，不是单集video_id。",
+              "maxLength": 19,
+              "minLength": 1,
+              "pattern": "^[1-9][0-9]{0,18}$",
+              "type": "string"
+            },
+            "comment_id": {
+              "description": "1至19位正十进制数字字符串；level=2传整剧剧评列表中的主评论ID，level=3传父回复ID。",
+              "maxLength": 19,
+              "minLength": 1,
+              "pattern": "^[1-9][0-9]{0,18}$",
+              "type": "string"
+            },
+            "page_token": {
+              "default": "",
+              "description": "首屏省略或传空字符串；续页将上一页完整next_page_token原样作为page_token传回。令牌只用于同一整剧；回复还须保持comment_id及level不变，不能修改或跨上下文使用。",
+              "maxLength": 524288,
+              "type": "string"
+            },
+            "level": {
+              "default": 2,
+              "description": "回复层级：2读取主评论下的回复，3读取某条回复下的楼中楼；默认2。",
+              "maximum": 3,
+              "minimum": 2,
+              "type": "integer"
+            }
+          },
+          "required": [
+            "series_id",
+            "comment_id"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "items": {
+              "description": "当前页回复，保留平台顺序，不合并重复条目。",
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "comment_id": {
+                    "description": "该条剧评或回复自身的ID。",
+                    "minLength": 1,
+                    "title": "Comment Id",
+                    "type": "string"
+                  },
+                  "content": {
+                    "description": "正文，保留原有空白及表情。",
+                    "title": "Content",
+                    "type": "string"
+                  },
+                  "create_time": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "发布时间，Unix秒级时间戳；未提供时为null。",
+                    "title": "Create Time"
+                  },
+                  "like_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "点赞数量；未提供时为null。",
+                    "title": "Like Count"
+                  },
+                  "reply_count": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "该条内容的回复总数，不代表本次已返回全部回复；未提供时为null。",
+                    "title": "Reply Count"
+                  },
+                  "author": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "user_id": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者的红果用户ID；未提供时为null。",
+                        "title": "User Id"
+                      },
+                      "name": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者名称；未提供时为null。",
+                        "title": "Name"
+                      },
+                      "avatar_url": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "作者头像链接；未提供时为null。",
+                        "title": "Avatar Url"
+                      }
+                    },
+                    "required": [
+                      "user_id",
+                      "name",
+                      "avatar_url"
+                    ],
+                    "title": "HongguoCommentAuthor",
+                    "type": "object",
+                    "description": "作者摘要。"
+                  },
+                  "series_id": {
+                    "description": "所属整剧ID，可用于获取该剧评的回复。",
+                    "minLength": 1,
+                    "title": "Series Id",
+                    "type": "string"
+                  },
+                  "root_comment_id": {
+                    "description": "所属根剧评ID。",
+                    "minLength": 1,
+                    "title": "Root Comment Id",
+                    "type": "string"
+                  },
+                  "parent_comment_id": {
+                    "description": "本次回复列表所属的主剧评或父回复ID，与请求comment_id一致。",
+                    "minLength": 1,
+                    "title": "Parent Comment Id",
+                    "type": "string"
+                  },
+                  "reply_to_comment_id": {
+                    "description": "直接被回复的剧评或回复ID，可能与列表父级ID不同。",
+                    "minLength": 1,
+                    "title": "Reply To Comment Id",
+                    "type": "string"
+                  },
+                  "reply_to_author": {
+                    "anyOf": [
+                      {
+                        "additionalProperties": false,
+                        "properties": {
+                          "user_id": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ],
+                            "description": "作者的红果用户ID；未提供时为null。",
+                            "title": "User Id"
+                          },
+                          "name": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ],
+                            "description": "作者名称；未提供时为null。",
+                            "title": "Name"
+                          },
+                          "avatar_url": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ],
+                            "description": "作者头像链接；未提供时为null。",
+                            "title": "Avatar Url"
+                          }
+                        },
+                        "required": [
+                          "user_id",
+                          "name",
+                          "avatar_url"
+                        ],
+                        "title": "HongguoCommentAuthor",
+                        "type": "object"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "description": "被回复作者摘要；未提供时为null。"
+                  }
+                },
+                "required": [
+                  "comment_id",
+                  "content",
+                  "create_time",
+                  "like_count",
+                  "reply_count",
+                  "author",
+                  "series_id",
+                  "root_comment_id",
+                  "parent_comment_id",
+                  "reply_to_comment_id",
+                  "reply_to_author"
+                ],
+                "title": "HongguoSeriesCommentReplyItem",
+                "type": "object"
+              },
+              "title": "Items",
+              "type": "array"
+            },
+            "next_page_token": {
+              "description": "下一页不透明分页令牌，续页原样作为page_token传回；为空表示没有下一页。",
+              "title": "Next Page Token",
+              "type": "string"
+            },
+            "reply_count": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "平台提供的当前父级下回复总数；未提供有效总数时为null，不作为分页结束依据。",
+              "title": "Reply Count"
+            },
+            "points": {
+              "type": "object",
+              "description": "本次成功调用的积分消耗与账户积分余额。",
+              "properties": {
+                "cost": {
+                  "type": "integer",
+                  "description": "本次请求最终确认消耗的积分。",
+                  "minimum": 0
+                },
+                "balance": {
+                  "type": "integer",
+                  "description": "优先返回调用完成时查询到的账户积分余额。查询失败时，回退到本次预扣后的余额快照。余额可为负数。"
+                }
+              },
+              "required": [
+                "cost",
+                "balance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "items",
+            "next_page_token",
+            "reply_count",
+            "points"
+          ],
+          "title": "HongguoSeriesCommentRepliesResult",
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "socialdatax_get_points_balance",
+        "description": "查询当前 API Key 账户的 SocialDataX 积分余额、剩余积分或点数 / remaining points balance。需要充值时请访问 https://socialdatax.com/dashboard/billing。",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {},
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "type": "object"
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "openWorldHint": true
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      }
+    ]
+  }
+}

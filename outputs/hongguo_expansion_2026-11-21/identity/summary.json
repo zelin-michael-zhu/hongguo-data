@@ -1,0 +1,113 @@
+{
+  "catalog_size": 1388,
+  "initial_trial_size": 16,
+  "status": {
+    "failed": 23,
+    "ok": 1365
+  },
+  "errors": {
+    "404": 23
+  },
+  "counts": {
+    "old_sdk_book_id": 109,
+    "retrieved": 1365,
+    "record_number_present": 1365,
+    "first_visible_time_present": 1365,
+    "complete_unique_episode_id_list": 1365,
+    "with_public_review_block": 1365,
+    "with_review_previews": 1365,
+    "with_reported_review_total": 1365,
+    "total_reported_reviews_sum": 1001231,
+    "reported_reviews_exceed_preview": 1348,
+    "preview_records": 12247,
+    "nonempty_preview_texts": 12247,
+    "episode_positions": 238397,
+    "episode_id_fields_nonempty": 238397,
+    "reported_episode_count_sum": 238397,
+    "trial_success": 15,
+    "catalog_book_from_intro": 28,
+    "web_intro_explicit_adaptation_title": 28,
+    "old_sdk_album_id": 117,
+    "old_sdk_season_index": 117,
+    "compare_group": 117,
+    "same_group": 117,
+    "preview_text_count_equals_reported_total": 17,
+    "positive_preview_text_count_equals_reported_total": 17
+  },
+  "distinct_episode_ids": 238397,
+  "website_grouped_entries": 925,
+  "distinct_website_group_ids": 635,
+  "multiple_catalog_entries_in_group": 168,
+  "distinct_legacy_sdk_book_ids_in_catalog": 48,
+  "nonempty_website_structured_book_fields": {},
+  "distinct_book_title_strings_explicitly_credited_in_web_intro": 23,
+  "returned_seriesDetail_keys": {
+    "episode_cnt": 1365,
+    "accessible_episode_cnt": 1365,
+    "pay_type": 1365,
+    "series_id": 1365,
+    "series_name": 1365,
+    "series_cover": 1365,
+    "series_intro": 1365,
+    "tags": 1365,
+    "episode_right_text": 1365,
+    "celebrities": 1365,
+    "series_episode_info": 1365,
+    "vid_list": 1365,
+    "first_visible_time": 1365,
+    "record_number": 1365,
+    "season_info": 925
+  },
+  "returned_seriesSocialInfo_keys": {
+    "rating": 1287,
+    "series_like_count": 1365,
+    "series_favorite_count": 1365,
+    "rating_count": 1287,
+    "hot_score_data": 1365,
+    "reviews": 1365,
+    "rank_label": 296
+  },
+  "returned_nested_season_info_keys": {
+    "series_group_id": 925
+  },
+  "preview_rows_per_title": {
+    "1": 1,
+    "4": 2,
+    "5": 1,
+    "7": 6,
+    "8": 4,
+    "9": 1351
+  },
+  "legacy_5_episode_id_alignment": {
+    "7561390625552092222": {
+      "old_count": 84,
+      "today_count": 84,
+      "matching_number_and_id": 84,
+      "id_intersection": 84
+    },
+    "7697459724635098174": {
+      "old_count": 785,
+      "today_count": 785,
+      "matching_number_and_id": 785,
+      "id_intersection": 785
+    },
+    "7704532495357725721": {
+      "old_count": 113,
+      "today_count": 113,
+      "matching_number_and_id": 113,
+      "id_intersection": 113
+    },
+    "7705824595416190014": {
+      "old_count": 317,
+      "today_count": 317,
+      "matching_number_and_id": 317,
+      "id_intersection": 317
+    },
+    "7706512650816982040": {
+      "old_count": 96,
+      "today_count": 96,
+      "matching_number_and_id": 96,
+      "id_intersection": 96
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-11-18T21:24:30.795213+08:00",
+  "sampling": {
+    "selected_series": 5,
+    "selection": "The first distinct title from each of four published 2026-11-17 rankings, plus the previously verified title 掌上珠.",
+    "danmaku": "One page, requested page size 10, from each selected series first episode.",
+    "comments": "One public detail-page preview and one public first-episode preview per selected series.",
+    "population_representativeness_established": false
+  },
+  "counts": {
+    "series_metrics.csv": 5,
+    "episodes.csv": 1395,
+    "danmaku_sample.csv": 46,
+    "comments_preview.csv": 120,
+    "series_reviews": 45,
+    "first_episode_comments": 75
+  },
+  "sources": {
+    "openhongguo": {
+      "repository": "https://github.com/beilunyang/openhongguo",
+      "package": "openhongguo@0.4.0",
+      "request_count": 12,
+      "http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "started_at": "2026-11-18T09:08:02.533Z",
+      "completed_at": "2026-11-18T09:08:06.541Z"
+    },
+    "public_comments": {
+      "reference_implementation": "https://github.com/N3urda/hongguoTV/blob/main/kotlin-tv/core/src/main/kotlin/com/hongguotv/core/PublicComments.kt",
+      "pages": 10,
+      "platform_comment_ids_provided": false,
+      "pagination_cursor_provided": false,
+      "limited_preview": true,
+      "author_fields_retained": false
+    },
+    "historical_snapshots": {
+      "repository": "https://github.com/SentDz/drama-radar",
+      "commit": "9963122332b7bc93b508547fb6802f663afe6d43",
+      "local_build_command": "python3 -m radar build",
+      "daily_rows": 22901,
+      "unique_series_ids": 1388,
+      "date_range": [
+        "2026-10-13",
+        "2026-11-17"
+      ],
+      "newly_collected_history": false
+    }
+  },
+  "metric_qualifications": {
+    "play_count": "Series-level count returned by the app SDK.",
+    "follow_count": "Retained under its original SDK field name. This pilot does not establish equivalence with the requested subscription count.",
+    "web_favorite_counts": "Favorite counts returned by each web page. Detail-page values can be rounded. Values and collection times can differ from the SDK.",
+    "click_count": "No independent source field has been verified. Cells remain empty.",
+    "subscription_count": "No teacher/platform definition has been confirmed. Cells remain empty.",
+    "heat": "A separate platform heat score.",
+    "comment_counts": "App episode comment counts, web episode comment totals, and series review totals are retained separately. They can differ.",
+    "danmaku": "The server provides a selected subset. Platform total and observed sample count are retained separately."
+  }
+}

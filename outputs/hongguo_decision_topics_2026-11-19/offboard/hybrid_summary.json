@@ -1,0 +1,126 @@
+{
+  "2026-10-13": {
+    "rank": {
+      "days": 24,
+      "slots": 72,
+      "growth_sum": 2618000,
+      "median_daily_growth": 77000.0,
+      "returns": 2,
+      "hybrid_wdl": [
+        21,
+        2,
+        1
+      ],
+      "all_candidate_complete_days": 19,
+      "covered_daily_biggest": 4,
+      "worst_missed": 181000
+    },
+    "growth": {
+      "days": 24,
+      "slots": 72,
+      "growth_sum": 4575000,
+      "median_daily_growth": 176500.0,
+      "returns": 4,
+      "hybrid_wdl": [
+        5,
+        1,
+        18
+      ],
+      "all_candidate_complete_days": 19,
+      "covered_daily_biggest": 12,
+      "worst_missed": 496000
+    },
+    "stock": {
+      "days": 24,
+      "slots": 72,
+      "growth_sum": 4242000,
+      "median_daily_growth": 168000.0,
+      "returns": 4,
+      "hybrid_wdl": [
+        8,
+        1,
+        15
+      ],
+      "all_candidate_complete_days": 19,
+      "covered_daily_biggest": 10,
+      "worst_missed": 496000
+    },
+    "hybrid": {
+      "days": 24,
+      "slots": 72,
+      "growth_sum": 4469000,
+      "median_daily_growth": 151000.0,
+      "returns": 2,
+      "hybrid_wdl": [
+        0,
+        24,
+        0
+      ],
+      "all_candidate_complete_days": 19,
+      "covered_daily_biggest": 12,
+      "worst_missed": 123000
+    }
+  },
+  "2026-11-05": {
+    "rank": {
+      "days": 9,
+      "slots": 27,
+      "growth_sum": 1395000,
+      "median_daily_growth": 91000,
+      "returns": 1,
+      "hybrid_wdl": [
+        7,
+        1,
+        1
+      ],
+      "all_candidate_complete_days": 9,
+      "covered_daily_biggest": 4,
+      "worst_missed": 98000
+    },
+    "growth": {
+      "days": 9,
+      "slots": 27,
+      "growth_sum": 1377000,
+      "median_daily_growth": 123000,
+      "returns": 0,
+      "hybrid_wdl": [
+        4,
+        0,
+        5
+      ],
+      "all_candidate_complete_days": 9,
+      "covered_daily_biggest": 4,
+      "worst_missed": 496000
+    },
+    "stock": {
+      "days": 9,
+      "slots": 27,
+      "growth_sum": 1193000,
+      "median_daily_growth": 113000,
+      "returns": 1,
+      "hybrid_wdl": [
+        4,
+        0,
+        5
+      ],
+      "all_candidate_complete_days": 9,
+      "covered_daily_biggest": 3,
+      "worst_missed": 496000
+    },
+    "hybrid": {
+      "days": 9,
+      "slots": 27,
+      "growth_sum": 1732000,
+      "median_daily_growth": 132000,
+      "returns": 1,
+      "hybrid_wdl": [
+        0,
+        9,
+        0
+      ],
+      "all_candidate_complete_days": 9,
+      "covered_daily_biggest": 5,
+      "worst_missed": 98000
+    }
+  }
+}

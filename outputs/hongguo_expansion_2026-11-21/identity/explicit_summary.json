@@ -1,0 +1,12 @@
+{
+  "source": "Public official series_group_id and exactly one explicit 第N季 marker in the displayed title.",
+  "members": 455,
+  "groups": 281,
+  "crosscheck_with_sdk": {
+    "unknown": 342,
+    "agree": 113
+  },
+  "duplicate_group_and_number_slots": 0,
+  "unique_adjacent_pairs": 168,
+  "pair_groups": 101
+}

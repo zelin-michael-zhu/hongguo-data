@@ -1,0 +1,76 @@
+{
+  "status": 200,
+  "request_url": "https://api.crossref.org/works/10.2307/23042796",
+  "retrieved_at": "2026-11-19",
+  "record": {
+    "title": [
+      "Predictive Analytics in Information Systems Research1"
+    ],
+    "author": [
+      {
+        "given": "Galit",
+        "family": "Shmueli",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Smith School of Business, University of Maryland, College Park, MD 20742 U.S.A."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Otto R.",
+        "family": "Koppius",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rotterdam School of Management, Erasmus University, Rotterdam, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.2307/23042796",
+    "container-title": [
+      "MIS Quarterly"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          9,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          9,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          9,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.2307/23042796"
+  }
+}

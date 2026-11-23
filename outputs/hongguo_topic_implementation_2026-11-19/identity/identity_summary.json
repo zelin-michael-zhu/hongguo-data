@@ -1,0 +1,32 @@
+{
+  "pairs": 63,
+  "platform_titles_returned": 113,
+  "families": 48,
+  "event_dates": 20,
+  "html_pages": 113,
+  "html_failures": {},
+  "identity_evidence_levels": {
+    "app_adjacent_and_web_same_group": 63
+  },
+  "distinct_record_number_comparison": {
+    "different": 63
+  },
+  "lag_days_distribution": {
+    "1": 60,
+    "2": 3
+  },
+  "median_lag": 1,
+  "synopsis_categories": {
+    "E": 18,
+    "U": 39,
+    "R": 6
+  },
+  "positive_case_families": 14,
+  "same_book_confirmed_pairs": 57,
+  "content_type_titles": {
+    "1004": 113
+  },
+  "alternate_album_directory_error_codes": {
+    "CONTENT_UNAVAILABLE": 48
+  }
+}

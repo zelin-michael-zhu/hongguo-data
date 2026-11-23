@@ -1,0 +1,97 @@
+{
+  "seed": "20261121-C-1",
+  "sample_frames": {
+    "无核实的标题季号": 910,
+    "明示第1至2季": 165,
+    "明示第3季及以上": 290
+  },
+  "titles_both": 1365,
+  "sample_titles": 12,
+  "sample_rows": 72,
+  "targeted_rows": 31,
+  "scope_pattern_overlap_titles": 1,
+  "thresholds": [
+    {
+      "min_first": 1,
+      "min_series": 1,
+      "titles": 1365,
+      "explicit_number": 455,
+      "season_3_plus": 290,
+      "adjacent_pairs_both_meet": 168
+    },
+    {
+      "min_first": 5,
+      "min_series": 5,
+      "titles": 1361,
+      "explicit_number": 455,
+      "season_3_plus": 290,
+      "adjacent_pairs_both_meet": 168
+    },
+    {
+      "min_first": 10,
+      "min_series": 8,
+      "titles": 1354,
+      "explicit_number": 455,
+      "season_3_plus": 290,
+      "adjacent_pairs_both_meet": 168
+    },
+    {
+      "min_first": 15,
+      "min_series": 9,
+      "titles": 1347,
+      "explicit_number": 455,
+      "season_3_plus": 290,
+      "adjacent_pairs_both_meet": 168
+    }
+  ],
+  "keyword_counts": [
+    {
+      "label": "前后落差",
+      "scope": "first_episode_comment",
+      "rows": 4,
+      "titles": 4
+    },
+    {
+      "label": "前后落差",
+      "scope": "series_review",
+      "rows": 12,
+      "titles": 12
+    },
+    {
+      "label": "续季比较或疲劳",
+      "scope": "first_episode_comment",
+      "rows": 7,
+      "titles": 7
+    },
+    {
+      "label": "续季比较或疲劳",
+      "scope": "series_review",
+      "rows": 39,
+      "titles": 36
+    },
+    {
+      "label": "前季依赖或导航",
+      "scope": "first_episode_comment",
+      "rows": 5,
+      "titles": 5
+    },
+    {
+      "label": "前季依赖或导航",
+      "scope": "series_review",
+      "rows": 3,
+      "titles": 3
+    },
+    {
+      "label": "首集前瞻",
+      "scope": "first_episode_comment",
+      "rows": 71,
+      "titles": 62
+    },
+    {
+      "label": "首集前瞻",
+      "scope": "series_review",
+      "rows": 108,
+      "titles": 103
+    }
+  ]
+}

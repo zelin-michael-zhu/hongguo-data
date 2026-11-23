@@ -1,0 +1,31 @@
+{
+  "target_dates": 11,
+  "target_titles": 156,
+  "decision_days": 15,
+  "hit_counts_over_same_target_titles": [
+    {
+      "titles_per_day": 3,
+      "1_to_3": 18,
+      "2_to_3": 2
+    },
+    {
+      "titles_per_day": 5,
+      "1_to_3": 28,
+      "2_to_3": 3
+    },
+    {
+      "titles_per_day": 10,
+      "1_to_3": 39,
+      "2_to_3": 7
+    },
+    {
+      "titles_per_day": 20,
+      "1_to_3": 56,
+      "2_to_3": 18
+    }
+  ],
+  "observable_with_no_budget_limit": {
+    "1_to_3": 66,
+    "2_to_3": 29
+  }
+}

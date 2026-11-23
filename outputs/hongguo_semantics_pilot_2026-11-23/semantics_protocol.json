@@ -1,0 +1,16 @@
+{
+  "registered_at_sh": "2026-11-23T01:12:38+08:00",
+  "sha256": {
+    "prospective.py": "cf06e3b24f4ad5d0f7fe19f2ab60cabda0f1c4c562a29762d154841096b67753",
+    "三维评论标注口径.md": "38ede1556d8e89f7d4e5b6484f4ef0a636a538e539628bc2a8b3b06478edf9bc",
+    "labels.py": "d9ecf22e383557c1613742759ae955374849d7fa366632cc7fcb3ba2c04c210c",
+    "forecast.py": "1142f1ebbaefab2271eb721eb3d216afd39a7b00e945cc582969b21ba17e4e61"
+  },
+  "primary_metric": "Brier score",
+  "horizon_days": 7,
+  "outcome": "future_same_AI_board_top20",
+  "training_min_rows": 30,
+  "training_min_dates": 4,
+  "training_min_per_class": 5,
+  "ridge": 10
+}

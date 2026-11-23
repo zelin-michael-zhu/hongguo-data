@@ -1,0 +1,29 @@
+{
+  "schema": 2,
+  "tag": "full-20261118-44216082279-1",
+  "updated_at": "2026-11-18T01:33:19.830Z",
+  "published": false,
+  "sitemap_unique_total": 649311,
+  "catalog_total": 649225,
+  "catalog_hash": "56a984266025ea83183063f62326affb0810484656366985864b81c48d9f061c",
+  "source_hash": "17ffce68e938fc09f503dac1e498eb8c07d9ed1bf6bbbbed8b3be465f310fe7e",
+  "json_size_mb": 253.41,
+  "gzip_size_mb": 93.31,
+  "has_delta": true,
+  "delta": {
+    "schema": 2,
+    "type": "catalog-delta-summary",
+    "from_tag": "full-20261117-44001777779-1",
+    "to_tag": "full-20261118-44216082279-1",
+    "from_catalog_hash": "e720cc4d67a0044e12783247d4f6d50eaa6e06e971bbd0cc933e8efa945c0f0c",
+    "to_catalog_hash": "56a984266025ea83183063f62326affb0810484656366985864b81c48d9f061c",
+    "from_count": 646808,
+    "to_count": 649225,
+    "added_count": 10054,
+    "modified_count": 0,
+    "deleted_count": 7637,
+    "delta_gzip_size_kb": 1545.48,
+    "delta_sha256": "14e82e2a4d38399449fac590d239813236ed48857ff3b28441079db450abba64",
+    "created_at": "2026-11-18T01:33:19.829Z"
+  }
+}

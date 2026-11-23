@@ -1,0 +1,174 @@
+{
+  "started": "2026-11-19T15:26:02.275426+08:00",
+  "protocol": "up to 5 public pages/board; no account; same-day published rankings",
+  "boards": {
+    "hot": {
+      "rows": 100,
+      "fresh_complete": true,
+      "pages": [
+        {
+          "url": "https://hongguoduanju.com/rank/hot-drama",
+          "at": "2026-11-19T15:26:02.545655+08:00",
+          "hash": "e6e21b56542267c5c4b540165329cffc87794ea7ae60f3a29f72dbd5b66f369b",
+          "label_date": "2026-11-19",
+          "page": 1
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-drama?page=2",
+          "at": "2026-11-19T15:26:04.662404+08:00",
+          "hash": "8ab88cfef2368342a88a38a267cc2be201f9e5c344e2a087f924294020b7266e",
+          "label_date": "2026-11-19",
+          "page": 2
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-drama?page=3",
+          "at": "2026-11-19T15:26:06.645065+08:00",
+          "hash": "88d6dc9df3a96d693fa2ad4a38956eb7b12ab8b689d407ef72830553f7619908",
+          "label_date": "2026-11-19",
+          "page": 3
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-drama?page=4",
+          "at": "2026-11-19T15:26:08.605930+08:00",
+          "hash": "9f386294542af60d76e4a07f6679783217b50c87c175766e5dbb93a519f12ed1",
+          "label_date": "2026-11-19",
+          "page": 4
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-drama?page=5",
+          "at": "2026-11-19T15:26:10.629053+08:00",
+          "hash": "3d977b3d71f83a192fb864ab85f2d24e3ca076fa20983b171af08225cc0f4fe3",
+          "label_date": "2026-11-19",
+          "page": 5
+        }
+      ],
+      "errors": []
+    },
+    "real": {
+      "rows": 100,
+      "fresh_complete": true,
+      "pages": [
+        {
+          "url": "https://hongguoduanju.com/rank/hot-real-drama",
+          "at": "2026-11-19T15:26:12.574787+08:00",
+          "hash": "38a9d0019d1ea36071694c265378aaea646feff588583c3ac12aad52c04e08d7",
+          "label_date": "2026-11-19",
+          "page": 1
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-real-drama?page=2",
+          "at": "2026-11-19T15:26:14.737848+08:00",
+          "hash": "1ad366f51ab2fc1ef0f40d13074c41062b8c5df24461dc38bdb5836b108c29b7",
+          "label_date": "2026-11-19",
+          "page": 2
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-real-drama?page=3",
+          "at": "2026-11-19T15:26:16.583923+08:00",
+          "hash": "28b41847931b614275d480a93793d0363d88783e004ae96271e501572ecac337",
+          "label_date": "2026-11-19",
+          "page": 3
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-real-drama?page=4",
+          "at": "2026-11-19T15:26:18.589580+08:00",
+          "hash": "885276747df5d6e13c74ed28df9a8fd54103173c4127e8b05cc6e57c275b5bfd",
+          "label_date": "2026-11-19",
+          "page": 4
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-real-drama?page=5",
+          "at": "2026-11-19T15:26:20.631641+08:00",
+          "hash": "61105d1444b470ede6beed6494eaeb36af462d594e7d71994f30cac3a5c0251e",
+          "label_date": "2026-11-19",
+          "page": 5
+        }
+      ],
+      "errors": []
+    },
+    "ai": {
+      "rows": 100,
+      "fresh_complete": true,
+      "pages": [
+        {
+          "url": "https://hongguoduanju.com/rank/hot-ai-drama",
+          "at": "2026-11-19T15:26:22.587010+08:00",
+          "hash": "77d1f38232b91f2fab243b4b447a0021e9e987aacfd7d05005bcda38b460b14a",
+          "label_date": "2026-11-19",
+          "page": 1
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-ai-drama?page=2",
+          "at": "2026-11-19T15:26:24.601052+08:00",
+          "hash": "9b2702ff2cc89084fdd94313243e0744945003f103e262c44e79e40270f6c6f0",
+          "label_date": "2026-11-19",
+          "page": 2
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-ai-drama?page=3",
+          "at": "2026-11-19T15:26:26.569386+08:00",
+          "hash": "a5499211426c9ef89c1e70f0356648640690ec2c5ea1e142babbdf697ac1ea23",
+          "label_date": "2026-11-19",
+          "page": 3
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-ai-drama?page=4",
+          "at": "2026-11-19T15:26:28.677188+08:00",
+          "hash": "c59e979899dc880f48947fed639d993022324ed2d98e71652c262fbf7f7b52d5",
+          "label_date": "2026-11-19",
+          "page": 4
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-ai-drama?page=5",
+          "at": "2026-11-19T15:26:30.564848+08:00",
+          "hash": "f7fa48172706e47efe31926c1badc233dcad40c0e0a69899d08a423ffc4fa1e4",
+          "label_date": "2026-11-19",
+          "page": 5
+        }
+      ],
+      "errors": []
+    },
+    "comic": {
+      "rows": 100,
+      "fresh_complete": true,
+      "pages": [
+        {
+          "url": "https://hongguoduanju.com/rank/hot-comic-drama",
+          "at": "2026-11-19T15:26:32.745654+08:00",
+          "hash": "348ecd52edaaaf9c84fc99518a3bc673a35089e7a8059cf50a62f0b4e24727ab",
+          "label_date": "2026-11-19",
+          "page": 1
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-comic-drama?page=2",
+          "at": "2026-11-19T15:26:34.603600+08:00",
+          "hash": "037b34c1450caf0a1e0a92cc74a1dbf927ee0c3f0c588079228c8d29249bee09",
+          "label_date": "2026-11-19",
+          "page": 2
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-comic-drama?page=3",
+          "at": "2026-11-19T15:26:36.674086+08:00",
+          "hash": "82b546cc9f4e777a14c12bb7ab3830e6958be6851f380acf5dd03f0cea8cdd22",
+          "label_date": "2026-11-19",
+          "page": 3
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-comic-drama?page=4",
+          "at": "2026-11-19T15:26:38.665383+08:00",
+          "hash": "527b2b38def7cdbf304ff5a786e4e858c484ab589d0194bf8207648a204486ce",
+          "label_date": "2026-11-19",
+          "page": 4
+        },
+        {
+          "url": "https://hongguoduanju.com/rank/hot-comic-drama?page=5",
+          "at": "2026-11-19T15:26:40.723089+08:00",
+          "hash": "bf927b6063199bd9da3482356e1942149f13aa093bcdf8665c125dfa3c741416",
+          "label_date": "2026-11-19",
+          "page": 5
+        }
+      ],
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "checked_shanghai": "2026-11-21T15:11:34.322403+08:00",
+  "url": "https://hongguoduanju.com/player/7703173252444589080",
+  "initial": {
+    "visible_labels": [],
+    "pageindications": [
+      "扫码",
+      "评论"
+    ]
+  },
+  "blocked_requests_by_type": {
+    "image": 25,
+    "xhr": 18,
+    "fetch": 1
+  },
+  "method": "未启动视频；仅读取常规页面可见控件并尝试切换弹幕。拦截媒体及相关传输，不能判断播放时 App 或网页登录后的展示。"
+}

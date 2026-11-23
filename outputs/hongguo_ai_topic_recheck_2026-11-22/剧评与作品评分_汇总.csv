@@ -1,0 +1,10 @@
+﻿scope,cards_used,titles,mean_preview_minus_title,median_preview_minus_title,mean_abs_gap,at_least_1_point_above,at_least_1_point_below,pairs_at_least_half_point_apart_on_title,pairs_preview_reversed,pairs_preview_tied
+all_paired,all_visible,424,0.0540946,0.36111111,0.97532102,89,83,58429,9234,1212
+same_nine_card_titles,1,423,0.96595745,1.4,1.87706856,302,41,58209,8506,29246
+same_nine_card_titles,3,423,0.25516154,0.7,1.3393223,167,78,58209,11211,6127
+same_nine_card_titles,5,423,0.11536643,0.4,1.10023641,125,90,58209,10623,2627
+same_nine_card_titles,9,423,0.05369057,0.36666667,0.97709483,89,83,58209,9203,1212
+same_nine_card_titles_raters_ge_1000,1,214,0.84392523,1.2,1.72803738,143,18,14505,1498,8383
+same_nine_card_titles_raters_ge_1000,3,214,0.16168224,0.66666667,1.2635514,67,42,14505,2349,1839
+same_nine_card_titles_raters_ge_1000,5,214,-0.00093458,0.4,1.02336449,49,48,14505,2049,743
+same_nine_card_titles_raters_ge_1000,9,214,-0.07767394,0.3,0.91401869,25,46,14505,1662,286

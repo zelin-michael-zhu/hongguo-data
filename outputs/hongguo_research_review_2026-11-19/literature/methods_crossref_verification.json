@@ -1,0 +1,969 @@
+[
+  {
+    "request_url": "https://api.crossref.org/works?query.title=Beyond%20the%20margin%20of%20error%3A%20a%20systematic%20and%20replicable%20audit%20of%20the%20TikTok%20research%20API&rows=1",
+    "status": "error",
+    "error": "<urlopen error Tunnel connection failed: 503 Service Unavailable>",
+    "retrieved_at": "2026-11-19",
+    "query_title": "Beyond the margin of error: a systematic and replicable audit of the TikTok research API"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=Engagement%2C%20user%20satisfaction%2C%20and%20the%20amplification%20of%20divisive%20content%20on%20social%20media&rows=1",
+    "final_url": "https://api.crossref.org/works?query.title=Engagement%2C%20user%20satisfaction%2C%20and%20the%20amplification%20of%20divisive%20content%20on%20social%20media&rows=1",
+    "status": 200,
+    "retrieved_at": "2026-11-19",
+    "match": {
+      "title": [
+        "Engagement, user satisfaction, and the amplification of divisive content on social media"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-0395-7025",
+          "authenticated-orcid": false,
+          "given": "Smitha",
+          "family": "Milli",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Cornell Tech, New York, NY 10044 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0716-8071",
+          "authenticated-orcid": false,
+          "given": "Micah",
+          "family": "Carroll",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Computer Science, University of California , Berkeley, CA 94720 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-9103-5462",
+          "authenticated-orcid": false,
+          "given": "Yike",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Paul G. Allen School of Computer Science & Engineering, University of Washington , Seattle, WA 98195 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-6194-9981",
+          "authenticated-orcid": false,
+          "given": "Sashrika",
+          "family": "Pandey",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Computer Science, University of California , Berkeley, CA 94720 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sebastian",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Computer Science, University of California , Berkeley, CA 94720 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anca D",
+          "family": "Dragan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Computer Science, University of California , Berkeley, CA 94720 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1093/pnasnexus/pgaf062",
+      "container-title": [
+        "PNAS Nexus"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            27
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            27
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1093/pnasnexus/pgaf062",
+      "link": [
+        {
+          "URL": "https://academic.oup.com/pnasnexus/advance-article-pdf/doi/10.1093/pnasnexus/pgaf062/62267673/pgaf062.pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://academic.oup.com/pnasnexus/advance-article-pdf/doi/10.1093/pnasnexus/pgaf062/62267673/pgaf062.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://academic.oup.com/pnasnexus/advance-article-pdf/doi/10.1093/pnasnexus/pgaf062/62267673/pgaf062.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": null,
+      "update-to": null,
+      "updated-by": null
+    },
+    "query_title": "Engagement, user satisfaction, and the amplification of divisive content on social media"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=REFORMS%3A%20Consensus-based%20recommendations%20for%20machine-learning-based%20science&rows=1",
+    "final_url": "https://api.crossref.org/works?query.title=REFORMS%3A%20Consensus-based%20recommendations%20for%20machine-learning-based%20science&rows=1",
+    "status": 200,
+    "retrieved_at": "2026-11-19",
+    "match": {
+      "title": [
+        "REFORMS: Consensus-based Recommendations for Machine-learning-based Science"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5695-280X",
+          "authenticated-orcid": true,
+          "given": "Sayash",
+          "family": "Kapoor",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "Center for Information Technology Policy, Princeton University, Princeton, NJ 08544, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5954-9346",
+          "authenticated-orcid": true,
+          "given": "Emily M.",
+          "family": "Cantrell",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Sociology, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "School of Public and International Affairs, Princeton University, Princeton, NJ 08544, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0472-540X",
+          "authenticated-orcid": true,
+          "given": "Kenny",
+          "family": "Peng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Cornell University, Ithaca, NY 14850, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thanh Hien",
+          "family": "Pham",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "Center for Information Technology Policy, Princeton University, Princeton, NJ 08544, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5310-2372",
+          "authenticated-orcid": true,
+          "given": "Christopher A.",
+          "family": "Bail",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Sociology, Duke University, Durham, NC 27708, USA."
+            },
+            {
+              "name": "Department of Political Science, Duke University, Durham, NC 27708, USA."
+            },
+            {
+              "name": "Sanford School of Public Policy, Duke University, Durham, NC 27708, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9754-5941",
+          "authenticated-orcid": true,
+          "given": "Odd Erik",
+          "family": "Gundersen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Norwegian University of Science and Technology, Trondheim, Norway."
+            },
+            {
+              "name": "Aneo AS, Trondheim, Norway."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9364-9604",
+          "authenticated-orcid": true,
+          "given": "Jake M.",
+          "family": "Hofman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, New York, NY 10012, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6826-3550",
+          "authenticated-orcid": true,
+          "given": "Jessica",
+          "family": "Hullman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Northwestern University, Evanston, IL 60208, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2745-9896",
+          "authenticated-orcid": true,
+          "given": "Michael A.",
+          "family": "Lones",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Mathematical and Computer Sciences, Heriot-Watt University, Edinburgh, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4871-0429",
+          "authenticated-orcid": true,
+          "given": "Momin M.",
+          "family": "Malik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Digital Health, Mayo Clinic, Rochester, MN 55905, USA."
+            },
+            {
+              "name": "School of Social Policy &amp; Practice, University of Pennsylvania, Philadelphia, PA 19104, USA."
+            },
+            {
+              "name": "Institute in Critical Quantitative, Computational, &amp; Mixed Methodologies, Johns Hopkins University, Baltimore, MD 21218, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Priyanka",
+          "family": "Nanayakkara",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Northwestern University, Evanston, IL 60208, USA."
+            },
+            {
+              "name": "Department of Communication Studies, Northwestern University, Evanston, IL 60208, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6755-0259",
+          "authenticated-orcid": true,
+          "given": "Russell A.",
+          "family": "Poldrack",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, Stanford University, Stanford, CA 94305, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Inioluwa Deborah",
+          "family": "Raji",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, University of California, Berkeley, Berkeley, CA 94720, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3484-5031",
+          "authenticated-orcid": true,
+          "given": "Michael",
+          "family": "Roberts",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge, UK."
+            },
+            {
+              "name": "Department of Medicine, University of Cambridge, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8968-1356",
+          "authenticated-orcid": true,
+          "given": "Matthew J.",
+          "family": "Salganik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Information Technology Policy, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "Department of Sociology, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "Office of Population Research, Princeton University, Princeton, NJ 08544, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5875-4986",
+          "authenticated-orcid": true,
+          "given": "Marta",
+          "family": "Serra-Garcia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rady School of Management, University of California, San Diego, La Jolla, CA 92093, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7657-3089",
+          "authenticated-orcid": true,
+          "given": "Brandon M.",
+          "family": "Stewart",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Information Technology Policy, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "Department of Sociology, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "Office of Population Research, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "Department of Politics, Princeton University, Princeton, NJ 08544, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9531-0623",
+          "authenticated-orcid": true,
+          "given": "Gilles",
+          "family": "Vandewiele",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Information Technology, Ghent University, Ghent, Belgium."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7176-4479",
+          "authenticated-orcid": true,
+          "given": "Arvind",
+          "family": "Narayanan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Princeton University, Princeton, NJ 08544, USA."
+            },
+            {
+              "name": "Center for Information Technology Policy, Princeton University, Princeton, NJ 08544, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1126/sciadv.adk3452",
+      "container-title": [
+        "Science Advances"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            3
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1126/sciadv.adk3452",
+      "link": [
+        {
+          "URL": "https://www.science.org/doi/pdf/10.1126/sciadv.adk3452",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": null,
+      "update-to": null,
+      "updated-by": null
+    },
+    "query_title": "REFORMS: Consensus-based recommendations for machine-learning-based science"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=Revisiting%20Event-Study%20Designs%3A%20Robust%20and%20Efficient%20Estimation&rows=1",
+    "final_url": "https://api.crossref.org/works?query.title=Revisiting%20Event-Study%20Designs%3A%20Robust%20and%20Efficient%20Estimation&rows=1",
+    "status": 200,
+    "retrieved_at": "2026-11-19",
+    "match": {
+      "title": [
+        "Revisiting event study designs: robust and efficient estimation"
+      ],
+      "author": null,
+      "DOI": "10.47004/wp.cem.2022.1122",
+      "container-title": null,
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            29
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            29
+          ]
+        ]
+      },
+      "published-print": null,
+      "URL": "https://doi.org/10.47004/wp.cem.2022.1122",
+      "link": null,
+      "relation": null,
+      "update-to": null,
+      "updated-by": null
+    },
+    "query_title": "Revisiting Event-Study Designs: Robust and Efficient Estimation"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=Causal%20Panel%20Analysis%20under%20Parallel%20Trends%3A%20Lessons%20from%20a%20Large%20Reanalysis%20Study&rows=1",
+    "status": "error",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_at": "2026-11-19",
+    "query_title": "Causal Panel Analysis under Parallel Trends: Lessons from a Large Reanalysis Study"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=Regression%20Discontinuity%20in%20Time%3A%20Considerations%20for%20Empirical%20Applications&rows=1",
+    "final_url": "https://api.crossref.org/works?query.title=Regression%20Discontinuity%20in%20Time%3A%20Considerations%20for%20Empirical%20Applications&rows=1",
+    "status": 200,
+    "retrieved_at": "2026-11-19",
+    "match": {
+      "title": [
+        "Regression Discontinuity in Time: Considerations for Empirical Applications"
+      ],
+      "author": [
+        {
+          "given": "Catherine",
+          "family": "Hausman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Rapson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.3386/w23602",
+      "container-title": null,
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            7
+          ]
+        ]
+      },
+      "published-print": null,
+      "URL": "https://doi.org/10.3386/w23602",
+      "link": null,
+      "relation": null,
+      "update-to": null,
+      "updated-by": null
+    },
+    "query_title": "Regression Discontinuity in Time: Considerations for Empirical Applications"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=The%20role%20of%20cliffhangers%20in%20serial%20entertainment%3A%20An%20experiment%20on%20cliffhangers%20effects%20on%20enjoyment%2C%20arousal%2C%20and%20intention%20to%20continue%20watching&rows=1",
+    "final_url": "https://api.crossref.org/works?query.title=The%20role%20of%20cliffhangers%20in%20serial%20entertainment%3A%20An%20experiment%20on%20cliffhangers%20effects%20on%20enjoyment%2C%20arousal%2C%20and%20intention%20to%20continue%20watching&rows=1",
+    "status": 200,
+    "retrieved_at": "2026-11-19",
+    "match": {
+      "title": [
+        "The role of cliffhangers in serial entertainment: An experiment on cliffhangers’ effects on enjoyment, arousal, and intention to continue watching."
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2688-8506",
+          "authenticated-orcid": false,
+          "given": "Dominique S.",
+          "family": "Wirz",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0112-9052",
+          "authenticated-orcid": false,
+          "given": "Alexander",
+          "family": "Ort",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7607-3415",
+          "authenticated-orcid": false,
+          "given": "Björn",
+          "family": "Rasch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8455-3045",
+          "authenticated-orcid": false,
+          "given": "Andreas",
+          "family": "Fahr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1037/ppm0000392",
+      "container-title": [
+        "Psychology of Popular Media"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            4
+          ]
+        ]
+      },
+      "published-print": null,
+      "URL": "https://doi.org/10.1037/ppm0000392",
+      "link": [
+        {
+          "URL": "https://psycnet.apa.org/journals/ppm/12/2/186.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": null,
+      "update-to": null,
+      "updated-by": null
+    },
+    "query_title": "The role of cliffhangers in serial entertainment: An experiment on cliffhangers effects on enjoyment, arousal, and intention to continue watching"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=Experimental%20Study%20of%20Inequality%20and%20Unpredictability%20in%20an%20Artificial%20Cultural%20Market&rows=1",
+    "status": "error",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_at": "2026-11-19",
+    "query_title": "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=Social%20Influence%20Bias%3A%20A%20Randomized%20Experiment&rows=1",
+    "status": "error",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_at": "2026-11-19",
+    "query_title": "Social Influence Bias: A Randomized Experiment"
+  },
+  {
+    "request_url": "https://api.crossref.org/works?query.title=How%20Algorithmic%20Confounding%20in%20Recommendation%20Systems%20Increases%20Homogeneity%20and%20Decreases%20Utility&rows=1",
+    "final_url": "https://api.crossref.org/works?query.title=How%20Algorithmic%20Confounding%20in%20Recommendation%20Systems%20Increases%20Homogeneity%20and%20Decreases%20Utility&rows=1",
+    "status": 200,
+    "retrieved_at": "2026-11-19",
+    "match": {
+      "title": [
+        "How algorithmic confounding in recommendation systems increases homogeneity and decreases utility"
+      ],
+      "author": [
+        {
+          "given": "Allison J. B.",
+          "family": "Chaney",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Princeton University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brandon M.",
+          "family": "Stewart",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Princeton University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Barbara E.",
+          "family": "Engelhardt",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Princeton University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "DOI": "10.1145/3240323.3240370",
+      "container-title": [
+        "Proceedings of the 12th ACM Conference on Recommender Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            9,
+            27
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            9,
+            27
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            9,
+            27
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1145/3240323.3240370",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3240323.3240370",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3240323.3240370",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": null,
+      "update-to": null,
+      "updated-by": null
+    },
+    "query_title": "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility"
+  }
+]

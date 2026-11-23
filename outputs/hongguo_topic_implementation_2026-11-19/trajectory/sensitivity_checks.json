@@ -1,0 +1,98 @@
+{
+  "verified_5d_same_pairs": {
+    "primary": {
+      "n": 15,
+      "mean": -211.11111111111114,
+      "median": 333.3333333333335
+    },
+    "alternative": {
+      "n": 15,
+      "mean": 1311.1111111111113,
+      "median": 250.0
+    }
+  },
+  "verified_visible_same_pairs": {
+    "primary": {
+      "n": 36,
+      "mean": -300.925925925926,
+      "median": -166.66666666666663
+    },
+    "alternative": {
+      "n": 36,
+      "mean": -2032.4074074074074,
+      "median": -1749.9999999999995
+    }
+  },
+  "same_pairs_same_donors_3d_5d": {
+    "relative_3": {
+      "n": 10,
+      "mean": 950.0,
+      "median": 1083.3333333333333
+    },
+    "relative_5": {
+      "n": 10,
+      "mean": 1250.0,
+      "median": 1291.6666666666665
+    }
+  },
+  "earlier_pretrend": {
+    "status": {
+      "incomplete_prior_boards": 12,
+      "observed": 16,
+      "prior_favorites_missing": 12
+    },
+    "earlier_days_minus_6_to_minus_4": {
+      "n": 16,
+      "mean": -124.99999999999986,
+      "median": 416.6666666666665
+    },
+    "same_pairs_minus_3_to_minus_1": {
+      "n": 16,
+      "mean": -62.49999999999979,
+      "median": 83.33333333333303
+    }
+  },
+  "original_7_points": {
+    "pair_days": 441,
+    "multiples_of_1000": 441
+  },
+  "references": {
+    "unique_ids_matched": 103,
+    "matched_slots": 120,
+    "max_reuse": 3,
+    "matches_per_pair": {
+      "3": 40
+    }
+  },
+  "remove_migration_crossover": {
+    "n": 30,
+    "mean": -600.0,
+    "median": -333.3333333333333
+  },
+  "flow": {
+    "3": {
+      "all": 168,
+      "remaining_after_no_board_event": 168,
+      "remaining_after_window_truncated": 128,
+      "remaining_after_incomplete_board_window": 99,
+      "remaining_after_predecessor_favorites_missing": 74,
+      "remaining_after_overlapping_season_first_appearance": 63
+    },
+    "5": {
+      "all": 168,
+      "remaining_after_no_board_event": 168,
+      "remaining_after_window_truncated": 114,
+      "remaining_after_incomplete_board_window": 72,
+      "remaining_after_predecessor_favorites_missing": 43,
+      "remaining_after_overlapping_season_first_appearance": 32
+    },
+    "7": {
+      "all": 168,
+      "remaining_after_no_board_event": 168,
+      "remaining_after_window_truncated": 91,
+      "remaining_after_incomplete_board_window": 23,
+      "remaining_after_predecessor_favorites_missing": 7,
+      "remaining_after_overlapping_season_first_appearance": 5
+    }
+  }
+}

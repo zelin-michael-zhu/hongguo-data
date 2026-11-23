@@ -1,0 +1,17 @@
+﻿sample,outcome,n,groups,age_adjusted,percentage_change_for_2x_duration,bootstrap_low,bootstrap_high
+ever_ai_archived,comments,454,381,False,57.37,19.66,104.19
+ever_ai_archived,comments,454,381,True,53.89,17.66,96.82
+ever_ai_archived,likes,454,381,False,47.65,24.14,74.38
+ever_ai_archived,likes,454,381,True,42.14,22.62,63.21
+ever_ai_archived_duration_at_most_five_minutes,comments,442,371,False,38.55,4.8,83.91
+ever_ai_archived_duration_at_most_five_minutes,comments,442,371,True,37.88,4.56,82.91
+ever_ai_archived_duration_at_most_five_minutes,likes,442,371,False,32.96,12.32,54.96
+ever_ai_archived_duration_at_most_five_minutes,likes,442,371,True,31.77,11.67,52.86
+paired_titles_cross_section,comments,66,24,False,-27.06,-67.15,49.88
+paired_titles_cross_section,comments,66,24,True,1.29,-50.56,68.89
+paired_titles_cross_section,likes,66,24,False,-29.42,-65.94,19.53
+paired_titles_cross_section,likes,66,24,True,0.95,-45.86,54.6
+confirmed_adjacent_seasons_positive_gap,comments,42,24,False,13.37,-9.73,28.6
+confirmed_adjacent_seasons_positive_gap,comments,42,24,True,13.49,-7.8,30.19
+confirmed_adjacent_seasons_positive_gap,likes,42,24,False,19.62,-21.34,47.74
+confirmed_adjacent_seasons_positive_gap,likes,42,24,True,20.89,-7.9,47.82

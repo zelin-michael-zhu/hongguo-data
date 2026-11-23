@@ -1,0 +1,85 @@
+{
+  "eligible": 63,
+  "families": 48,
+  "event_days": 20,
+  "status": {
+    "matched": 40,
+    "donor_followup_missing": 21,
+    "outside_calipers_or_no_exact_stratum": 2
+  },
+  "strata": {
+    "ai": 16,
+    "comic": 47
+  },
+  "actual": {
+    "pairs": 40,
+    "families": 31,
+    "days": 17,
+    "mean": -391.6666666666667,
+    "median": -333.3333333333333,
+    "positive": 17,
+    "zero": 1,
+    "negative": 22,
+    "old_pre": 10550.0,
+    "old_post": 7175.0,
+    "control_pre": 10725.0,
+    "control_post": 7741.666666666667
+  },
+  "placebo_status": {
+    "incomplete_board_calendar": 35,
+    "predecessor_window_missing": 12,
+    "matched": 11,
+    "donor_followup_missing": 2,
+    "family_event_in_placebo_window": 3
+  },
+  "placebo": {
+    "pairs": 11,
+    "families": 11,
+    "days": 7,
+    "mean": -2257.5757575757575,
+    "median": -1833.3333333333335,
+    "positive": 4,
+    "zero": 0,
+    "negative": 7,
+    "old_pre": 22772.727272727272,
+    "old_post": 11363.636363636364,
+    "control_pre": 21651.515151515152,
+    "control_post": 12500.0
+  },
+  "same_pairs_actual": {
+    "pairs": 5,
+    "families": 5,
+    "days": 5,
+    "mean": 866.6666666666666,
+    "median": -833.3333333333334,
+    "positive": 1,
+    "zero": 1,
+    "negative": 3,
+    "old_pre": 12900.0,
+    "old_post": 10400.0,
+    "control_pre": 13533.333333333332,
+    "control_post": 10166.666666666666
+  },
+  "same_pairs_placebo": {
+    "pairs": 5,
+    "families": 5,
+    "days": 5,
+    "mean": -1699.9999999999998,
+    "median": -2166.666666666668,
+    "positive": 1,
+    "zero": 0,
+    "negative": 4,
+    "old_pre": 30400.0,
+    "old_post": 16600.0,
+    "control_pre": 28000.0,
+    "control_post": 15900.0
+  },
+  "leave_one_family_mean_range": [
+    -585.4700854700856,
+    -81.19658119658123
+  ],
+  "leave_one_event_date_mean_range": [
+    -675.438596491228,
+    -103.60360360360364
+  ]
+}

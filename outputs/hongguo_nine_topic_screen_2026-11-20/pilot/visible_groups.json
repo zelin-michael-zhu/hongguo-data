@@ -1,0 +1,368 @@
+{
+  "catalog_titles": 1388,
+  "catalog_nonblank_synopsis": 1380,
+  "date_count": 36,
+  "complete_date_count": 35,
+  "complete_date_span": [
+    "2026-10-13",
+    "2026-11-17"
+  ],
+  "incomplete_dates": [
+    "2026-10-31"
+  ],
+  "boards": {
+    "ai": {
+      "unique_title_ids": 469,
+      "verified_season_ids": 27,
+      "known_groups": 11,
+      "max_groups_after_known_merges": 453,
+      "nonblank_synopses": 463,
+      "unique_exact_nonblank_synopses": 455,
+      "duplicate_synopsis_clusters": 6,
+      "nonblank_detail_tags": 469,
+      "unique_distinct_detail_tags": 40,
+      "median_detail_tags_per_labeled_id": 4,
+      "top_ten_labeled_terms": [
+        [
+          "逆袭",
+          231
+        ],
+        [
+          "都市",
+          215
+        ],
+        [
+          "剧情",
+          175
+        ],
+        [
+          "乡村",
+          164
+        ],
+        [
+          "年代",
+          130
+        ],
+        [
+          "穿越",
+          117
+        ],
+        [
+          "脑洞",
+          109
+        ],
+        [
+          "豪门",
+          102
+        ],
+        [
+          "重生",
+          85
+        ],
+        [
+          "古代",
+          69
+        ]
+      ]
+    },
+    "real": {
+      "unique_title_ids": 320,
+      "verified_season_ids": 0,
+      "known_groups": 0,
+      "max_groups_after_known_merges": 320,
+      "nonblank_synopses": 320,
+      "unique_exact_nonblank_synopses": 320,
+      "duplicate_synopsis_clusters": 0,
+      "nonblank_detail_tags": 320,
+      "unique_distinct_detail_tags": 193,
+      "median_detail_tags_per_labeled_id": 7.0,
+      "top_ten_labeled_terms": [
+        [
+          "现代",
+          254
+        ],
+        [
+          "爱情",
+          115
+        ],
+        [
+          "总裁",
+          102
+        ],
+        [
+          "大男主",
+          89
+        ],
+        [
+          "都市爱情",
+          87
+        ],
+        [
+          "都市",
+          75
+        ],
+        [
+          "日久生情",
+          64
+        ],
+        [
+          "大女主",
+          62
+        ],
+        [
+          "打脸反派",
+          61
+        ],
+        [
+          "隐藏大佬",
+          51
+        ]
+      ]
+    },
+    "comic": {
+      "unique_title_ids": 594,
+      "verified_season_ids": 86,
+      "known_groups": 37,
+      "max_groups_after_known_merges": 545,
+      "nonblank_synopses": 594,
+      "unique_exact_nonblank_synopses": 541,
+      "duplicate_synopsis_clusters": 38,
+      "nonblank_detail_tags": 594,
+      "unique_distinct_detail_tags": 45,
+      "median_detail_tags_per_labeled_id": 4.0,
+      "top_ten_labeled_terms": [
+        [
+          "都市",
+          264
+        ],
+        [
+          "穿越",
+          225
+        ],
+        [
+          "逆袭",
+          221
+        ],
+        [
+          "脑洞",
+          201
+        ],
+        [
+          "系统",
+          182
+        ],
+        [
+          "异界",
+          158
+        ],
+        [
+          "玄幻",
+          133
+        ],
+        [
+          "古代",
+          91
+        ],
+        [
+          "豪门",
+          78
+        ],
+        [
+          "剧情",
+          76
+        ]
+      ]
+    },
+    "hot": {
+      "unique_title_ids": 596,
+      "verified_season_ids": 69,
+      "known_groups": 37,
+      "max_groups_after_known_merges": 564,
+      "nonblank_synopses": 595,
+      "unique_exact_nonblank_synopses": 567,
+      "duplicate_synopsis_clusters": 20,
+      "nonblank_detail_tags": 596,
+      "unique_distinct_detail_tags": 134,
+      "median_detail_tags_per_labeled_id": 4.0,
+      "top_ten_labeled_terms": [
+        [
+          "都市",
+          249
+        ],
+        [
+          "逆袭",
+          214
+        ],
+        [
+          "穿越",
+          167
+        ],
+        [
+          "脑洞",
+          162
+        ],
+        [
+          "系统",
+          119
+        ],
+        [
+          "剧情",
+          116
+        ],
+        [
+          "乡村",
+          103
+        ],
+        [
+          "异界",
+          94
+        ],
+        [
+          "豪门",
+          90
+        ],
+        [
+          "古代",
+          84
+        ]
+      ]
+    }
+  },
+  "union": {
+    "unique_title_ids": 1381,
+    "verified_season_ids": 113,
+    "known_groups": 48,
+    "max_groups_after_known_merges": 1316,
+    "nonblank_synopses": 1375,
+    "unique_exact_nonblank_synopses": 1314,
+    "duplicate_synopsis_clusters": 44,
+    "nonblank_detail_tags": 1381,
+    "unique_distinct_detail_tags": 216
+  },
+  "cross_board_overlap_over_period": {
+    "ai|real": 0,
+    "ai|comic": 2,
+    "ai|hot": 229,
+    "real|comic": 0,
+    "real|hot": 63,
+    "comic|hot": 306
+  },
+  "cross_board_same_day_overlap_seats": {
+    "ai|real": 0,
+    "ai|comic": 0,
+    "ai|hot": 1484,
+    "real|comic": 0,
+    "real|hot": 413,
+    "comic|hot": 1603
+  },
+  "exact_synopsis_examples_known_seasons": [
+    {
+      "titles": [
+        "一梦青玄，团宠小师妹一剑毁天灭地第七季",
+        "一梦青玄，团宠小师妹一剑毁天灭地第八季",
+        "一梦青玄，团宠小师妹一剑毁天灭地第九季"
+      ],
+      "ids": [
+        "7693753523955043353",
+        "7699809932706597913",
+        "7705459755216555070"
+      ],
+      "same_verified_group": true,
+      "synopsis_excerpt": "我是叶灵泷，一朝穿书成了修仙文里万剑穿心的炮灰女配！为改写结局，我果断踹开天命女主，拜入修真界最破的青玄宗。本"
+    },
+    {
+      "titles": [
+        "全员恶仙：我有一座种仙观第10季",
+        "全员恶仙：我有一座种仙观第11季"
+      ],
+      "ids": [
+        "7702718307429796888",
+        "7705324134292540478"
+      ],
+      "same_verified_group": true,
+      "synopsis_excerpt": "在风云激荡的时代，热血青年李十五不忍百姓受苦，毅然反抗虚伪贪婪的师门，踏上探寻真理之路。面对欺压大众的强权，他"
+    },
+    {
+      "titles": [
+        "我家仙妻不太正经第二季",
+        "我家仙妻不太正经第四季"
+      ],
+      "ids": [
+        "7695375471592098841",
+        "7703527132676246553"
+      ],
+      "same_verified_group": true,
+      "synopsis_excerpt": "林鹤熬夜加班猝死后穿越到苍明界，成了没有灵根的废柴，还被迫娶了只能坐轮椅的残疾女子。洞房当晚他却发现妻子也是蓝"
+    },
+    {
+      "titles": [
+        "孤城照山河第5季",
+        "孤城照山河第六季"
+      ],
+      "ids": [
+        "7695304352482741273",
+        "7697897315301854270"
+      ],
+      "same_verified_group": true,
+      "synopsis_excerpt": "现代军人沈烈意外来到大虞边关，面对困顿与欺压，他没有沉沦，而是凭借过硬本领和责任担当，从普通边卒成长为守护一方"
+    },
+    {
+      "titles": [
+        "当家主母的自我修养第二季",
+        "当家主母的自我修养第三季"
+      ],
+      "ids": [
+        "7701274165407403033",
+        "7704887964689501209"
+      ],
+      "same_verified_group": true,
+      "synopsis_excerpt": "宋语棠是宋家流落在外的真千金，因一纸婚约嫁给江家长子江慕言。丈夫江慕言因故沉睡，面对陌生环境与陌生家庭，她以过"
+    },
+    {
+      "titles": [
+        "谁说没灵根不能修仙的？之无灵证道第42季",
+        "谁说没灵根不能修仙的？之无灵证道43季"
+      ],
+      "ids": [
+        "7695230118729354265",
+        "7699400314490735678"
+      ],
+      "same_verified_group": true,
+      "synopsis_excerpt": "蛮荒界，灵根决定一切。有灵根者，可踏仙途，掌生死，无灵根者，纵使穷尽一生，也只能沦为蝼蚁。韩凡便是这样的蝼蚁。"
+    }
+  ],
+  "catalog_columns": [
+    "id",
+    "title",
+    "tags",
+    "detail_tags",
+    "first_visible",
+    "episodes",
+    "first_seen",
+    "last_seen",
+    "boards_seen",
+    "adapt_platform",
+    "adapt_work",
+    "adapt_author",
+    "cast",
+    "synopsis"
+  ],
+  "separate_sitemap_sample": {
+    "sample_size": 3,
+    "columns": [
+      "id",
+      "title",
+      "cover",
+      "intro",
+      "tags",
+      "eps",
+      "ch",
+      "new_at"
+    ],
+    "new_at_values": [
+      "2026-11-16",
+      "2026-11-16",
+      "2026-11-16"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "series_id": "7706759303633308696",
+    "title": "挂帅：张老太重生记第九季",
+    "board": "ai",
+    "scope": "series_review",
+    "episode_id": "",
+    "url": "https://hongguoduanju.com/detail?series_id=7706759303633308696",
+    "http_status": 200,
+    "sampled_at": "2026-11-21T15:12:13+08:00",
+    "preview_length": 9,
+    "reported_total": "106",
+    "envelope_keys": [
+      "reviews",
+      "total_count"
+    ],
+    "platform_comment_id_present": false,
+    "episode_navigation_in_detail": {
+      "1": "/player/7706759303633308696",
+      "2": "/player/7706759303633308696/7706759310428097560",
+      "3": "/player/7706759303633308696/7706759310931397656"
+    }
+  },
+  {
+    "series_id": "7706759303633308696",
+    "title": "挂帅：张老太重生记第九季",
+    "board": "ai",
+    "scope": "default_episode_comment",
+    "episode_id": "7706759311631862808",
+    "url": "https://hongguoduanju.com/player/7706759303633308696",
+    "http_status": 200,
+    "sampled_at": "2026-11-21T15:12:14+08:00",
+    "preview_length": 15,
+    "reported_total": "735",
+    "envelope_keys": [
+      "reviews",
+      "total_count"
+    ],
+    "platform_comment_id_present": false
+  },
+  {
+    "series_id": "7684955951031389209",
+    "title": "人人嫌猎户粗野，唯有我听见他真心藏情",
+    "board": "real",
+    "scope": "series_review",
+    "episode_id": "",
+    "url": "https://hongguoduanju.com/detail?series_id=7684955951031389209",
+    "http_status": 200,
+    "sampled_at": "2026-11-21T15:12:16+08:00",
+    "preview_length": 9,
+    "reported_total": "236",
+    "envelope_keys": [
+      "reviews",
+      "total_count"
+    ],
+    "platform_comment_id_present": false,
+    "episode_navigation_in_detail": {
+      "1": "/player/7684955951031389209",
+      "2": "/player/7684955951031389209/7684958811437681688",
+      "3": "/player/7684955951031389209/7684958828873403416"
+    }
+  },
+  {
+    "series_id": "7684955951031389209",
+    "title": "人人嫌猎户粗野，唯有我听见他真心藏情",
+    "board": "real",
+    "scope": "default_episode_comment",
+    "episode_id": "7684958833390668824",
+    "url": "https://hongguoduanju.com/player/7684955951031389209",
+    "http_status": 200,
+    "sampled_at": "2026-11-21T15:12:17+08:00",
+    "preview_length": 15,
+    "reported_total": "849",
+    "envelope_keys": [
+      "reviews",
+      "total_count"
+    ],
+    "platform_comment_id_present": false
+  },
+  {
+    "series_id": "7701304930841136190",
+    "title": "和顶流歌后互穿，可我只想送外卖！",
+    "board": "comic",
+    "scope": "series_review",
+    "episode_id": "",
+    "url": "https://hongguoduanju.com/detail?series_id=7701304930841136190",
+    "http_status": 200,
+    "sampled_at": "2026-11-21T15:12:19+08:00",
+    "preview_length": 9,
+    "reported_total": "1095",
+    "envelope_keys": [
+      "reviews",
+      "total_count"
+    ],
+    "platform_comment_id_present": false,
+    "episode_navigation_in_detail": {
+      "1": "/player/7701304930841136190",
+      "2": "/player/7701304930841136190/7701304937665268761",
+      "3": "/player/7701304930841136190/7701304937614937113"
+    }
+  },
+  {
+    "series_id": "7701304930841136190",
+    "title": "和顶流歌后互穿，可我只想送外卖！",
+    "board": "comic",
+    "scope": "default_episode_comment",
+    "episode_id": "7701304937241644057",
+    "url": "https://hongguoduanju.com/player/7701304930841136190",
+    "http_status": 200,
+    "sampled_at": "2026-11-21T15:12:20+08:00",
+    "preview_length": 15,
+    "reported_total": "3627",
+    "envelope_keys": [
+      "reviews",
+      "total_count"
+    ],
+    "platform_comment_id_present": false
+  }
+]

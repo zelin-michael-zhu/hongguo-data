@@ -1,0 +1,317 @@
+[
+  {
+    "date": "2026-10-14",
+    "eligible": 302,
+    "cutoff": 109000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-15",
+    "eligible": 327,
+    "cutoff": 162000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-16",
+    "eligible": 353,
+    "cutoff": 23000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-17",
+    "eligible": 376,
+    "cutoff": 141000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-18",
+    "eligible": 407,
+    "cutoff": 145000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-19",
+    "eligible": 440,
+    "cutoff": 99000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-20",
+    "eligible": 469,
+    "cutoff": 81000,
+    "above": 8,
+    "tied": 2,
+    "places_left": 2,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-21",
+    "eligible": 493,
+    "cutoff": 90000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-22",
+    "eligible": 525,
+    "cutoff": 101000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-23",
+    "eligible": 553,
+    "cutoff": 77000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-24",
+    "eligible": 579,
+    "cutoff": 113000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-25",
+    "eligible": 613,
+    "cutoff": 112000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-26",
+    "eligible": 643,
+    "cutoff": 107000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-27",
+    "eligible": 680,
+    "cutoff": 107000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-28",
+    "eligible": 684,
+    "cutoff": 99000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-10-29",
+    "eligible": 686,
+    "cutoff": 77000,
+    "above": 9,
+    "tied": 2,
+    "places_left": 1,
+    "ambiguous": true
+  },
+  {
+    "date": "2026-10-30",
+    "eligible": 690,
+    "cutoff": 78000,
+    "above": 9,
+    "tied": 2,
+    "places_left": 1,
+    "ambiguous": true
+  },
+  {
+    "date": "2026-10-31",
+    "eligible": 687,
+    "cutoff": 119000,
+    "above": 9,
+    "tied": 2,
+    "places_left": 1,
+    "ambiguous": true
+  },
+  {
+    "date": "2026-11-01",
+    "eligible": 684,
+    "cutoff": 112000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-02",
+    "eligible": 686,
+    "cutoff": 94000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-03",
+    "eligible": 696,
+    "cutoff": 82000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-04",
+    "eligible": 692,
+    "cutoff": 131000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-05",
+    "eligible": 692,
+    "cutoff": 87000,
+    "above": 8,
+    "tied": 2,
+    "places_left": 2,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-06",
+    "eligible": 698,
+    "cutoff": 116000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-07",
+    "eligible": 696,
+    "cutoff": 146000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-08",
+    "eligible": 701,
+    "cutoff": 155000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-09",
+    "eligible": 703,
+    "cutoff": 111000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-10",
+    "eligible": 703,
+    "cutoff": 112000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-11",
+    "eligible": 701,
+    "cutoff": 94000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-12",
+    "eligible": 711,
+    "cutoff": 88000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-13",
+    "eligible": 724,
+    "cutoff": 81000,
+    "above": 9,
+    "tied": 2,
+    "places_left": 1,
+    "ambiguous": true
+  },
+  {
+    "date": "2026-11-14",
+    "eligible": 728,
+    "cutoff": 131000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-15",
+    "eligible": 720,
+    "cutoff": 119000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-16",
+    "eligible": 728,
+    "cutoff": 102000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  },
+  {
+    "date": "2026-11-17",
+    "eligible": 738,
+    "cutoff": 89000,
+    "above": 9,
+    "tied": 1,
+    "places_left": 1,
+    "ambiguous": false
+  }
+]

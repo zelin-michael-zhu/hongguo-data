@@ -1,0 +1,20 @@
+{
+  "historical_rows": 424,
+  "historical_titles": 181,
+  "semantic_coded_distinct_reviews": 441,
+  "raw_coverage_exact_cutoff": 407,
+  "keyword_vs_blind_coding": {
+    "quality_positive": {
+      "true_positive": 20,
+      "true_negative": 29,
+      "false_negative": 29,
+      "false_positive": 2
+    },
+    "chase_intent": {
+      "true_positive": 18,
+      "true_negative": 53,
+      "false_negative": 7,
+      "false_positive": 2
+    }
+  }
+}

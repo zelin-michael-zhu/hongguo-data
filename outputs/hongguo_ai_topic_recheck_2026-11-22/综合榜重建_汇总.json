@@ -1,0 +1,161 @@
+{
+  "calendar_dates": 40,
+  "complete_dates": 39,
+  "excluded_incomplete_dates": [
+    "2026-10-31"
+  ],
+  "full": {
+    "reconstruction": {
+      "10": {
+        "days": 39,
+        "complete_member_match_days": 37,
+        "matched_members": 388,
+        "matched_positions": 382,
+        "observed_slots": 390,
+        "absent_from_type_charts": 0,
+        "type_heat_unavailable": 2,
+        "equal_at_cutoff": 0,
+        "other": 0
+      },
+      "20": {
+        "days": 39,
+        "complete_member_match_days": 34,
+        "matched_members": 775,
+        "matched_positions": 730,
+        "observed_slots": 780,
+        "absent_from_type_charts": 0,
+        "type_heat_unavailable": 4,
+        "equal_at_cutoff": 1,
+        "other": 0
+      },
+      "50": {
+        "days": 39,
+        "complete_member_match_days": 31,
+        "matched_members": 1942,
+        "matched_positions": 1686,
+        "observed_slots": 1950,
+        "absent_from_type_charts": 0,
+        "type_heat_unavailable": 6,
+        "equal_at_cutoff": 2,
+        "other": 0
+      },
+      "100": {
+        "days": 39,
+        "complete_member_match_days": 25,
+        "matched_members": 3885,
+        "matched_positions": 2988,
+        "observed_slots": 3900,
+        "absent_from_type_charts": 0,
+        "type_heat_unavailable": 13,
+        "equal_at_cutoff": 2,
+        "other": 0
+      }
+    },
+    "comparable_ai_overall_heat": 1651,
+    "same_ai_overall_heat": 1651,
+    "ai_head_days": 39,
+    "ai_head_coverage": {
+      "ai10_overall10": 117,
+      "ai10_overall20": 269,
+      "ai10_overall50": 390,
+      "ai10_overall100": 390,
+      "ai20_overall10": 117,
+      "ai20_overall20": 272,
+      "ai20_overall50": 738,
+      "ai20_overall100": 780
+    },
+    "distinct_ai20_titles": 135,
+    "distinct_ai20_captured_at_least_once_by_overall": {
+      "10": 22,
+      "20": 51,
+      "50": 129,
+      "100": 135
+    },
+    "daily_overall_depth_to_capture_ai20": {
+      "min": 35,
+      "median": 50,
+      "max": 57,
+      "days_with_coverage": 39
+    },
+    "threshold_valid_days": 38,
+    "median_combined_minus_ai_heat_at_20": 3240000.0,
+    "median_combined_over_ai_heat_at_20": 1.058664860895268
+  },
+  "exclude_migrated": {
+    "reconstruction": {
+      "10": {
+        "days": 35,
+        "complete_member_match_days": 33,
+        "matched_members": 348,
+        "matched_positions": 342,
+        "observed_slots": 350,
+        "absent_from_type_charts": 0,
+        "type_heat_unavailable": 2,
+        "equal_at_cutoff": 0,
+        "other": 0
+      },
+      "20": {
+        "days": 35,
+        "complete_member_match_days": 30,
+        "matched_members": 695,
+        "matched_positions": 650,
+        "observed_slots": 700,
+        "absent_from_type_charts": 0,
+        "type_heat_unavailable": 4,
+        "equal_at_cutoff": 1,
+        "other": 0
+      },
+      "50": {
+        "days": 35,
+        "complete_member_match_days": 27,
+        "matched_members": 1742,
+        "matched_positions": 1494,
+        "observed_slots": 1750,
+        "absent_from_type_charts": 0,
+        "type_heat_unavailable": 6,
+        "equal_at_cutoff": 2,
+        "other": 0
+      },
+      "100": {
+        "days": 35,
+        "complete_member_match_days": 21,
+        "matched_members": 3485,
+        "matched_positions": 2620,
+        "observed_slots": 3500,
+        "absent_from_type_charts": 0,
+        "type_heat_unavailable": 13,
+        "equal_at_cutoff": 2,
+        "other": 0
+      }
+    },
+    "comparable_ai_overall_heat": 1497,
+    "same_ai_overall_heat": 1497,
+    "ai_head_days": 35,
+    "ai_head_coverage": {
+      "ai10_overall10": 102,
+      "ai10_overall20": 244,
+      "ai10_overall50": 350,
+      "ai10_overall100": 350,
+      "ai20_overall10": 102,
+      "ai20_overall20": 247,
+      "ai20_overall50": 665,
+      "ai20_overall100": 700
+    },
+    "distinct_ai20_titles": 124,
+    "distinct_ai20_captured_at_least_once_by_overall": {
+      "10": 21,
+      "20": 45,
+      "50": 119,
+      "100": 124
+    },
+    "daily_overall_depth_to_capture_ai20": {
+      "min": 35,
+      "median": 50,
+      "max": 57,
+      "days_with_coverage": 35
+    },
+    "threshold_valid_days": 34,
+    "median_combined_minus_ai_heat_at_20": 3315000.0,
+    "median_combined_over_ai_heat_at_20": 1.0601745028928642
+  }
+}

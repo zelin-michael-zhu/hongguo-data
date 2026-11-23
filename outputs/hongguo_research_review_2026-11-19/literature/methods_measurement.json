@@ -1,0 +1,535 @@
+{
+  "title": "Hongguo FYP methods and measurement evidence pack",
+  "retrieval_date": "2026-11-19",
+  "language": "zh-CN",
+  "scope": "Focused methods evidence; not a complete final report or exhaustive short-drama systematic review.",
+  "core_reference_count": 10,
+  "research_questions": [
+    "What public platform metrics actually measure and how to audit reliability.",
+    "What descriptive, predictive, and causal conclusions a 36-day selected-chart panel supports.",
+    "What a feasible undergraduate randomized social-information or cliffhanger experiment identifies."
+  ],
+  "papers": [
+    {
+      "id": "M01",
+      "title": "Beyond the margin of error: a systematic and replicable audit of the TikTok research API",
+      "authors": [
+        "George D.H. Pearson",
+        "Nathan A. Silver",
+        "Jessica Y. Robinson",
+        "Mona Azadi",
+        "Barbara A. Schillo",
+        "Jennifer M. Kreslake"
+      ],
+      "year_for_citation": 2025,
+      "venue": "Information, Communication &amp; Society",
+      "doi": "10.1080/1369118x.2024.2420032",
+      "doi_url": "https://doi.org/10.1080/1369118x.2024.2420032",
+      "primary_evidence_url": "https://www.tandfonline.com/doi/full/10.1080/1369118X.2024.2420032?af=R",
+      "study_type": "measurement_audit",
+      "method_verified": "Two-team, two-context comparison of TikTok Research API metadata/video availability and website front end.",
+      "finding_verified": "API and front-end engagement measures can disagree; discrepancies reported for pre-July-2024 data.",
+      "inference_boundary": "Requires an independent Hongguo source/construct audit; does not establish that Hongguo has the same errors.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "publisher-indexed abstract; direct opening returned 403; exact Crossref DOI verified",
+      "date_or_version_note": "Online 2024-11-07; issue 2025-02-17.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              17
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M02",
+      "title": "Engagement, user satisfaction, and the amplification of divisive content on social media",
+      "authors": [
+        "Smitha Milli",
+        "Micah Carroll",
+        "Yike Wang",
+        "Sashrika Pandey",
+        "Sebastian Zhao",
+        "Anca D Dragan"
+      ],
+      "year_for_citation": 2025,
+      "venue": "PNAS Nexus",
+      "doi": "10.1093/pnasnexus/pgaf062",
+      "doi_url": "https://doi.org/10.1093/pnasnexus/pgaf062",
+      "primary_evidence_url": "https://arxiv.org/html/2305.16941v6",
+      "study_type": "algorithmic_audit",
+      "method_verified": "Preregistered audit comparing users engagement-ranked and reverse-chronological candidate feeds; randomized item presentation for survey evaluation.",
+      "finding_verified": "Engagement ranking and stated content preferences differ; effects depend on content category.",
+      "inference_boundary": "Not a randomized long-term field assignment of feed algorithms; not evidence about Hongguo.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "author final preprint v6 full text and journal metadata verified",
+      "date_or_version_note": "Use 2025 journal year. Earlier v4 called the study randomized experiment; final v6 calls it algorithmic audit.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              27
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M03",
+      "title": "How algorithmic confounding in recommendation systems increases homogeneity and decreases utility",
+      "authors": [
+        "Allison J. B. Chaney",
+        "Brandon M. Stewart",
+        "Barbara E. Engelhardt"
+      ],
+      "year_for_citation": 2018,
+      "venue": "Proceedings of the 12th ACM Conference on Recommender Systems",
+      "doi": "10.1145/3240323.3240370",
+      "doi_url": "https://doi.org/10.1145/3240323.3240370",
+      "primary_evidence_url": "https://oar.princeton.edu/bitstream/88435/pr1zc2c/1/RecSystemsUtility.pdf",
+      "study_type": "recommendation_simulation",
+      "method_verified": "Simulation of repeated user-recommender interactions with data generated under previous recommendations.",
+      "finding_verified": "Recommendation exposure can confound learned user preferences through feedback.",
+      "inference_boundary": "Mechanism simulation; not proof that every real recommender or Hongguo exhibits the same effects.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "Princeton author manuscript title/authors/abstract plus exact Crossref DOI",
+      "date_or_version_note": "ACM conference version 2018; first arXiv version 2017.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              9,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              9,
+              27
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              9,
+              27
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M04",
+      "title": "Social Influence Bias: A Randomized Experiment",
+      "authors": [
+        "Lev Muchnik",
+        "Sinan Aral",
+        "Sean J. Taylor"
+      ],
+      "year_for_citation": 2013,
+      "venue": "Science",
+      "doi": "10.1126/science.1240466",
+      "doi_url": "https://doi.org/10.1126/science.1240466",
+      "primary_evidence_url": "https://pubmed.ncbi.nlm.nih.gov/23929980/",
+      "study_type": "randomized_field_experiment",
+      "method_verified": "Randomized initial positive/negative rating interventions on a social news site; subsequent rating behavior observed.",
+      "finding_verified": "Prior social information causally altered later rating behavior, with asymmetric positive/negative responses.",
+      "inference_boundary": "Effect size cannot be assumed for short-drama selection; observed high ratings alone confound quality and social influence.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "PubMed original abstract, author explanation, exact Crossref DOI",
+      "date_or_version_note": "Science 341(6146):647-651, 2013-08-09.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              9
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              9
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M05",
+      "title": "The role of cliffhangers in serial entertainment: An experiment on cliffhangers’ effects on enjoyment, arousal, and intention to continue watching.",
+      "authors": [
+        "Dominique S. Wirz",
+        "Alexander Ort",
+        "Björn Rasch",
+        "Andreas Fahr"
+      ],
+      "year_for_citation": 2023,
+      "venue": "Psychology of Popular Media",
+      "doi": "10.1037/ppm0000392",
+      "doi_url": "https://doi.org/10.1037/ppm0000392",
+      "primary_evidence_url": "https://folia.unifr.ch/unifr/documents/319990",
+      "study_type": "laboratory_manipulation",
+      "method_verified": "N=133; participants watched 3-4 episodes ending with/without a cliffhanger; self-report and physiological arousal measured.",
+      "finding_verified": "Higher arousal was reported without a corresponding increase in enjoyment or intention to continue.",
+      "inference_boundary": "Null findings do not prove a universal zero effect; not a mobile micro-drama field experiment.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "Author institutional repository abstract/metadata and exact Crossref DOI; PDF tool returned unsupported octet-stream",
+      "date_or_version_note": "Institutional record 2022; journal issue 12(2):186-196 is 2023.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              4
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              4
+            ]
+          ]
+        },
+        "published-print": null
+      }
+    },
+    {
+      "id": "M06",
+      "title": "Predictive Analytics in Information Systems Research",
+      "authors": [
+        "Galit Shmueli",
+        "Otto R. Koppius"
+      ],
+      "year_for_citation": 2011,
+      "venue": "MIS Quarterly",
+      "doi": "10.2307/23042796",
+      "doi_url": "https://doi.org/10.2307/23042796",
+      "primary_evidence_url": "https://aisel.aisnet.org/misq/vol35/iss3/5/",
+      "study_type": "IS_methods_essay",
+      "method_verified": "Conceptual/methods essay with an explanatory TAM example converted to prediction.",
+      "finding_verified": "Explanatory and predictive modeling serve distinct goals; explanatory power does not imply predictive performance.",
+      "inference_boundary": "Predictive accuracy, coefficients, SHAP and feature importance do not identify causal effects.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "AIS official original abstract and exact Crossref DOI",
+      "date_or_version_note": "The trailing 1 in the Crossref title is a footnote marker, removed from normalized title.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M07",
+      "title": "REFORMS: Consensus-based Recommendations for Machine-learning-based Science",
+      "authors": [
+        "Sayash Kapoor",
+        "Emily M. Cantrell",
+        "Kenny Peng",
+        "Thanh Hien Pham",
+        "Christopher A. Bail",
+        "Odd Erik Gundersen",
+        "Jake M. Hofman",
+        "Jessica Hullman",
+        "Michael A. Lones",
+        "Momin M. Malik",
+        "Priyanka Nanayakkara",
+        "Russell A. Poldrack",
+        "Inioluwa Deborah Raji",
+        "Michael Roberts",
+        "Matthew J. Salganik",
+        "Marta Serra-Garcia",
+        "Brandon M. Stewart",
+        "Gilles Vandewiele",
+        "Arvind Narayanan"
+      ],
+      "year_for_citation": 2024,
+      "venue": "Science Advances",
+      "doi": "10.1126/sciadv.adk3452",
+      "doi_url": "https://doi.org/10.1126/sciadv.adk3452",
+      "primary_evidence_url": "https://pure.hw.ac.uk/ws/portalfiles/portal/126539339/sciadv.adk3452.pdf",
+      "study_type": "consensus_reporting_guideline",
+      "method_verified": "Literature-informed consensus reporting checklist for machine-learning-based science.",
+      "finding_verified": "Requires clear study goals, data quality, preprocessing, modeling, leakage controls, metrics, uncertainty and scope.",
+      "inference_boundary": "Checklist does not repair inadequate data or automatically validate causal interpretations.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "Crossref exact DOI; original abstract/checklist text retrieved via PMC index and author institution; Science direct returned 403",
+      "date_or_version_note": "Science Advances 10(18):eadk3452; PubMed epub 2024-05-01, issue 2024-05-03.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              3
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              3
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M08",
+      "title": "Revisiting Event-Study Designs: Robust and Efficient Estimation",
+      "authors": [
+        "Kirill Borusyak",
+        "Xavier Jaravel",
+        "Jann Spiess"
+      ],
+      "year_for_citation": 2024,
+      "venue": "Review of Economic Studies",
+      "doi": "10.1093/restud/rdae007",
+      "doi_url": "https://doi.org/10.1093/restud/rdae007",
+      "primary_evidence_url": "https://academic.oup.com/restud/article/91/6/3253/7601390",
+      "study_type": "DID_event_study_methods",
+      "method_verified": "Identification framework and imputation estimator for staggered treatment timing and heterogeneous effects; simulations and application.",
+      "finding_verified": "Conventional TWFE event studies can fail to estimate a relevant average effect under heterogeneous treatment effects.",
+      "inference_boundary": "Modern estimators still require identification assumptions and do not make endogenous chart entry random.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "Publisher primary text and exact Crossref DOI",
+      "date_or_version_note": "Online 2024-02-06; issue 91(6), 3253-3285 in November 2024.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              6
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M09",
+      "title": "Causal Panel Analysis under Parallel Trends: Lessons from a Large Reanalysis Study",
+      "authors": [
+        "ALBERT CHIU",
+        "XINGCHEN LAN",
+        "ZIYI LIU",
+        "YIQING XU"
+      ],
+      "year_for_citation": 2026,
+      "venue": "American Political Science Review",
+      "doi": "10.1017/s0003055425000243",
+      "doi_url": "https://doi.org/10.1017/s0003055425000243",
+      "primary_evidence_url": "https://www.cambridge.org/core/journals/american-political-science-review/article/causal-panel-analysis-under-parallel-trends-lessons-from-a-large-reanalysis-study/219275E0CE901F099F2CFFBA07079243",
+      "study_type": "causal_panel_reanalysis",
+      "method_verified": "Replication/reanalysis of 49 published studies using six heterogeneous-effect-robust estimators, diagnostics and sensitivity analysis.",
+      "finding_verified": "Robust estimation is distinct from research design; many studies have weak support for parallel trends or low power under violations.",
+      "inference_boundary": "Nonsignificant pretrends do not establish parallel trends; FE specification alone does not establish causality.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "Publisher full text and exact Crossref DOI; 2026 corrigendum checked",
+      "date_or_version_note": "Online 2025-06-09, issue 2026-02. Corrigendum 10.1017/S0003055426101798 swaps two Figure 5 case panels; no case panel used here.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M10",
+      "title": "Regression Discontinuity in Time: Considerations for Empirical Applications",
+      "authors": [
+        "Catherine Hausman",
+        "David S. Rapson"
+      ],
+      "year_for_citation": 2018,
+      "venue": "Annual Review of Resource Economics",
+      "doi": "10.1146/annurev-resource-121517-033306",
+      "doi_url": "https://doi.org/10.1146/annurev-resource-121517-033306",
+      "primary_evidence_url": "https://haas.berkeley.edu/wp-content/uploads/WP282R.pdf",
+      "study_type": "RDiT_methods_review",
+      "method_verified": "Guide to regression discontinuity in time, discussing time-series dependence, bandwidth, short-/long-run effects and concurrent changes.",
+      "finding_verified": "Temporal discontinuities require different scrutiny than standard cross-sectional RD; a chosen date is not automatically an identifying cutoff.",
+      "inference_boundary": "An analyst-defined 3-day new-drama label does not establish a causal RD design.",
+      "verification_grade": "VERIFIED",
+      "access_level_and_checks": "Publisher primary metadata/abstract, author institution manuscript and exact Crossref DOI",
+      "date_or_version_note": "Annual Review of Resource Economics 10:533-552, 2018.",
+      "crossref_raw_dates": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              5
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              5
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "additional_screened_not_in_core": [
+    {
+      "title": "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market",
+      "authors": [
+        "Matthew J. Salganik",
+        "Peter Sheridan Dodds",
+        "Duncan J. Watts"
+      ],
+      "year": 2006,
+      "doi": "10.1126/science.1121066",
+      "url": "https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf",
+      "status": "VERIFIED but not included among 10 core items",
+      "reason": "Additional cultural-market social-information experiment; core already contains a randomized field social-information study."
+    }
+  ],
+  "design_judgments": {
+    "chart_entry": "Endogenous selection; FE/DID/event-study estimation does not itself identify a listing effect. DID does not require literal random assignment, but needs defensible identifying assumptions and untreated potential-outcome comparisons.",
+    "three_day_threshold": "Researcher age label is not a discontinuous treatment assignment rule; requires a documented platform intervention and validated first-stage change.",
+    "danmaku_peak": "Descriptive selective response; same-show FE does not remove scene/time-varying confounding; using peaks to define suspense and then as outcome is circular.",
+    "preferred_undergraduate_RCT": "One randomized manipulation, one preregistered primary behavioral outcome, participant-level inference; conclusion limited to study population/material/context.",
+    "prediction": "Chronological origin-based evaluation, labels mature by prediction time, train-only preprocessing, task-specific baselines; cold-start and future-time generalization assessed separately."
+  },
+  "retrieval_access_summary": {
+    "crossref_exact_doi": "11/11 targeted exact DOI requests HTTP 200; 10 core plus 1 screened supplementary. Initial title-search top-1 mismatches and transient proxy errors preserved separately.",
+    "semantic_scholar": "Direct Graph API request failed due environment proxy Tunnel 503; no claim of zero indexed results.",
+    "google_scholar": "Direct search failed due environment proxy Tunnel 503; no directly verified Scholar result or citation count.",
+    "publisher_access_limits": [
+      "Science and Taylor & Francis direct opening 403",
+      "PMC direct opening sometimes reCAPTCHA",
+      "PNAS Nexus Oxford DOI/tool CDN redirect inaccessible",
+      "APA DOI restricted URL",
+      "institutional PDF served application/octet-stream unsupported by web parser"
+    ]
+  }
+}

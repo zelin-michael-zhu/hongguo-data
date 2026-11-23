@@ -1,0 +1,47 @@
+{
+  "catalog": 1388,
+  "direct_book_entries": 109,
+  "books": 48,
+  "grouped_entries": 106,
+  "distinct_lines": 49,
+  "grouped_lines": 46,
+  "without_groups": 3,
+  "books_by_observed_lines": {
+    "1": 47,
+    "2": 1
+  },
+  "direct_entries_by_book_count": {
+    "2": 34,
+    "3": 7,
+    "4": 3,
+    "1": 3,
+    "5": 1
+  },
+  "books_with_examined_ai_live_pair": 1,
+  "paired_case": [
+    {
+      "book_id": "7666468801357040665",
+      "representative_drama": "备用联系人（完）",
+      "exact_book_entries": 2,
+      "observed_catalog_lines": 2,
+      "grouped_lines": 0,
+      "entries_without_group": 2,
+      "ai_board_lines": 1,
+      "real_board_lines": 1,
+      "cross_form_distinct_pairs": 1,
+      "extra_same_group_entries_without_direct_book_id": 0,
+      "external_prechecked_entries": 2,
+      "external_album_groups": 1,
+      "first_comments": 30,
+      "series_reviews": 18
+    }
+  ],
+  "direct_rows_with_both_review_types": 109,
+  "first_comments": 1635,
+  "series_reviews": 981,
+  "other_members_same_group_no_direct_book": 64,
+  "outside_case_rows": 2,
+  "unique_credit_strings": 23,
+  "repeated_credit_strings": 3,
+  "repeated_credit_spanning_groups": 0
+}

@@ -1,0 +1,12 @@
+﻿label,comments,titles,first_episode_comments,series_reviews
+narrative_positive,100,20,29,71
+narrative_negative,82,18,46,36
+production_positive,42,15,17,25
+production_negative,5,5,1,4
+continue_intent,91,17,15,76
+stop_intent,4,3,4,0
+overall_positive,141,20,45,96
+promo,4,4,0,4
+narrative,172,22,73,99
+production,46,18,17,29
+watch_intent,95,17,19,76
