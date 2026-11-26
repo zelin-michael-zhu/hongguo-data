@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+.env
+.env.*
+outputs/hongguo_expansion_2026-11-21/
+outputs/hongguo_free_pilot_2026-11-18/
+outputs/hongguo_quality_feedback_2026-11-24/*.csv
+!outputs/hongguo_quality_feedback_2026-11-24/缺陷覆盖.csv
+semantic_cache/
+frames/

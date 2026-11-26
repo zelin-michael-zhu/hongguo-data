@@ -1,0 +1,69 @@
+{
+  "pilot_reviews": 215,
+  "pilot_titles": 25,
+  "self_declared_promo": 20,
+  "audience_reviews": 195,
+  "pooled_issue_counts": {
+    "audio_negative": {
+      "reviews": 0,
+      "titles": 0
+    },
+    "identity_negative": {
+      "reviews": 0,
+      "titles": 0
+    },
+    "visual_negative": {
+      "reviews": 2,
+      "titles": 2
+    },
+    "logic_negative": {
+      "reviews": 7,
+      "titles": 6
+    },
+    "other_negative": {
+      "reviews": 28,
+      "titles": 16
+    },
+    "explicit_praise": {
+      "reviews": 146,
+      "titles": 24
+    }
+  },
+  "titles_with_rating_variation": 22,
+  "score_mentioned_in_audience_texts": 15,
+  "classification_conflict_clue_titles": 3,
+  "full_corpus_mentions_not_defect_labels": {
+    "audio_or_lipsync_mention": {
+      "reviews": 256,
+      "titles": 204
+    },
+    "identity_or_model_mention": {
+      "reviews": 673,
+      "titles": 419
+    },
+    "visual_or_edit_mention": {
+      "reviews": 576,
+      "titles": 403
+    },
+    "logic_mention": {
+      "reviews": 481,
+      "titles": 360
+    }
+  },
+  "independent_recode_n": 0,
+  "human_reference_n": 0,
+  "regressions_fitted": 0,
+  "status": "not_ready_for_three_format_comparison",
+  "reasons": [
+    "Fewer than 20 provisionally classified independent series in both AI groups",
+    "None of the four defects has 40 comments across 15 works in each format",
+    "Independent recoding has not been performed",
+    "All format assignments require stronger production verification before formal comparisons"
+  ],
+  "sha256": {
+    "prepare.py": "e72bb482b35c0f05557814776113799859ecc022f37207204424b2ca2368dc93",
+    "标注口径.md": "967075be0147883ed91571908bd88005db90139f80907af44304efd68a8f3b09",
+    "labels.json": "7989b847c36ae572b0de150e418fc9c6ef29a6d7a9e2046446bb2dc50aac81ea",
+    "盲标文本.csv": "6147c2e2a55bebf0643aa4c47e472d1ff5a0d612b05e7484e2473181ca390fbe"
+  }
+}

@@ -4,6 +4,8 @@
 
 ## 从哪里开始
 
+**FYP Topic B（2026 年 11 月 26 日）**　[AI 短剧质量改进优先级提案、方法和先导试标](outputs/hongguo_topic_b_quality_fyp_2026-11-26/README.md) · [中文版 PDF](outputs/hongguo_topic_b_quality_fyp_2026-11-26/proposal/TopicB_Proposal_中文版_2026-11-26.pdf)
+
 - **历史榜单与目录**　2026 年 10 月 13 日至 11 月 17 日共 36 天，覆盖 1,388 个作品 ID。[每日榜单](outputs/hongguo_free_pilot_2026-11-18/history/board_daily.csv) · [每日作品指标](outputs/hongguo_free_pilot_2026-11-18/history/drama_daily.csv) · [作品目录](outputs/hongguo_free_pilot_2026-11-18/history/catalog.csv)
 - **分集、评论与系列**　11 月 21 日扩采覆盖 1,365 部作品、238,397 个分集 ID 和 32,707 条网页评论预览。[分集索引](outputs/hongguo_expansion_2026-11-21/episode_index.csv) · [评论预览](outputs/hongguo_expansion_2026-11-21/reviews_preview.csv) · [系列身份](outputs/hongguo_expansion_2026-11-21/identity/identity_coverage.csv) · [覆盖说明](outputs/hongguo_expansion_2026-11-21/实测范围与数据说明.md)
 - **弹幕与试采互动**　11 月 18 日的 46 条首集弹幕样本来自 5 部剧。[弹幕样本](outputs/hongguo_free_pilot_2026-11-18/danmaku_sample.csv) · [整剧指标样本](outputs/hongguo_free_pilot_2026-11-18/series_metrics.csv) · [字段字典](outputs/hongguo_free_pilot_2026-11-18/data_dictionary.json)

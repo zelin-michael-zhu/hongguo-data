@@ -1,0 +1,16 @@
+﻿provisional_form,issue,audience_reviews,candidate_titles,issue_reviews,issue_titles,meets_support_threshold
+live_action,audio_negative,153,19,0,0,0
+live_action,identity_negative,153,19,0,0,0
+live_action,visual_negative,153,19,2,2,0
+live_action,logic_negative,153,19,6,5,0
+live_action,other_negative,153,19,20,12,0
+ai_realistic,audio_negative,26,3,0,0,0
+ai_realistic,identity_negative,26,3,0,0,0
+ai_realistic,visual_negative,26,3,0,0,0
+ai_realistic,logic_negative,26,3,1,1,0
+ai_realistic,other_negative,26,3,6,3,0
+ai_animation,audio_negative,16,2,0,0,0
+ai_animation,identity_negative,16,2,0,0,0
+ai_animation,visual_negative,16,2,0,0,0
+ai_animation,logic_negative,16,2,0,0,0
+ai_animation,other_negative,16,2,2,1,0

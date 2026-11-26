@@ -1,0 +1,65 @@
+{
+  "coverage": {
+    "live_action": {
+      "titles": 319,
+      "families": 311,
+      "reviews": 2844,
+      "by_evidence_scope": {
+        "title_metadata": 319
+      }
+    },
+    "ai_realistic": {
+      "titles": 14,
+      "families": 3,
+      "reviews": 126,
+      "by_evidence_scope": {
+        "series_claim": 11,
+        "team_inference": 2,
+        "explicit_title_and_chart": 1
+      }
+    },
+    "ai_animation": {
+      "titles": 7,
+      "families": 2,
+      "reviews": 63,
+      "by_evidence_scope": {
+        "series_claim": 7
+      }
+    },
+    "unknown": {
+      "titles": 1025,
+      "families": 759,
+      "reviews": 9214,
+      "by_evidence_scope": {
+        "": 1025
+      }
+    }
+  },
+  "selected_titles": 25,
+  "selected_by_form": {
+    "live_action": 20,
+    "ai_realistic": 3,
+    "ai_animation": 2
+  },
+  "blind_reviews": 215,
+  "rating_distribution": {
+    "8": 563,
+    "10": 7376,
+    "7": 575,
+    "9": 1649,
+    "6": 203,
+    "5": 366,
+    "1": 1010,
+    "3": 270,
+    "2": 113,
+    "4": 122
+  },
+  "status": "insufficient_format_evidence",
+  "insufficient_forms": [
+    "ai_realistic",
+    "ai_animation"
+  ],
+  "data_date": "2026-11-21",
+  "audit_date": "2026-11-24",
+  "format_warning": "Provisional format assignments. Cast credits and chart membership do not establish production purity; series or team reports do not verify every season."
+}
